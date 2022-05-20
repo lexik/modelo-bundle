@@ -1,4 +1,6 @@
 [![Latest Stable Version](http://poser.pugx.org/lexik/modelo-bundle/v)](https://packagist.org/packages/lexik/modelo-bundle)
+[![PHP Version Require](http://poser.pugx.org/lexik/modelo-bundle/require/php)](https://packagist.org/packages/lexik/modelo-bundle)
+
 
 ModeloBundle
 ============
