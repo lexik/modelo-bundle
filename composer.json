@@ -1,8 +1,15 @@
 {
-  "name": "choosit/modelo-bundle",
+  "name": "lexik/modelo-bundle",
   "description": "This bundle aim to provides an http client that performs and handle requests to modelo Api.",
   "type": "symfony-bundle",
+  "keywords": ["bundle","modelo","symfony","symfony-bundle"]
   "license": "MIT",
+  "authors": [
+    {
+      "name": "Dev Choosit",
+      "email": "dev@choosit.com"
+    }
+  ],
   "require": {
     "php": ">=7.1",
     "symfony/http-client": "^4.4|^5.4|^6.0",
