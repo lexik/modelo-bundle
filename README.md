@@ -1,4 +1,6 @@
-ChoositModeloBundle
+[![Latest Stable Version](http://poser.pugx.org/lexik/modelo-bundle/v)](https://packagist.org/packages/lexik/modelo-bundle)
+
+ModeloBundle
 ============
 
 This Symfony bundle provides a service that performs and handle http requests to modelo API
