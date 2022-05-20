@@ -1,0 +1,1173 @@
+<xml titre="Mandat semi-exclusif de vente">
+    <numero_mandat data-uid="2e5473f0f024af8ef92943773963b73b" data-label="Numero du mandat" data-type="input"/>
+    <prenom_nom_vendeur data-uid="911171427fa64de2e3fca30447eb69b0" data-label="Nom et prénom du représentant vendeur personne morale" data-type="input"/>
+    <date_naissance_vendeur data-uid="d428749594c7d1eb1d4e771781a2a883" data-label="Date de naissance du vendeur" data-type="input"/>
+    <lieu_naissance_vendeur data-uid="526b941a697dbf648a951d0f27d413ca" data-label="Lieu de naissance du vendeur" data-type="input"/>
+    <nationalite_vendeur data-uid="746e592cc86adec21c0324af4d6cd40c" data-label="Nationalité du vendeur" data-type="input"/>
+    <profession_vendeur data-uid="7c342e53f30ed4e223828e74f6bf70a5" data-label="Profession du premier vendeur" data-type="input"/>
+    <prenom_nom_vendeur_1 data-uid="24889d03aec0ecd1b2160dfe832da1fe" data-label="Prénom et nom du deuxième vendeur" data-type="input"/>
+    <date_naissance_vendeur_1 data-uid="51012596d28e7a48b99ceca6ed6fdefc" data-label="Date de naissance deuxième vendeur" data-type="input"/>
+    <lieu_naissance_vendeur_1 data-uid="2bc8d64c0b78e98b49669f91473398e8" data-label="Lieu de naissance deuxième vendeur" data-type="input"/>
+    <nationalite_vendeur_1 data-uid="cd1d1a29eed0d8e6d77371e3444bad98" data-label="Nationalité du deuxième vendeur" data-type="input"/>
+    <profession_vendeur_1 data-uid="546c8df6009dee0d1865b322144e582f" data-label="Profession du deuxième vendeur" data-type="input"/>
+    <adresse_vendeur data-uid="728d9faa5dee046bd32ff1b9612b74a8" data-label="Adresse du vendeur" data-type="input"/>
+    <tel_vendeur data-uid="c34cdc96c49303560ad055111108a4db" data-label="Numéro téléphone vendeur" data-type="input"/>
+    <tel_vendeur_1 data-uid="d627c1d883eef734be37b80efdabf73f" data-label="Numéro téléphone vendeur 2" data-type="input"/>
+    <mail_vendeur data-uid="a7aa5c1630e8c73f2eb8f7ef2f355218" data-label="E-mail du vendeur" data-type="input"/>
+    <mail_vendeur_1 data-uid="66606e356a00cefb2598822f853043c9" data-label="E-mail du vendeur 2" data-type="input"/>
+    <mairie_mariage_vendeur data-uid="749f9eb35ab570b8da1c87b02797c239" data-label="Mairie du mariage" data-type="input"/>
+    <date_mariage_vendeur data-uid="775499ecd30f41d293f2975eced5836b" data-label="Date du mariage" data-type="input"/>
+    <nom_notaire_vendeur data-uid="8f6b71b6e1ab44bce229414660660232" data-label="Nom du notaire rédacteur du contrat de mariage" data-type="input"/>
+    <adresse_notaire_vendeur data-uid="593cc5731789f4e38efb0e03ffd5a360" data-label="Commune du notaire rédacteur du contrat de mariage" data-type="input"/>
+    <date_notaire_vendeur data-uid="5d79b7c9ff439c328d81d9616d56eaff" data-label="Date du contrat de mariage" data-type="input"/>
+    <autre_situation_matrimoniale_vendeur data-uid="fa1190e9207e304a59e8ab05d999ef4d" data-label="Autre situation matrimoniale" data-type="input"/>
+    <regime_matrimonial_initial_vendeur data-uid="2228086d568c8fc566f7e96e1b2321c4" data-label="Nom du régime matrimonial initial" data-type="input"/>
+    <regime_matrimonial_vendeur data-uid="093740b514580005ea9bba955bc7657e" data-label="Nom du régime matrimonial modifié" data-type="input"/>
+    <date_pacs data-uid="079d373b867e7cf8849f3ff175aae4e8" data-label="Date d'enregistrement du Pacs" data-type="input"/>
+    <precision_vendeur data-uid="d809016b6cbe65e8ef3ef88f3ae584a4" data-label="Précisions vendeur" data-type="input"/>
+    <prenom_nom_representant_vendeur data-uid="10f072d74ce255c58468880d25cb918b" data-label="Prénom et nom du représentant" data-type="input"/>
+    <adresse_representant_vendeur data-uid="90931d5f70369698fa390bd8b9b554f7" data-label="Adresse du représentant" data-type="input"/>
+    <tel_representant_vendeur data-uid="8988ef4d0ca5f9214e4b82e90232439c" data-label="Numéro téléphone du représentant du vendeur" data-type="input"/>
+    <mail_representant_vendeur data-uid="494fa6e71e7a13e99ebba77fc7034bbb" data-label="E-mail du représentant du vendeur" data-type="input"/>
+    <prenom_nom_conjoint_vendeur data-uid="03f994a481314ec19c5e59e22de29e0f" data-label="Prénom et nom du conjoint divorcé" data-type="input"/>
+    <date_divorce data-uid="446d95ebabca7afbb6d3f47c5d30169c" data-label="Date du divorce" data-type="input"/>
+    <denomination_vendeur data-uid="56da51914da01f5e15801007619a750d" data-label="Dénomination du vendeur" data-type="input"/>
+    <forme_sociale_vendeur data-uid="3c3ee30a96024d0c4ed21877359a4c46" data-label="Forme sociale du vendeur" data-type="input"/>
+    <capital_social_vendeur data-uid="c1d8e480cc96d572d423b7762f262267" data-label="Capital social vendeur" data-type="input"/>
+    <siege_social_vendeur data-uid="b65c8199ea8a30d03b3618cb63c85102" data-label="Siège social du vendeur" data-type="input"/>
+    <immatriculation_adresse_vendeur data-uid="8a5435d80852d60e0d0c9a95853e523f" data-label="Lieu d'immatriculation du vendeur" data-type="input"/>
+    <immatriculation_numero_vendeur data-uid="1fd9c624d3d80b23b877ddcb19277980" data-label="Numéro d'immatriculation du vendeur" data-type="input"/>
+    <nature_pouvoir_vendeur data-uid="112b5df6174546717c5ec5a37b6b6244" data-label="Nature du pouvoir" data-type="input"/>
+    <autre_representant_vendeur data-uid="0a3bb5ea1c6489c21fbbabd82879355b" data-label="Autre représentant vendeur personne morale" data-type="input"/>
+    <prefecture_declaration_vendeur data-uid="78bc2abc3918f8e7acf586539aae78d9" data-label="Préfecture déclaration association" data-type="input"/>
+    <numero_declaration_vendeur data-uid="b3d1921ac4781a422aa7b9d93889437d" data-label="Numéro déclaration association" data-type="input"/>
+    <prenom_nom_vendeur_vendeur data-uid="b08566370d18848115669a90e2cf2a8d" data-label="Nom du représentant" data-type="input"/>
+    <prenom_nom_vendeur_vendeur_1 data-uid="72088ed6f93a0ba8a9008466ac7e42e8" data-label="Nom du vendeur représenté" data-type="input"/>
+    <prenom_nom_parent_vendeur data-uid="6599bcddc4067119ce291976774b95bf" data-label="Prénom et nom du premier parent titulaire de l'autorité parentale" data-type="input"/>
+    <tel_parent_vendeur data-uid="e587d7b403bcd3a5b41962b3cae19689" data-label="Numéro téléphone vendeur" data-type="input"/>
+    <mail_parent_vendeur data-uid="1cc116fba935cf6230ea1d762814fa5a" data-label="E-mail du vendeur" data-type="input"/>
+    <prenom_nom_parent_vendeur_1 data-uid="7917eb1c789deb8afee3780ff1263ba0" data-label="Prénom et nom du second parent titulaire de l'autorité parentale" data-type="input"/>
+    <tel_parent_vendeur_1 data-uid="9692fcf83cf7df6a500bf06a4949cdc7" data-label="Numéro téléphone vendeur" data-type="input"/>
+    <mail_parent_vendeur_1 data-uid="5c8ab5dab3cea7e1d266f6da597ad578" data-label="E-mail du vendeur" data-type="input"/>
+    <nom_tuteur data-uid="a45f2702dc8b508426ce7023c06ae3cf" data-label="Nom tuteur" data-type="input"/>
+    <ville_tribunal data-uid="7adce58824cdf48382616a576cf5a4e2" data-label="Ville tribunal" data-type="input"/>
+    <date_ordonnance data-uid="88fae99f2febea8643b3bfd239a6eda0" data-label="Date ordonnance" data-type="input"/>
+    <prenom_nom_curateur_vendeur data-uid="40ce62a314fdfd725c05be80fac9e3e3" data-label="Prénom et nom du curateur" data-type="input"/>
+    <nature_juge data-uid="7955624f38671ef6966da44031ac3cfe" data-label="Nature juge" data-type="input"/>
+    <tribunal_tutelles_vendeur data-uid="8b4212240782e7aeac7d060732973359" data-label="Tribunal de tutelles" data-type="input"/>
+    <date_ordonnance_vendeur data-uid="b9c22415e599ef792e19b5dcf537c7f9" data-label="Date de l'ordonnance" data-type="input"/>
+    <tel_curateur data-uid="936f74507c4abf3f0051d08af5f2716c" data-label="Numéro téléphone curateur" data-type="input"/>
+    <mail_curateur data-uid="e14e2d6b12bce3dac86c0964c80144d6" data-label="E-mail du curateur" data-type="input"/>
+    <prenom_nom_tuteur_vendeur data-uid="c269bb2d18b68772bbbc3039352129fe" data-label="Prénom et nom du tuteur" data-type="input"/>
+    <nature_du_juge data-uid="77e8c7355a8deac5cbf75d01b1e435cc" data-label="Nature du juge" data-type="input"/>
+    <tel_tuteur_vendeur data-uid="2e4feb33473bc523bb56e8fd6bb3a154" data-label="Numéro téléphone vendeur" data-type="input"/>
+    <mail_tuteur_vendeur data-uid="5013f8f557e484f1542ee56a165bd08a" data-label="E-mail du vendeur" data-type="input"/>
+    <autre_situation_vendeur data-uid="48aded49a7c23b7dc736d8f13833c554" data-label="Autre situation vendeur" data-type="input"/>
+    <agence data-uid="424248c2d6ba746c8b6b8e6105138695" data-label="agence" data-type="input"/>
+    <raisonsociale data-uid="7f94f3876ccba887be365d619ff20c94" data-label="raisonsociale" data-type="input"/>
+    <forme data-uid="30d7e4e216ef8ffddf9a8f2c3be0038b" data-label="forme" data-type="input"/>
+    <capital data-uid="c8480721450bb915d8dd35a664452df8" data-label="capital" data-type="input"/>
+    <adresse_siege data-uid="3c3e3cd7e1929602aede3ea987ba455a" data-label="adresse" data-type="input"/>
+    <tribunal data-uid="41e532c341a3adcbcf58648d9f7486b8" data-label="tribunal rcs" data-type="input"/>
+    <rcs data-uid="d313305c0249548b170699bdf42a2972" data-label="rcs" data-type="input"/>
+    <mention_carte_pro data-uid="823f2c97b34d4a076baae26de118c804" data-label="Mention carte professionnelle" data-type="input"/>
+    <cartepro data-uid="0f4179d2cebb7d355904d4ed50a330e5" data-label="Numéro de carte professionnelle" data-type="input"/>
+    <prefecture_cci data-uid="0e5ccd3413e7657a13672d464c0f91d0" data-label="prefecture ou cci" data-type="input"/>
+    <tva data-uid="4b1ef49888079b7fe601b63190455f7f" data-label="Numéro de TVA" data-type="input"/>
+    <rcpcaisse data-uid="69dfd4743409dd7e6685a8a39eeb7b58" data-label="Assureur RCP" data-type="input"/>
+    <rcpadresse data-uid="09220cadeaba6b2ba60c0a4d2b6e2df4" data-label="Adresse de l'assureur RCP" data-type="input"/>
+    <rcpnumero data-uid="6b48a8e0a8b284563eedf42b80d4fbf5" data-label="Numéro de la police RCP" data-type="input"/>
+    <garantie data-uid="aa3f9887585417c51787487221481a93" data-label="garantie" data-type="input"/>
+    <adressegar data-uid="e76713ddf1c223ba8da08f75b02648ff" data-label="Adresse de la caisse de garantie" data-type="input"/>
+    <numero_garantie data-uid="905adbdb6b96b3a778bd486cff275ebb" data-label="Numéro de la garantie professionnelle" data-type="input"/>
+    <numero_compte_sequestre data-uid="dd68db9712b1e7dbaa3e9124a0b6a9bb" data-label="Numéro du compte spécial" data-type="input"/>
+    <banque_compte_sequestre data-uid="60dde3184a3df9b9cb53cd143e0f397c" data-label="Nom de la banque compte spécial" data-type="input"/>
+    <numero_orias data-uid="feab5dc5948b6153de398ba98ba78e3a" data-label="Numéro ORIAS" data-type="input"/>
+    <lien_capital data-uid="bccc1f962e0bbfc62383bc2672dd81c8" data-label="Nature du lien capitalistique" data-type="input"/>
+    <nomlegalrep data-uid="de87ff4543eed911f3a3b39779fce973" data-label="nom du rédacteur" data-type="input"/>
+    <fonction_legalrep data-uid="f1cb53258f05e1dfef40d41662a9f492" data-label="Fonctions du représentant légal" data-type="input"/>
+    <nom_collaborateur_salari data-uid="3bd9b3fbc20d365c4b34c55380e53fb1" data-label="Nom collaborateur salarié" data-type="input"/>
+    <nomagentco data-uid="a0c1cb645fc09c5db7cebcc78ec8b366" data-label="nom agentco" data-type="input"/>
+    <num_agentco data-uid="5a79b62a4e789ca689354eac22d9545a" data-label="Numéro RSAC" data-type="input"/>
+    <adresse_copropriete data-uid="c157a2da5ab7705a4c32e8b9090fc749" data-label="Adresse de la copropriété" data-type="input"/>
+    <nom_cadastre data-uid="fe885a1181c89e8d560b6e7b4fc53e02" data-label="Nom section cadastrale" data-type="input"/>
+    <numero_cadastre data-uid="f596c95ae31d3219b87072c0c015bed5" data-label="Numéro section cadastrale" data-type="input"/>
+    <lieudit_cadastre data-uid="4dd57e1f92362d8ec1aa12fe1809d08c" data-label="Lieudit cadastral" data-type="input"/>
+    <contenance_cadastre data-uid="e45afbd59dc6db0eea1452d5c6eb9a47" data-label="Contenance cadastrale" data-type="input"/>
+    <contenance_totale_cadastre data-uid="a8b81c703f7fd161de119979c4f8c764" data-label="Contenance cadastrale totale" data-type="input"/>
+    <ban_cadastre data-uid="c9c532fc89e3e98e94ee09bae2aa9910" data-label="Ban cadastral" data-type="input"/>
+    <nature_cadastre data-uid="a1633191435463e2ea878969ec82c94e" data-label="Nature cadastrale du bien" data-type="input"/>
+    <references_cadastre data-uid="4060af6a9b5d0a649defa9702a0c8252" data-label="Références cadastrales du bien" data-type="input"/>
+    <complement_bien data-uid="3ac91a5f18b1dc19848779fbeeb17742" data-label="Complément bien" data-type="input"/>
+    <adresse_bien data-uid="df1406796dccefad021d1b5911f9a197" data-label="Adresse du bien à vendre" data-type="input"/>
+    <lot_numero_lettres data-uid="a8e95007dfca7b3dc811e3f44e4d2236" data-label="Numéro du lot du bien défini dans règlement de copropriété" data-type="input"/>
+    <lot_numero_chiffres data-uid="c22c9d298b3c908fb20b9be70ba40fe6" data-label="Numéro du lot du bien défini dans règlement de copropriété" data-type="input"/>
+    <description_bien data-uid="5094527060b400ade98b8a852be3bdd1" data-label="Description du bien" data-type="input"/>
+    <tantiemes_lettres data-uid="4dbd1da8ad80e6ecd70a73c733d2121e" data-label="Nombre tantièmes lettres" data-type="input"/>
+    <quota_tantiemes_chiffres data-uid="a962f7d599ae067a1bd264ab29a1fc81" data-label="Quotas des tantièmes chiffres" data-type="input"/>
+    <millieme_tantiemes_chiffres data-uid="a64bd70ef926724d04c646f6f838a0ee" data-label="Millièmes des tantièmes chiffres" data-type="input"/>
+    <nature_parties data-uid="377e816ca59d63af2a3f8ddb4abbe561" data-label="Nature parties" data-type="input"/>
+    <tantiemes_2_lettres data-uid="b8813541be7db45b230e590fc05563f9" data-label="Nombre tantièmes lettres" data-type="input"/>
+    <quota_tantiemes_2_chiffres data-uid="928eefc13bed001e4bd0cea10d2f9a28" data-label="Quotas des tantièmes chiffres" data-type="input"/>
+    <millieme_tantiemes_2_chiffres data-uid="1d6a8f01f28693cf84c0ec7946cf69e3" data-label="Millièmes des tantièmes chiffres" data-type="input"/>
+    <nature_parties_2 data-uid="f05f6dd42457abb4412e5a0bce5c3a43" data-label="Nature parties" data-type="input"/>
+    <tantiemes_3_lettres data-uid="1ff0f265d3f93769b0cd2ae5ad6bf9c9" data-label="Nombre tantièmes lettres" data-type="input"/>
+    <quota_tantiemes_3_chiffres data-uid="759c2f556cc0c3b1420e7fde47fae42a" data-label="Quotas des tantièmes chiffres" data-type="input"/>
+    <millieme_tantiemes_3_chiffres data-uid="7e203dd106d560e5aee942f29d9015de" data-label="Millièmes des tantièmes chiffres" data-type="input"/>
+    <nature_parties_3 data-uid="12cffa4862e6008506677c6f0daf9ad5" data-label="Nature parties" data-type="input"/>
+    <tantiemes_4_lettres data-uid="abba6274d8bc863f357a732930482c16" data-label="Nombre tantièmes lettres" data-type="input"/>
+    <quota_tantiemes_4_chiffres data-uid="758ecde501e48cc88a3a2a4fd7166709" data-label="Quotas des tantièmes chiffres" data-type="input"/>
+    <millieme_tantiemes_4_chiffres data-uid="dc6b9b399565da44497fa7a9f6900d36" data-label="Millièmes des tantièmes chiffres" data-type="input"/>
+    <nature_parties_4 data-uid="90abf1c2c5b5756ce750cad6c748f2e1" data-label="Nature parties" data-type="input"/>
+    <nombre_tantiemes data-uid="7756f951877b4dfab7daa91bba658a88" data-label="Nombre tantièmes" data-type="input"/>
+    <lot_numero_lots data-uid="3c81535589936c31c542c067aad5f926" data-label="Numéro du ou des lots" data-type="input"/>
+    <superficie_lot data-uid="bf487e554eb1e20eed90c4a1856e9e33" data-label="Superficie du lot" data-type="input"/>
+    <date_metre data-uid="0048e2aed8c1eb60f4d7ccb153615e7b" data-label="Date du métré" data-type="input"/>
+    <attestation_superficie_lot data-uid="72ec096dae29d282965eb647b41fef2a" data-label="Attestation superficie lots" data-type="input"/>
+    <quantite_equipement data-uid="8bcc1b68a48648fccc4884114eef9d89" data-label="Nombre d'équipements" data-type="input"/>
+    <designation_equipement data-uid="53706d25980059e4691e3b7748093896" data-label="désignation de l'équipement" data-type="input"/>
+    <marque_equipement data-uid="ef3cb844ab225a954bb0acec4a90e358" data-label="marque de l'équipement" data-type="input"/>
+    <prix_equipement data-uid="8b6350f627b4fd3b086ce9f4aa617ae5" data-label="prix de l'équipement" data-type="input"/>
+    <prix_totale_equipement data-uid="099ad9cbe9f53484e5b812e9e13b8286" data-label="Prix total de l'ensemble des équipements" data-type="input"/>
+    <meubles_vendus data-uid="4420a7227271823ab3d72270a6473abb" data-label="Description des meubles vendus" data-type="input"/>
+    <complement_lots data-uid="31046d88355d6596a1eb2269dcec760b" data-label="Particularités cadastrales" data-type="input"/>
+    <complement_cadastre data-uid="69fcafffb40095e2c9c10e5de742fa8b" data-label="Particularités cadastrales" data-type="input"/>
+    <lot_numero data-uid="e20a0e3fadf4f3e500288071c5db5cd0" data-label="Numéro du lot du bien défini dans règlement de copropriété" data-type="input"/>
+    <lot_volume data-uid="a8bd86b6ad69ae5b5674bd8cab32fe1f" data-label="Nombre d’unités" data-type="input"/>
+    <lot_numero_division data-uid="7ccd67db036c6eb81a8c278cd9cade18" data-label="Numéro du lot du bien issu de la division de lots" data-type="input"/>
+    <lot_numero_reunion data-uid="b1cf02529037f673648a4d200ba945fc" data-label="Numéro du lot du bien issu de la réunion de lots" data-type="input"/>
+    <complement_equipements data-uid="d35ec5d3d6c1b64d2b942867aef69044" data-label="Particularités cadastrales" data-type="input"/>
+    <contenance_bien data-uid="d66e670005ed609e885163ac453db7fd" data-label="Contenance du bien à vendre" data-type="input"/>
+    <numero_lot data-uid="e3d612ce2c9544d714a4085406d922f8" data-label="Numéro lot" data-type="input"/>
+    <nom_lotissement data-uid="20e28706c01a0c886f0aca2b36eb4c81" data-label="CoNom du lotissement" data-type="input"/>
+    <section_cadastre data-uid="239048894595c768a30b0ae7b2fd4b3b" data-label="Section cadastre" data-type="input"/>
+    <contenance data-uid="b55f1d1c186949e362c1d5f9c3e5e829" data-label="Contenance cadastre" data-type="input"/>
+    <expert_bornage data-uid="2a201f3f98fa71aaf495f3a61b843087" data-label="Nom de l'auteur du bornage" data-type="input"/>
+    <autre_situation_bornage data-uid="64f62fccedeaf74c6af8def16da3fdd9" data-label="Autre bornage" data-type="input"/>
+    <surface_plancher data-uid="30adc4332852e9b4f9790f5ef11a110d" data-label="Surface constructible" data-type="input"/>
+    <references data-uid="4434c156beb41a0d6e2c0900c1310bf3" data-label="Références surface" data-type="input"/>
+    <condition_bail data-uid="e2bb5ab66e822b1d02d57b61313bc470" data-label="Conditions bail en cours" data-type="input"/>
+    <date_conge_reprise data-uid="1f8ed1dc007005bddf8666c49ea58ab8" data-label="Date du congé reprise pour vendre" data-type="input"/>
+    <prix_conge_reprise data-uid="315c3911d70bc06075c98a4354eea223" data-label="Prix du congé reprise pour vendre" data-type="input"/>
+    <conge_reprise data-uid="22278bc98e3e37a009255b38ef2fbc67" data-label="Précisions congé reprise pour vendre" data-type="input"/>
+    <date_conge_locataire data-uid="b47498c2b890c35eb424b56117a8815c" data-label="Date du congé délivré par le locataire" data-type="input"/>
+    <date_depart data-uid="f1c0b020251c83e48e043a587293aaeb" data-label="Date du départ des locataires" data-type="input"/>
+    <date_conge data-uid="5a5c6a4f415bf4764425f36c3db7a18f" data-label="Date du congé" data-type="input"/>
+    <situation_particuliere_occupation_bien data-uid="0fe6bf6c518567f176660a427b90bf2f" data-label="Situation particulière" data-type="input"/>
+    <prix_bien_lettres_fai data-uid="2de15a085fc780ad1b0eefb9e4d4182c" data-label="Prix du bien FAI en toutes lettres" data-type="input"/>
+    <prix_bien_chiffres_fai data-uid="01ca9eee64cb3d542fd29fa3e48acd35" data-label="Prix du bien FAI en chiffres" data-type="input"/>
+    <prix_estimation data-uid="63b4b04b6e2a5628349c3be744a03908" data-label="Prix de l'estimation" data-type="input"/>
+    <hono_lettres data-uid="4346e48dcadc65150f6bf96b208da0bd" data-label="Montant des honoraires en toutes lettres" data-type="input"/>
+    <hono_chiffres data-uid="f1b41f4fe13bba31c2f60c2322840627" data-label="Montant honoraires en chiffres" data-type="input"/>
+    <precisions_hono data-uid="4e366d659c762e7ef4f65d382876db60" data-label="Précisions honoraires" data-type="input"/>
+    <prix_bien_chiffres data-uid="6b422585041b99881b0caf4f64a8baba" data-label="Net vendeur" data-type="input"/>
+    <hono_vendeur_pourcentage data-uid="fd1693afb3002887adbe7878a2e9b563" data-label="Montant des honoraires vendeur en pourcentage" data-type="input"/>
+    <hono_vendeur_lettres data-uid="ac4ddbcfa96fd34a3d1a37021c610dd4" data-label="Montant des honoraires en toutes lettres" data-type="input"/>
+    <hono_vendeur_chiffres data-uid="611f35c931b2ac504a0d93d29c0fb77e" data-label="Montant honoraires en chiffres" data-type="input"/>
+    <hono_acquereur_pourcentage data-uid="672281c85cc504b943bff6dea77ddc02" data-label="Montant des honoraires acquéreur en pourcentage" data-type="input"/>
+    <hono_acquereur_lettres data-uid="04f846c44fe3ae3700da82b21374cf29" data-label="Montant des honoraires en toutes lettres" data-type="input"/>
+    <hono_acquereur_chiffres data-uid="e19050d3772192b59cecd7ff3b88ad1f" data-label="Montant honoraires en chiffres" data-type="input"/>
+    <duree_reconduction data-uid="46f2ec9291c782ba68ab1064ad878da0" data-label="Durée de reconduction du mandat" data-type="input"/>
+    <duree_mandat data-uid="0b319f87e1a029e490db866f59b4926f" data-label="Durée du mandat" data-type="input"/>
+    <total_duree_reconduction data-uid="3e591de5019a9c22d131d11f37b0ac99" data-label="Durée de reconduction du mandat" data-type="input"/>
+    <regime_de_protection_mandant data-uid="89f7e11da14946750dae2fca577f9cb1" data-label="Regime de protection mandant" data-type="input"/>
+    <autres_modalit_s_dpe data-uid="f767a083c4cac777a03cdafd2b5a671e" data-label="Autres modalités DPE" data-type="input"/>
+    <informations_dpe_mandat data-uid="c30b1223765aa9890c09138455a1e395" data-label="Informations DPE mandat" data-type="input"/>
+    <autre_information_dpe data-uid="ded1e273432f15d3b2fa97fd07eb08c9" data-label="Autre information DPE" data-type="input"/>
+    <affich_vitrine_duree data-uid="a6613396e1d145a75467cb57667dadce" data-label="Durée minimale d'affichage en vitrine" data-type="input"/>
+    <sites_reseau data-uid="71e91355254958dca0f59c326308eb7a" data-label="Site publicitaire du réseau" data-type="input"/>
+    <autres_engag_agent data-uid="0486e76f563b7b30f718ad9730edc64d" data-label="Autres engagements pris par le MANDATAIRE" data-type="input"/>
+    <frequ_cr data-uid="bf6ec10f06e5991a617afa8986bbf6b4" data-label="Fréquence des comptes rendus" data-type="input"/>
+    <engag_libre_agent data-uid="d1dffb0d859ba8dad1a6fafb5765998f" data-label="Autres engagements de l'agent" data-type="input"/>
+    <nom_notaire_redacteur data-uid="fba16c977adf8de9ca446d32e8c9db94" data-label="Nom du notaire du mandant à l'acte notarié" data-type="input"/>
+    <adresse_notaire_redacteur data-uid="31a0114d03cdb062ebb18244facdda9f" data-label="Commune du notaire du mandant à l'acte notarié" data-type="input"/>
+    <mediateur_nom data-uid="8e85ec672052bb44d7f95dd756ae5826" data-label="Nom du médiateur" data-type="input"/>
+    <mediateur_adresse data-uid="40481913c706f0c03fd5e6f7a3aadd66" data-label="Adresse postale du médiateur" data-type="input"/>
+    <mediateur_site data-uid="27dcf29318b063512c502f19ef52ac03" data-label="Site internet du médiateur" data-type="input"/>
+    <email_rgpd data-uid="cafd51f9d3978112e7d4576e94c94ca5" data-label="Email agence pour la RGPD" data-type="input"/>
+    <adresse_agence_rgpd data-uid="277a73a8f93a330a0b85c024b3bdf72f" data-label="adresse pour la RGPD" data-type="input"/>
+    <clause_particuliere_finale data-uid="5b4769b263d6f2367d288e20bffe24c3" data-label="Clause particulière finale" data-type="input"/>
+    <date_signature data-uid="4de330bd97cfcb6d4793d786e1a4e011" data-label="Date de signature du mandat" data-type="input"/>
+    <nombre_exemplaires data-uid="3704c4ff4b990765b75186ff9ba001f0" data-label="Nombre exemplaires" data-type="input"/>
+    <lieu_signature data-uid="2685a447c6565f5b881d5cf82a265741" data-label="Lieu du mandat" data-type="input"/>
+    <adresse_agence data-uid="84bfb053fdc09e2a127d60a94c6ecf09" data-label="adresse" data-type="input"/>
+    <telephone data-uid="53481aa21b18ec347253578f261d5710" data-label="Numéro de téléphone de l'agence" data-type="input"/>
+    <email_agence data-uid="b330545cff29a07c7ddf004e79c8c188" data-label="Mail de l'agence" data-type="input"/>
+    <fax data-uid="872fb702c545cbf618c026b8b61b6692" data-label="Fax de l'agence" data-type="input"/>
+    <qui_est_le_vendeur data-type="menu" data-uid="990973c965094e0d737cd59c8df6a707" data-label="Qui est le mandant ?" data-duplicate="1">
+        <un_couple_monsieur_et_madame data-type="item" data-uid="22e209c2444a25273cb1a460973c06ce" data-label="Un couple : Monsieur et Madame">
+            <indiquer_un_numero_de_telephone_et_email_vendeur data-type="menu" data-uid="c73706484f5a46fea78c913df6629fa8" data-label="Souhaitez-vous indiquer leurs numeros de telephone et e-mails ?">
+                <oui data-type="item" data-uid="e40fbd40a6f2135d224b72f29daf2680" data-label="Oui"/>
+                <oui_esign data-type="item" data-uid="d03109a77b4fa72f8912cc92fdafffcf" data-label="Oui, uniquement pour la signature électronique"/>
+                <non data-type="item" data-uid="59f76dcc5058b5e20d760e675d2c6539" data-label="Non"/>
+            </indiquer_un_numero_de_telephone_et_email_vendeur>
+            <quelle_est_la_situation_matrimoniale_vendeur data-type="menu" data-uid="39359a02db89ce2f194ebb8877c1f5aa" data-label="Quelle est leur situation matrimoniale ?">
+                <marie_sans_contrat_communaute_legale_apres_02_1966 data-type="item" data-uid="092f32411bf3f07d46d9d136aa7fc74c" data-label="Mariés sans contrat après le 01/02/66 : communauté légale"/>
+                <marie_sans_contrat_communaute_legale_avant_02_1966 data-type="item" data-uid="36a99001f391f406fb4db6792ac9c473" data-label="Mariés sans contrat avant le 01/02/66 : communauté légale"/>
+                <marie_sous_le_regime_de_la_separation_de_biens data-type="item" data-uid="37683d060468f81d5b7f5e3a83bcbfc7" data-label="Mariés sous un régime de séparation de biens"/>
+                <marie_sous_le_regime_de_la_communaute_universelle data-type="item" data-uid="76cbe6e64e858d2b773f6083fe34e56a" data-label="Mariés sous le régime de la communauté universelle"/>
+                <marie_sous_le_regime_de_la_participation_aux_acquets data-type="item" data-uid="cd89084c1c07335a716d579d92ce01a2" data-label="Mariés sous le régime de la participation aux acquêts"/>
+                <marie_sous_un_autre_regime data-type="item" data-uid="b5646684831489848093460c22e6a8f9" data-label="Mariés sous un autre régime (étrangers)"/>
+                <marie_avec_changement_de_regime_matrimonial data-type="item" data-uid="2b2ded548aac56218dca92b4adf0fb8f" data-label="Mariés avec changement de régime matrimonial"/>
+                <celibataire_lie_par_un_pacs data-type="item" data-uid="6151610c482bdf02c532f0e932261d17" data-label="Célibataires liés par un PACS"/>
+                <celibataire data-type="item" data-uid="62713054cce6f823b3564c394ad92435" data-label="Célibataires non liés par un PACS"/>
+                <autre data-type="item" data-uid="85ed8fc19087c178c2c0b2c89ac446cc" data-label="Autre"/>
+            </quelle_est_la_situation_matrimoniale_vendeur>
+            <est_il_resident_fiscal_en_france_vendeur data-type="menu" data-uid="862202e88ecd4c9f1c8007681cafb105" data-label="Ont-ils leur residence fiscale en france ?">
+                <oui data-type="item" data-uid="c8a90d0e443471023c9d1042619c522d" data-label="Oui"/>
+                <non data-type="item" data-uid="aa746ec1c351c017822d273c82efa711" data-label="Non"/>
+            </est_il_resident_fiscal_en_france_vendeur>
+            <precisions_vendeur data-type="menu" data-uid="27d0bae89dc88f787504ee064a324363" data-label="Souhaitez-vous apporter des precisions ?">
+                <non data-type="item" data-uid="5555398b7be9822cbb32205ede2b22d1" data-label="Non"/>
+                <oui data-type="item" data-uid="358cea4480639315628b85a304e77852" data-label="Oui"/>
+            </precisions_vendeur>
+            <clause_de_representation_vendeur data-type="menu" data-uid="35de95ace549d5c2fda28077c9d16859" data-label="Souhaitez-vous inserer une clause de representation ?" data-duplicate="1">
+                <non data-type="item" data-uid="ff55a8f7a1325a7a05cd2c3b5bee5dba" data-label="Non"/>
+                <vendeur_represente_vendeur_1 data-type="item" data-uid="2d91c9d6347bc55bd5b7757af38d7ef8" data-label="Monsieur représente Madame"/>
+                <vendeur_1_represente_vendeur data-type="item" data-uid="12487f38c2b19a83aa06ec3e3652a666" data-label="Madame représente Monsieur"/>
+                <tiers_represente_couple data-type="item" data-uid="d971ddd476a25dedf36353efd07ba0c8" data-label="Un tiers représente le couple">
+                    <indiquer_un_numero_de_telephone_et_email_representant_vendeur data-type="menu" data-uid="455a701b39e1c7fb018ac8c1152454f9" data-label="Souhaitez-vous indiquer son numero de telephone et son e-mail ?">
+                        <oui data-type="item" data-uid="cb9131f13c3df25c68f9cb0d6c5a3e80" data-label="Oui"/>
+                        <oui_esign data-type="item" data-uid="be6a3b78b81606b63b935bca0c8dec02" data-label="Oui, uniquement pour la signature électronique"/>
+                        <non data-type="item" data-uid="b67e155d8455a940629e85a4179b20b8" data-label="Non"/>
+                    </indiquer_un_numero_de_telephone_et_email_representant_vendeur>
+                </tiers_represente_couple>
+                <tiers_represente_vendeur data-type="item" data-uid="e2bffa86cdd44e8581766150c6a82c43" data-label="Un tiers représente Monsieur">
+                    <indiquer_un_numero_de_telephone_et_email_representant_vendeur data-type="menu" data-uid="e7ef73d80f6f6df7682d05ceeb2e811c" data-label="Souhaitez-vous indiquer son numero de telephone et son e-mail ?">
+                        <oui data-type="item" data-uid="f964342d3b05b607fa1acac79f4a575b" data-label="Oui"/>
+                        <oui_esign data-type="item" data-uid="64e3eb48c9db132d91aff92f57c2789e" data-label="Oui, uniquement pour la signature électronique"/>
+                        <non data-type="item" data-uid="a04efa2901ab5cf87fd280cc66afb243" data-label="Non"/>
+                    </indiquer_un_numero_de_telephone_et_email_representant_vendeur>
+                </tiers_represente_vendeur>
+                <tiers_represente_vendeur_1 data-type="item" data-uid="f38d32151a0be644c3785b6f28e1ea8e" data-label="Un tiers représente Madame">
+                    <indiquer_un_numero_de_telephone_et_email_representant_vendeur data-type="menu" data-uid="9db22bc3d0422e232dec4a9b8df3b5c2" data-label="Souhaitez-vous indiquer son numero de telephone et son e-mail ?">
+                        <oui data-type="item" data-uid="4c2fe4ba1d30b99c21513d5cdd60e444" data-label="Oui"/>
+                        <oui_esign data-type="item" data-uid="8314a095fd08d4f9e636ec456f0390c2" data-label="Oui, uniquement pour la signature électronique"/>
+                        <non data-type="item" data-uid="99790611449c9f4503926f75864a9146" data-label="Non"/>
+                    </indiquer_un_numero_de_telephone_et_email_representant_vendeur>
+                </tiers_represente_vendeur_1>
+            </clause_de_representation_vendeur>
+        </un_couple_monsieur_et_madame>
+        <un_homme_monsieur data-type="item" data-uid="b5643fb5e640fa7545194196e47ac0e6" data-label="Un homme : Monsieur">
+            <indiquer_un_numero_de_telephone_et_email_vendeur data-type="menu" data-uid="a0ce2031b3ab6f5d508fff46d0e273c0" data-label="Souhaitez-vous indiquer son numero de telephone et son e-mail ?">
+                <oui data-type="item" data-uid="b357514ce29bfb9f87bb2adf7b64e854" data-label="Oui"/>
+                <oui_esign data-type="item" data-uid="c81e792c6075f89f47f8ae0811fde1b9" data-label="Oui, uniquement pour la signature electronique"/>
+                <non data-type="item" data-uid="6abdeb39a31ea33bcab255bb1659c86a" data-label="Non"/>
+            </indiquer_un_numero_de_telephone_et_email_vendeur>
+            <quelle_est_la_situation_matrimoniale_vendeur data-type="menu" data-uid="1047480c490a1bee01d2325fee980441" data-label="Quelle est sa situation matrimoniale ?">
+                <marie_sans_contrat_communaute_legale_apres_02_1966 data-type="item" data-uid="e53776b5e35293f451ceb537eef81bfa" data-label="Marié sans contrat après le 01/02/66 : communauté légale">
+                    <s_agit_il_de_la_vente_d_un_bien_propre_vendeur data-type="menu" data-uid="b6d8c7b34f6631eb055878c1e5c24744" data-label="S'agit-il de la vente d'un bien propre ?">
+                        <oui_pas_logement_familiale data-type="item" data-uid="9d3303652038ffaa28d306b7a05a7ba3" data-label="Oui et le bien ne constitue pas le logement de la famille"/>
+                        <oui_pas_usage_habitation data-type="item" data-uid="0f455f62c2169a67a0ba00b8cc03666a" data-label="Oui mais le bien n'est pas à usage d'habitation"/>
+                        <oui_logement_familiale data-type="item" data-uid="0803e6ecdee063abd02599f90696a3e0" data-label="Oui et le bien constitue le logement de la famille"/>
+                        <non data-type="item" data-uid="3dc89abe2be13c5ff9fa99b6686b3b7f" data-label="Non">
+                            <dispose_t_il_d_un_pouvoir_de_son_conjoint_pour_vendre_vendeur data-type="menu" data-uid="a589eb74bdcba1b2e02fa836b76c42ca" data-label="Dispose-t-il d'un pouvoir de son conjoint pour vendre ?">
+                                <oui data-type="item" data-uid="1c289dbd94d4650225e39ddf766ce59a" data-label="Oui"/>
+                                <non data-type="item" data-uid="c6371644dfa2fca90b3638d625166864" data-label="Non"/>
+                            </dispose_t_il_d_un_pouvoir_de_son_conjoint_pour_vendre_vendeur>
+                        </non>
+                    </s_agit_il_de_la_vente_d_un_bien_propre_vendeur>
+                </marie_sans_contrat_communaute_legale_apres_02_1966>
+                <marie_sans_contrat_communaute_legale_avant_02_1966 data-type="item" data-uid="5217e527cc7811711169bf8711928409" data-label="Marié sans contrat avant le 01/02/66 : communauté légale">
+                    <s_agit_il_de_la_vente_d_un_bien_propre_vendeur data-type="menu" data-uid="f11ea27034ce844e300973c65a287c1c" data-label="S'agit-il de la vente d'un bien propre ?">
+                        <oui_pas_logement_familiale data-type="item" data-uid="d79026e34ef1ad2fda7bc715d68e9157" data-label="Oui et le bien ne constitue pas le logement de la famille"/>
+                        <oui_pas_usage_habitation data-type="item" data-uid="7cd8c08fabe9be6898eb7257168d869b" data-label="Oui mais le bien n'est pas à usage d'habitation"/>
+                        <oui_logement_familiale data-type="item" data-uid="0cc4bf02ccd6e9e050d5f40125430109" data-label="Oui et le bien constitue le logement de la famille"/>
+                        <non data-type="item" data-uid="c9640856ce8433ba86622221b432faeb" data-label="Non">
+                            <dispose_t_il_d_un_pouvoir_de_son_conjoint_pour_vendre_vendeur data-type="menu" data-uid="f743de30275f9d74167b7b4f0af3aca7" data-label="Dispose-t-elle d'un pouvoir de son conjoint pour vendre ?">
+                                <oui data-type="item" data-uid="d33029b8bb4dd4f1b450b3e5fc5429d5" data-label="Oui"/>
+                                <non data-type="item" data-uid="3d3fd5247c1701c8c564265c5bd9b4c0" data-label="Non"/>
+                            </dispose_t_il_d_un_pouvoir_de_son_conjoint_pour_vendre_vendeur>
+                        </non>
+                    </s_agit_il_de_la_vente_d_un_bien_propre_vendeur>
+                </marie_sans_contrat_communaute_legale_avant_02_1966>
+                <marie_sous_le_regime_de_la_separation_de_biens data-type="item" data-uid="94513a0566fc9ed947c8dd6c2bfdfc05" data-label="Marié sous le régime de la séparation de biens">
+                    <s_agit_il_de_la_vente_d_un_bien_propre_vendeur data-type="menu" data-uid="1e8d760429ea8361e1036bf2b2aedd6e" data-label="S'agit-il de la vente d'un bien propre ?">
+                        <oui_pas_logement_familiale data-type="item" data-uid="072137ba2a8d0f763b967a86763f4004" data-label="Oui et le bien ne constitue pas le logement de la famille"/>
+                        <oui_pas_usage_habitation data-type="item" data-uid="e90aa8a2a91ef5540157be98206a37ec" data-label="Oui mais le bien n'est pas à usage d'habitation"/>
+                        <oui_logement_familiale data-type="item" data-uid="e5db1fc747c4921b4e02b61b92c1ffa4" data-label="Oui et le bien constitue le logement de la famille"/>
+                        <non data-type="item" data-uid="8ea1ebe9f62d70fe35deb785d81299cd" data-label="Non">
+                            <dispose_t_il_d_un_pouvoir_de_son_conjoint_pour_vendre_vendeur data-type="menu" data-uid="da06761abd1c9a67a631f0ec43cbccad" data-label="Dispose-t-il d'un pouvoir de son conjoint pour vendre ?">
+                                <oui data-type="item" data-uid="d1aea97de52848dc0c68884e30216045" data-label="Oui"/>
+                                <non data-type="item" data-uid="386d260b5e68120471ec1cf0624581a3" data-label="Non"/>
+                            </dispose_t_il_d_un_pouvoir_de_son_conjoint_pour_vendre_vendeur>
+                        </non>
+                    </s_agit_il_de_la_vente_d_un_bien_propre_vendeur>
+                </marie_sous_le_regime_de_la_separation_de_biens>
+                <marie_sous_le_regime_de_la_communaute_universelle data-type="item" data-uid="9cf9563bda7232bccf499f2880aa7246" data-label="Marié sous le régime de la communauté universelle">
+                    <s_agit_il_de_la_vente_d_un_bien_propre_vendeur data-type="menu" data-uid="53f94005e5b05f556bc56ca8df1ddb16" data-label="S'agit-il de la vente d'un bien propre ?">
+                        <oui_pas_logement_familiale data-type="item" data-uid="578eaedcc0599f89a84ccf25d6480f12" data-label="Oui et le bien ne constitue pas le logement de la famille"/>
+                        <oui_pas_usage_habitation data-type="item" data-uid="644b5d78716c4345b08d71fc439359fd" data-label="Oui mais le bien n'est pas à usage d'habitation"/>
+                        <oui_logement_familiale data-type="item" data-uid="60e5dab4e533a205ea016b7a60d0cb40" data-label="Oui et le bien constitue le logement de la famille"/>
+                        <non data-type="item" data-uid="e238cc1a86736de71176e89353922a53" data-label="Non">
+                            <dispose_t_il_d_un_pouvoir_de_son_conjoint_pour_vendre_vendeur data-type="menu" data-uid="53750565e6fc79ac6d5d711ee503ef6d" data-label="Dispose-t-il d'un pouvoir de son conjoint pour vendre ?">
+                                <oui data-type="item" data-uid="5813a0488f8b80812eb541420238cf7a" data-label="Oui"/>
+                                <non data-type="item" data-uid="400a7f29c87849fe190761dd18e655e7" data-label="Non"/>
+                            </dispose_t_il_d_un_pouvoir_de_son_conjoint_pour_vendre_vendeur>
+                        </non>
+                    </s_agit_il_de_la_vente_d_un_bien_propre_vendeur>
+                </marie_sous_le_regime_de_la_communaute_universelle>
+                <marie_sous_le_regime_de_la_participation_aux_acquets data-type="item" data-uid="127a004a8ace0c91950060e5aee98cd6" data-label="Marié sous le régime de la participation aux acquêts">
+                    <s_agit_il_de_la_vente_d_un_bien_propre_vendeur data-type="menu" data-uid="5bc9ae75b38668b2b05252b31e0e36cd" data-label="S'agit-il de la vente d'un bien propre ?">
+                        <oui_pas_logement_familiale data-type="item" data-uid="762b6ab35ef43b25d8f426782c4e3dd8" data-label="Oui et le bien ne constitue pas le logement de la famille"/>
+                        <oui_pas_usage_habitation data-type="item" data-uid="56d66fd9bd2f57ee9cba330731507c58" data-label="Oui mais le bien n'est pas à usage d'habitation"/>
+                        <oui_logement_familiale data-type="item" data-uid="f228bfb27379d3dbf146dd8b72f0335e" data-label="Oui et le bien constitue le logement de la famille"/>
+                        <non data-type="item" data-uid="a6f0af45ae224436f7aa1c2ebf8f5da5" data-label="Non">
+                            <dispose_t_il_d_un_pouvoir_de_son_conjoint_pour_vendre_vendeur data-type="menu" data-uid="852373764e732c83bf628fb1a288a5d0" data-label="Dispose-t-il d'un pouvoir de son conjoint pour vendre ?">
+                                <oui data-type="item" data-uid="eafdc016c43a812c2f627247745e60ee" data-label="Oui"/>
+                                <non data-type="item" data-uid="67da5b52663ec3597632cba61e7e9f01" data-label="Non"/>
+                            </dispose_t_il_d_un_pouvoir_de_son_conjoint_pour_vendre_vendeur>
+                        </non>
+                    </s_agit_il_de_la_vente_d_un_bien_propre_vendeur>
+                </marie_sous_le_regime_de_la_participation_aux_acquets>
+                <marie_sous_un_autre_regime data-type="item" data-uid="4152ededa18cc4a9a2f874e0566d15ea" data-label="Marié sous un autre régime (étrangers)"/>
+                <marie_avec_changement_de_regime_matrimonial data-type="item" data-uid="d1a16a72fcc195b577f8df5a72edcb56" data-label="Marié avec changement de régime matrimonial">
+                    <s_agit_il_de_la_vente_d_un_bien_propre_vendeur data-type="menu" data-uid="c75d541df9beb3488a981dd4ec5e42e7" data-label="S'agit-il de la vente d'un bien propre ?">
+                        <oui_pas_logement_familiale data-type="item" data-uid="e77435075528299705659e85227949e0" data-label="Oui et le bien ne constitue pas le logement de la famille"/>
+                        <oui_pas_usage_habitation data-type="item" data-uid="4a35aab1a5347d7a1da8d3fee69a3760" data-label="Oui mais le bien n'est pas à usage d'habitation"/>
+                        <oui_logement_familiale data-type="item" data-uid="c889b937ddea373ca56467dd52d0953a" data-label="Oui et le bien constitue le logement de la famille"/>
+                        <non data-type="item" data-uid="367dd8e7589ccdbdc937380c2b0f193e" data-label="Non">
+                            <dispose_t_il_d_un_pouvoir_de_son_conjoint_pour_vendre_vendeur data-type="menu" data-uid="e3db51205114291e0ff447e08733c2e9" data-label="Dispose-t-il d'un pouvoir de son conjoint pour vendre ?">
+                                <oui data-type="item" data-uid="194a771b9164ab3fcf4b3117958932af" data-label="Oui"/>
+                                <non data-type="item" data-uid="3ae154c7004844736c239c58b2846c9a" data-label="Non"/>
+                            </dispose_t_il_d_un_pouvoir_de_son_conjoint_pour_vendre_vendeur>
+                        </non>
+                    </s_agit_il_de_la_vente_d_un_bien_propre_vendeur>
+                </marie_avec_changement_de_regime_matrimonial>
+                <celibataire_lie_par_un_pacs data-type="item" data-uid="9380ac914a4d95419f244cda827191c9" data-label="Célibataire lié par un PACS">
+                    <s_agit_il_de_la_vente_d_un_bien_personnel_vendeur data-type="menu" data-uid="c11edefe349b7aaa68332c03275c47c2" data-label="S'agit-il de la vente d'un bien personnel ?">
+                        <oui data-type="item" data-uid="5c65178a33b6d4415e29733db95e11d4" data-label="Oui"/>
+                        <non data-type="item" data-uid="f7e38d4247ae0314ffb5c557a7a24ebd" data-label="Non">
+                            <dispose_t_il_d_un_pouvoir_de_son_partenaire_pour_vendre_vendeur data-type="menu" data-uid="097981ddca446f05a19cfb257a083503" data-label="Dispose-t-il d'un pouvoir de son partenaire pour vendre ?">
+                                <oui data-type="item" data-uid="6ac05d47709f172c34b5c89fcc2dd81c" data-label="Oui"/>
+                                <non data-type="item" data-uid="c80e387957b0ae3a72ec845160426db1" data-label="Non"/>
+                            </dispose_t_il_d_un_pouvoir_de_son_partenaire_pour_vendre_vendeur>
+                        </non>
+                    </s_agit_il_de_la_vente_d_un_bien_personnel_vendeur>
+                </celibataire_lie_par_un_pacs>
+                <celibataire data-type="item" data-uid="42e59d6dbbc5fcc62538dd3fad1b346f" data-label="Célibataire"/>
+                <veuf_non_remarie data-type="item" data-uid="3fa054aac6c7a27f5d279d58098b8f0c" data-label="Veuf non remarié"/>
+                <divorce_non_remarie data-type="item" data-uid="18e71f8e4d5ba7450afab9042e5b2b31" data-label="Divorcé, non remarié">
+                    <souhaitez_vous_mentionner_la_date_du_divorce data-type="menu" data-uid="0b34a7ff0dda271c4147189338d5fc85" data-label="Souhaitez-vous mentionner la date du divorce ?">
+                        <non data-type="item" data-uid="7060c651c930ffc47d9d8df8ad04c34c" data-label="Non"/>
+                        <oui data-type="item" data-uid="dd5e42b316cbe3afa7178ec3dced4e61" data-label="Oui"/>
+                    </souhaitez_vous_mentionner_la_date_du_divorce>
+                </divorce_non_remarie>
+                <autre data-type="item" data-uid="b6ed9cc54567b8306d877214d614d89c" data-label="Autre"/>
+            </quelle_est_la_situation_matrimoniale_vendeur>
+            <est_il_resident_fiscal_en_france_vendeur data-type="menu" data-uid="d89a77a181a0181d350a0a2f95a62378" data-label="A-t-il sa residence fiscale en france ?">
+                <oui data-type="item" data-uid="02e969753e84779cd3b3b0ce6dfb8fd3" data-label="Oui"/>
+                <non data-type="item" data-uid="c51b07a18d4109a819fdc7416cdde062" data-label="Non"/>
+            </est_il_resident_fiscal_en_france_vendeur>
+            <precisions_vendeur data-type="menu" data-uid="9781403065a0788816b00bbb37d2d3ad" data-label="Souhaitez-vous apporter des precisions ?">
+                <non data-type="item" data-uid="9a89efb8a5679bb2b14a346be20500fa" data-label="Non"/>
+                <oui data-type="item" data-uid="bcfee3a9873ea419a77c054d059002fb" data-label="Oui"/>
+            </precisions_vendeur>
+            <clause_de_representation_vendeur data-type="menu" data-uid="c32052b35e1cfd66d4dfba55d81e28e6" data-label="Souhaitez-vous inserer une clause de representation ?" data-duplicate="1">
+                <non data-type="item" data-uid="91db6c96ea6b04feea91d00ec0d48351" data-label="Non"/>
+                <tiers_represente_vendeur data-type="item" data-uid="94262a31d3f3f1c525dac1095cc13b19" data-label="Oui">
+                    <indiquer_un_numero_de_telephone_et_email_representant_vendeur data-type="menu" data-uid="c4ad875c1e918faad766af8f6aacec3e" data-label="Souhaitez-vous indiquer son numero de telephone et son e-mail ?">
+                        <oui data-type="item" data-uid="9664b6dbe135ed7830ca9d62f8eaced8" data-label="Oui"/>
+                        <oui_esign data-type="item" data-uid="5c4611009c6cae9052a3542c1bdff958" data-label="Oui, uniquement pour la signature électronique"/>
+                        <non data-type="item" data-uid="c0700e0872cee88f62336e840f7860a9" data-label="Non"/>
+                    </indiquer_un_numero_de_telephone_et_email_representant_vendeur>
+                </tiers_represente_vendeur>
+            </clause_de_representation_vendeur>
+        </un_homme_monsieur>
+        <une_femme_madame data-type="item" data-uid="ef8f269c050d60f7bce206347f5d8d43" data-label="Une femme : Madame">
+            <indiquer_un_numero_de_telephone_et_email_vendeur data-type="menu" data-uid="de2ddb6fa5e91edb922d54d35286708c" data-label="Souhaitez-vous indiquer son numero de telephone et son e-mail ?">
+                <oui data-type="item" data-uid="44b6d65ba4d18f9122be678585f3d1ff" data-label="Oui"/>
+                <oui_esign data-type="item" data-uid="7fab731175536d82420300483bbb7db1" data-label="Oui, uniquement pour la signature electronique"/>
+                <non data-type="item" data-uid="2feaa312175428d59d9827f55b3d4ec2" data-label="Non"/>
+            </indiquer_un_numero_de_telephone_et_email_vendeur>
+            <quelle_est_la_situation_matrimoniale_vendeur data-type="menu" data-uid="a959e489c91c88d818c70f1830c506ec" data-label="Quelle est sa situation matrimoniale ?">
+                <marie_sans_contrat_communaute_legale_apres_02_1966 data-type="item" data-uid="f42112f9a2752e437b6fdd220e6a38b2" data-label="Mariée sans contrat après le 01/02/66 : communauté légale">
+                    <s_agit_il_de_la_vente_d_un_bien_propre_vendeur data-type="menu" data-uid="18138cfa34985e5ff2d3289e94372e6e" data-label="S'agit-il de la vente d'un bien propre ?">
+                        <oui_pas_logement_familiale data-type="item" data-uid="b2489a191a2ca6069d029963ac4e5f6f" data-label="Oui et le bien ne constitue pas le logement de la famille"/>
+                        <oui_pas_usage_habitation data-type="item" data-uid="2aa07bf7cbb310ac39d42d3481a2bfa8" data-label="Oui mais le bien n'est pas à usage d'habitation"/>
+                        <oui_logement_familiale data-type="item" data-uid="b94863f08ed4a95017a0dbd4c69c0c51" data-label="Oui et le bien constitue le logement de la famille"/>
+                        <non data-type="item" data-uid="93f3edda49dc929f13802791bbaddbb2" data-label="Non">
+                            <dispose_t_il_d_un_pouvoir_de_son_conjoint_pour_vendre_vendeur data-type="menu" data-uid="52570fd2dec9f0801c6f43828e14fcb4" data-label="Dispose-t-elle d'un pouvoir de son conjoint pour vendre ?">
+                                <oui data-type="item" data-uid="1a8c2f660b3dd76638cfd56603f1ef22" data-label="Oui"/>
+                                <non data-type="item" data-uid="860a27805a130d5036c87a6fb20793ae" data-label="Non"/>
+                            </dispose_t_il_d_un_pouvoir_de_son_conjoint_pour_vendre_vendeur>
+                        </non>
+                    </s_agit_il_de_la_vente_d_un_bien_propre_vendeur>
+                </marie_sans_contrat_communaute_legale_apres_02_1966>
+                <marie_sans_contrat_communaute_legale_avant_02_1966 data-type="item" data-uid="c9a3d2dc7a7c2adc523650a6e69b349d" data-label="Mariée sans contrat avant le 01/02/66 : communauté légale">
+                    <s_agit_il_de_la_vente_d_un_bien_propre_vendeur data-type="menu" data-uid="96886f1e773e9924f68fa9d1f48ebcb3" data-label="S'agit-il de la vente d'un bien propre ?">
+                        <oui_pas_logement_familiale data-type="item" data-uid="b0915570e45ef1a574ed116c663fa7f8" data-label="Oui et le bien ne constitue pas le logement de la famille"/>
+                        <oui_pas_usage_habitation data-type="item" data-uid="d6421d30710387ddec6bc2ff86cf5a82" data-label="Oui mais le bien n'est pas à usage d'habitation"/>
+                        <oui_logement_familiale data-type="item" data-uid="0a376ce2a7312b5c2a18b4dab4a2cfb3" data-label="Oui et le bien constitue le logement de la famille"/>
+                        <non data-type="item" data-uid="87fe42919f18be0902d787276437903d" data-label="Non">
+                            <dispose_t_il_d_un_pouvoir_de_son_conjoint_pour_vendre_vendeur data-type="menu" data-uid="9cc6c865ae5a96342f6bcf4b278b1553" data-label="Dispose-t-elle d'un pouvoir de son conjoint pour vendre ?">
+                                <oui data-type="item" data-uid="7df3501764c03249e5d57331fcb1b5dd" data-label="Oui"/>
+                                <non data-type="item" data-uid="5910a025046c60004a19f9d895c333a5" data-label="Non"/>
+                            </dispose_t_il_d_un_pouvoir_de_son_conjoint_pour_vendre_vendeur>
+                        </non>
+                    </s_agit_il_de_la_vente_d_un_bien_propre_vendeur>
+                </marie_sans_contrat_communaute_legale_avant_02_1966>
+                <marie_sous_le_regime_de_la_separation_de_biens data-type="item" data-uid="3fd9e4011490223cdabaa555367a95a4" data-label="Mariée sous le régime de séparation de biens">
+                    <s_agit_il_de_la_vente_d_un_bien_propre_vendeur data-type="menu" data-uid="6078a4b9af42f5fea4c77aacbbbe36dd" data-label="S'agit-il de la vente d'un bien propre ?">
+                        <oui_pas_logement_familiale data-type="item" data-uid="1c3e3c7ca7efccc0ad4cf66307a8d739" data-label="Oui et le bien ne constitue pas le logement de la famille"/>
+                        <oui_pas_usage_habitation data-type="item" data-uid="a2c78da1b12a45160621d6013761d69f" data-label="Oui mais le bien n'est pas à usage d'habitation"/>
+                        <oui_logement_familiale data-type="item" data-uid="2f759ed8780d4efee6bb83a67ac1ace9" data-label="Oui et le bien constitue le logement de la famille"/>
+                        <non data-type="item" data-uid="cd8ba12f210938e9456abe274013b53d" data-label="Non">
+                            <dispose_t_il_d_un_pouvoir_de_son_conjoint_pour_vendre_vendeur data-type="menu" data-uid="307d1627eaabbf09f3b31fb3667de858" data-label="Dispose-t-elle d'un pouvoir de son conjoint pour vendre ?">
+                                <oui data-type="item" data-uid="4539cec6faf1edaceb541eeef6ee16d3" data-label="Oui"/>
+                                <non data-type="item" data-uid="b52cab0f25a74b7dd1ab3d5e299f8011" data-label="Non"/>
+                            </dispose_t_il_d_un_pouvoir_de_son_conjoint_pour_vendre_vendeur>
+                        </non>
+                    </s_agit_il_de_la_vente_d_un_bien_propre_vendeur>
+                </marie_sous_le_regime_de_la_separation_de_biens>
+                <marie_sous_le_regime_de_la_communaute_universelle data-type="item" data-uid="e2a7f2b3719e286a137a4781ad219bc9" data-label="Mariée sous le régime de la communauté universelle">
+                    <s_agit_il_de_la_vente_d_un_bien_propre_vendeur data-type="menu" data-uid="ecc27df2dfbd326e1105062395a1d16f" data-label="S'agit-il de la vente d'un bien propre ?">
+                        <oui_pas_logement_familiale data-type="item" data-uid="13c3a5e5aea94da80639e5d553d83cf1" data-label="Oui et le bien ne constitue pas le logement de la famille"/>
+                        <oui_pas_usage_habitation data-type="item" data-uid="4167b95857411d60a5e86d7be15c1600" data-label="Oui mais le bien n'est pas à usage d'habitation"/>
+                        <oui_logement_familiale data-type="item" data-uid="7108d556e485edb60fd68c6fabe2368f" data-label="Oui et le bien constitue le logement de la famille"/>
+                        <non data-type="item" data-uid="e0c1bfb4cf8936954fedd58f510ff931" data-label="Non">
+                            <dispose_t_il_d_un_pouvoir_de_son_conjoint_pour_vendre_vendeur data-type="menu" data-uid="18cf8d116e0c789fbba565fca89ae94f" data-label="Dispose-t-elle d'un pouvoir de son conjoint pour vendre ?">
+                                <oui data-type="item" data-uid="d9843dc585dd236549a8f651091e65a0" data-label="Oui"/>
+                                <non data-type="item" data-uid="ad700942e0d299ca686b9e485d8e742e" data-label="Non"/>
+                            </dispose_t_il_d_un_pouvoir_de_son_conjoint_pour_vendre_vendeur>
+                        </non>
+                    </s_agit_il_de_la_vente_d_un_bien_propre_vendeur>
+                </marie_sous_le_regime_de_la_communaute_universelle>
+                <marie_sous_le_regime_de_la_participation_aux_acquets data-type="item" data-uid="938ae690008d1ce0a46d1ee0fffc010f" data-label="Mariée sous le régime de la participation aux acquêts">
+                    <s_agit_il_de_la_vente_d_un_bien_propre_vendeur data-type="menu" data-uid="3a4b9fa90e2929b75c4b3509cb9ffe7f" data-label="S'agit-il de la vente d'un bien propre ?">
+                        <oui_pas_logement_familiale data-type="item" data-uid="1f88366b7a65a19d5bac76e29a8c522a" data-label="Oui et le bien ne constitue pas le logement de la famille"/>
+                        <oui_pas_usage_habitation data-type="item" data-uid="a3b0b88d5e5824be8811d69e369662d8" data-label="Oui mais le bien n'est pas à usage d'habitation"/>
+                        <oui_logement_familiale data-type="item" data-uid="3251f0e19fd969525a4381a47e335ca5" data-label="Oui et le bien constitue le logement de la famille"/>
+                        <non data-type="item" data-uid="411a8da357908353cd885b047f69fa0f" data-label="Non">
+                            <dispose_t_il_d_un_pouvoir_de_son_conjoint_pour_vendre_vendeur data-type="menu" data-uid="548eeee69cea721db820366cb0875a23" data-label="Dispose-t-il d'un pouvoir de son conjoint pour vendre ?">
+                                <oui data-type="item" data-uid="cbf83297ab53da54af0232b17bf473da" data-label="Oui"/>
+                                <non data-type="item" data-uid="9179578b0fab5ecb0b470b8d9cf319f9" data-label="Non"/>
+                            </dispose_t_il_d_un_pouvoir_de_son_conjoint_pour_vendre_vendeur>
+                        </non>
+                    </s_agit_il_de_la_vente_d_un_bien_propre_vendeur>
+                </marie_sous_le_regime_de_la_participation_aux_acquets>
+                <marie_sous_un_autre_regime data-type="item" data-uid="c8674473f3e99b957b200ecd30011576" data-label="Mariée sous un autre régime (étrangers)"/>
+                <marie_avec_changement_de_regime_matrimonial data-type="item" data-uid="bd10b258e0f92a0a1ce9c3481cee4c71" data-label="Mariée avec changement de régime matrimonial">
+                    <s_agit_il_de_la_vente_d_un_bien_propre_vendeur data-type="menu" data-uid="864ed8f3f9c1b3755d3ce520e62bb8b7" data-label="S'agit-il de la vente d'un bien propre ?">
+                        <oui_pas_logement_familiale data-type="item" data-uid="b3a77f516e6271c18d604967aa2998fb" data-label="Oui et le bien ne constitue pas le logement de la famille"/>
+                        <oui_logement_familiale data-type="item" data-uid="cc10d8cb5f0843728cabe67ae0dab5ce" data-label="Oui et le bien constitue le logement de la famille"/>
+                        <oui_pas_usage_habitation data-type="item" data-uid="c00edc0280760712a2eccdf145d2928e" data-label="Oui mais le bien n'est pas à usage d'habitation"/>
+                        <non data-type="item" data-uid="0541efd2cb2c22f551667f57f9d2463e" data-label="Non">
+                            <dispose_t_il_d_un_pouvoir_de_son_conjoint_pour_vendre_vendeur data-type="menu" data-uid="1742b269b4b6ea034ceff07ea2ecce34" data-label="Dispose-t-elle d'un pouvoir de son conjoint pour vendre ?">
+                                <oui data-type="item" data-uid="3cbb1abb5655b254463f3909890fd001" data-label="Oui"/>
+                                <non data-type="item" data-uid="b7ba9a2e8e8d01ba50fd2a9c6777ecb1" data-label="Non"/>
+                            </dispose_t_il_d_un_pouvoir_de_son_conjoint_pour_vendre_vendeur>
+                        </non>
+                    </s_agit_il_de_la_vente_d_un_bien_propre_vendeur>
+                </marie_avec_changement_de_regime_matrimonial>
+                <celibataire_lie_par_un_pacs data-type="item" data-uid="6fb4451d1ead4cab030ff9d2fbb0dfaf" data-label="Célibataire liée par un PACS">
+                    <s_agit_il_de_la_vente_d_un_bien_personnel_vendeur data-type="menu" data-uid="a2cf38284f7e7798a768f66fc1175d54" data-label="S'agit-il de la vente d'un bien personnel ?">
+                        <oui data-type="item" data-uid="855903c0256580d3325a9fe280c7db0e" data-label="Oui"/>
+                        <non data-type="item" data-uid="50eeb55eaf08b48abcf3561ec1bbcb9b" data-label="Non">
+                            <dispose_t_il_d_un_pouvoir_de_son_partenaire_pour_vendre_vendeur data-type="menu" data-uid="6b02cc25ad5c862a7314db9e2da61925" data-label="Dispose-t-elle d'un pouvoir de son partenaire pour vendre ?">
+                                <oui data-type="item" data-uid="2c0af4c5dbfcea48bd4a9e3fea8594e1" data-label="Oui"/>
+                                <non data-type="item" data-uid="be1b97c5c1fb4265c32c3701ebdc445a" data-label="Non"/>
+                            </dispose_t_il_d_un_pouvoir_de_son_partenaire_pour_vendre_vendeur>
+                        </non>
+                    </s_agit_il_de_la_vente_d_un_bien_personnel_vendeur>
+                </celibataire_lie_par_un_pacs>
+                <celibataire data-type="item" data-uid="24d9463393a3dd8d65b739a2745b049d" data-label="Célibataire"/>
+                <veuf_non_remarie data-type="item" data-uid="f949247c889e9d935518045cd28007ea" data-label="Veuve non remarié"/>
+                <divorce_non_remarie data-type="item" data-uid="d2316aff4e1e88bea662fc12742e4b86" data-label="Divorcé, non remarié">
+                    <souhaitez_vous_mentionner_la_date_du_divorce data-type="menu" data-uid="131a30c562654340247a4841747dfc4c" data-label="Souhaitez-vous mentionner la date du divorce ?">
+                        <non data-type="item" data-uid="26322ea92d7b8d5d0cdf53eaf9ca08bd" data-label="Non"/>
+                        <oui data-type="item" data-uid="d4f88df1fdeaeb085d7c06bcd0b69abf" data-label="Oui"/>
+                    </souhaitez_vous_mentionner_la_date_du_divorce>
+                </divorce_non_remarie>
+                <autre data-type="item" data-uid="5c8f93aafdf0b85bb5249ff7a6515bc0" data-label="Autre"/>
+            </quelle_est_la_situation_matrimoniale_vendeur>
+            <est_il_resident_fiscal_en_france_vendeur data-type="menu" data-uid="ca30c3861baf03aadfc595cbbad1570e" data-label="A-t-elle sa residence fiscale en france ?">
+                <oui data-type="item" data-uid="c0cf857c3889bee02b5e5059ad8bad4b" data-label="Oui"/>
+                <non data-type="item" data-uid="296b0eaf2761257b3027f2eeb46859e3" data-label="Non"/>
+            </est_il_resident_fiscal_en_france_vendeur>
+            <precisions_vendeur data-type="menu" data-uid="11e4f8ee2365e18b8b6d15b9ae5918dc" data-label="Souhaitez-vous apporter des precisions ?">
+                <non data-type="item" data-uid="a6470781f1a0a1ecbcce1f59e7a0d743" data-label="Non"/>
+                <oui data-type="item" data-uid="76c4fb403cd2bac37ae22aa0c89dc593" data-label="Oui"/>
+            </precisions_vendeur>
+            <clause_de_representation_vendeur data-type="menu" data-uid="139429b83a7025d20895ac6433e233f0" data-label="Souhaitez-vous inserer une clause de representation ?" data-duplicate="1">
+                <non data-type="item" data-uid="be48f0a8cc0e72e7f26fc5f6eb9eeddc" data-label="Non"/>
+                <tiers_represente_vendeur data-type="item" data-uid="19acf67a2d58abd6cc5b7d881a596f49" data-label="Oui">
+                    <indiquer_un_numero_de_telephone_et_email_representant_vendeur data-type="menu" data-uid="5d745c8e2312860d17fa88745111b26c" data-label="Souhaitez-vous indiquer son numero de telephone et son e-mail ?">
+                        <oui data-type="item" data-uid="d11bec2d64076d7a394e7d773e2f17a1" data-label="Oui"/>
+                        <oui_esign data-type="item" data-uid="597b119e992fbfe3b4c5a34e7f8d4469" data-label="Oui, uniquement pour la signature électronique"/>
+                        <non data-type="item" data-uid="24ad76a8725ae5ef8579001aedee01b4" data-label="Non"/>
+                    </indiquer_un_numero_de_telephone_et_email_representant_vendeur>
+                </tiers_represente_vendeur>
+            </clause_de_representation_vendeur>
+        </une_femme_madame>
+        <une_societe data-type="item" data-uid="e2f41138529d36ea76d6a96ce0597c2f" data-label="Une société">
+            <choisir_une_civilite_vendeur data-type="menu" data-uid="d2c4b21cf14646d11594a2fdbe8bf00e" data-label="Qui la represente ?" data-duplicate="1">
+                <un_homme_monsieur data-type="item" data-uid="0f7117f11d5d3e1ae9f9c8c2d12af06b" data-label="Monsieur">
+                    <indiquer_un_numero_de_telephone_et_email_vendeur data-type="menu" data-uid="543470650a4628fc303010480b40ea37" data-label="Souhaitez-vous indiquer son numero de telephone et son e-mail ?">
+                        <oui data-type="item" data-uid="cbc27ab376e89d5e6e46d3460ea92cc3" data-label="Oui"/>
+                        <oui_esign data-type="item" data-uid="88b49905a5ad03762d267bf77695b53a" data-label="Oui, uniquement pour la signature électronique"/>
+                        <non data-type="item" data-uid="15e8c73a65c52f25648960af21c0d284" data-label="Non"/>
+                    </indiquer_un_numero_de_telephone_et_email_vendeur>
+                </un_homme_monsieur>
+                <une_femme_madame data-type="item" data-uid="6277b745483daf4f7a26fceee503c536" data-label="Madame">
+                    <indiquer_un_numero_de_telephone_et_email_vendeur data-type="menu" data-uid="91de09746092eb2a83cc6cee1e1ea3b8" data-label="Souhaitez-vous indiquer son numero de telephone et son e-mail ?">
+                        <oui data-type="item" data-uid="9f23fc9d744b919bd45cccddbee4004a" data-label="Oui"/>
+                        <oui_esign data-type="item" data-uid="5c72997f4ea193dc9b671b175e676fa4" data-label="Oui, uniquement pour la signature électronique"/>
+                        <non data-type="item" data-uid="bc500184a2a468584eb9945561a58334" data-label="Non"/>
+                    </indiquer_un_numero_de_telephone_et_email_vendeur>
+                </une_femme_madame>
+                <autre data-type="item" data-uid="97e67f22f69041c71d5423e9175b45cf" data-label="Autre">
+                    <indiquer_un_numero_de_telephone_et_email_vendeur data-type="menu" data-uid="896c4be589f151145a169275f93b744e" data-label="Souhaitez-vous indiquer son numero de telephone et son e-mail ?" data-duplicate="1">
+                        <oui data-type="item" data-uid="9d181de30f53382358d9c4e7d1b80356" data-label="Oui"/>
+                        <oui_esign data-type="item" data-uid="8199894a40a11955d56d59c452b71268" data-label="Oui, uniquement pour la signature électronique"/>
+                        <non data-type="item" data-uid="b05ab67085407d76f86af3f6ce699596" data-label="Non"/>
+                    </indiquer_un_numero_de_telephone_et_email_vendeur>
+                </autre>
+            </choisir_une_civilite_vendeur>
+            <precisions_vendeur data-type="menu" data-uid="07b7b91485e49d95dd933dd0fa4bf4e5" data-label="Souhaitez-vous apporter des precisions ?">
+                <non data-type="item" data-uid="34a18c7752edf72cf7849562e9e11191" data-label="Non"/>
+                <oui data-type="item" data-uid="5277463522d11166c8cc3826056a8393" data-label="Oui"/>
+            </precisions_vendeur>
+        </une_societe>
+        <une_association data-type="item" data-uid="97de981278c302245899a7cfd5ff822a" data-label="Une association">
+            <choisir_une_civilite_vendeur data-type="menu" data-uid="a01d76ed2868c2e942ebf2931dbf3f97" data-label="Qui la represente ?" data-duplicate="1">
+                <un_homme_monsieur data-type="item" data-uid="6bcabd480c7b159226987fa45aa80551" data-label="Monsieur">
+                    <indiquer_un_numero_de_telephone_et_email_vendeur data-type="menu" data-uid="73993df480d7dd1d72718eb860b66cae" data-label="Souhaitez-vous indiquer son numero de telephone et son e-mail ?">
+                        <oui data-type="item" data-uid="06a2eae3ee302c51e2fe5548ec64b351" data-label="Oui"/>
+                        <oui_esign data-type="item" data-uid="0cc1b2f8e2cdf94b8203777a50342dcf" data-label="Oui, uniquement pour la signature électronique"/>
+                        <non data-type="item" data-uid="7e1894d0336218347d4646536556bb10" data-label="Non"/>
+                    </indiquer_un_numero_de_telephone_et_email_vendeur>
+                </un_homme_monsieur>
+                <une_femme_madame data-type="item" data-uid="8fa7666e17e2ecb425e80cfc6797420a" data-label="Madame">
+                    <indiquer_un_numero_de_telephone_et_email_vendeur data-type="menu" data-uid="630d3b3ec53cee134e7ce779da982189" data-label="Souhaitez-vous indiquer son numero de telephone et son e-mail ?">
+                        <oui data-type="item" data-uid="b304ade5bd18746afc91a7903db48650" data-label="Oui"/>
+                        <oui_esign data-type="item" data-uid="81fe6545f7fbd8868b8931d1c343e23a" data-label="Oui, uniquement pour la signature électronique"/>
+                        <non data-type="item" data-uid="a71d0d6c7420675a5145017c010fae0b" data-label="Non"/>
+                    </indiquer_un_numero_de_telephone_et_email_vendeur>
+                </une_femme_madame>
+            </choisir_une_civilite_vendeur>
+            <precisions_vendeur data-type="menu" data-uid="090ea1acf873433d0127153d46c5a07b" data-label="Souhaitez-vous apporter des precisions ?">
+                <non data-type="item" data-uid="bce5d3b1e658ab5f327059a942b3f26e" data-label="Non"/>
+                <oui data-type="item" data-uid="39ca29dee9e486cf0d4cc5fb1bb517e1" data-label="Oui"/>
+            </precisions_vendeur>
+        </une_association>
+        <un_couple_monsieur_et_monsieur data-type="item" data-uid="00df0f9875ef2f16c55bfbdf5ec951d2" data-label="Un couple : Monsieur et Monsieur">
+            <indiquer_un_numero_de_telephone_et_email_vendeur data-type="menu" data-uid="13db3d8341071ba42f3ae416ec5b10e9" data-label="Souhaitez-vous indiquer leurs numeros de telephone et e-mails?">
+                <oui data-type="item" data-uid="b48583e8a529e28f81bf7996d5ca93d8" data-label="Oui"/>
+                <oui_esign data-type="item" data-uid="95a6afc1b2c5da868312c9735cb2773b" data-label="Oui, uniquement pour la signature electronique"/>
+                <non data-type="item" data-uid="e67c20f78cbf807bbcbda828139547f4" data-label="Non"/>
+            </indiquer_un_numero_de_telephone_et_email_vendeur>
+            <quelle_est_la_situation_matrimoniale_vendeur data-type="menu" data-uid="b0593ed96b63394427cb21d3fb2942b1" data-label="Quelle est leur situation matrimoniale ?">
+                <marie_sans_contrat_communaute_legale data-type="item" data-uid="9bc1fd6768a43e905946b4e889210b6e" data-label="Mariés sans contrat : communauté légale"/>
+                <marie_sous_le_regime_de_la_separation_de_biens data-type="item" data-uid="de254bb132b8891ed98d10c583b7dfa3" data-label="Mariés sous un régime de séparation de biens"/>
+                <marie_sous_le_regime_de_la_communaute_universelle data-type="item" data-uid="3c0ccd7825b17fe6091d83fea0dd60d3" data-label="Mariés sous le régime de la communauté universelle"/>
+                <marie_sous_le_regime_de_la_participation_aux_acquets data-type="item" data-uid="115ef66c56317c40f098339f3506106a" data-label="Mariés sous le régime de la participation aux acquêts"/>
+                <marie_sous_un_autre_regime data-type="item" data-uid="29a44556c8eeca7c6fa026e17d5ac238" data-label="Mariés sous un autre régime (étrangers)"/>
+                <celibataire_lie_par_un_pacs data-type="item" data-uid="04ada6604ffeefbe477ee829e5538297" data-label="Célibataires liés par un PACS"/>
+                <celibataire data-type="item" data-uid="209422876be1369fc9ae873f5af230fe" data-label="Célibataires non liés par un PACS"/>
+                <autre data-type="item" data-uid="419d2eeb6c9377b31a1ffcbc0eb54259" data-label="Autre"/>
+            </quelle_est_la_situation_matrimoniale_vendeur>
+            <est_il_resident_fiscal_en_france_vendeur data-type="menu" data-uid="aeac40cdbc8500f1505797750db6eecb" data-label="Ont-ils leur residence fiscale en france ?">
+                <oui data-type="item" data-uid="d8d7c034e41b9ea1b819135b383d7178" data-label="Oui"/>
+                <non data-type="item" data-uid="5f74fab34d7d5f9f5b5b4ee22efbdfbb" data-label="Non"/>
+            </est_il_resident_fiscal_en_france_vendeur>
+            <precisions_vendeur data-type="menu" data-uid="0f64e946e4b610c937ccba2114035b61" data-label="Souhaitez-vous apporter des precisions ?">
+                <non data-type="item" data-uid="33b49167b9cab7856590a379319b4c4d" data-label="Non"/>
+                <oui data-type="item" data-uid="1cd722d4be05ecc5f112099646430068" data-label="Oui"/>
+            </precisions_vendeur>
+            <clause_de_representation_vendeur data-type="menu" data-uid="ad3edb2eafa22f00ea055ec5b1267288" data-label="Souhaitez-vous inserer une clause de representation ?">
+                <non data-type="item" data-uid="5de94344961d197041a1545d24025934" data-label="Non"/>
+                <tiers_represente_couple data-type="item" data-uid="453ab707b2dd88409697aef42d05c419" data-label="Un tiers représente le couple">
+                    <indiquer_un_numero_de_telephone_et_email_representant_vendeur data-type="menu" data-uid="237f7b0322375e3bebf06d4b9e18c154" data-label="Souhaitez-vous indiquer son numero de telephone et son e-mail ?">
+                        <oui data-type="item" data-uid="d8e86a1bd548c177c69c33b5a95b730a" data-label="Oui"/>
+                        <oui_esign data-type="item" data-uid="239ee0a041a38ee6cbddffdb1d0aa253" data-label="Oui, uniquement pour la signature électronique"/>
+                        <non data-type="item" data-uid="3588869c5c431687cbea52d5a5006853" data-label="Non"/>
+                    </indiquer_un_numero_de_telephone_et_email_representant_vendeur>
+                </tiers_represente_couple>
+                <vendeur_represente_vendeur_1 data-type="item" data-uid="82c0b5bd17e3489966a3c67404c79385" data-label="Monsieur (Vendeur 1) reprensente Monsieur (Vendeur 2)"/>
+                <vendeur_1_represente_vendeur data-type="item" data-uid="ed70e9f2d420c27ea144f6c2ceab89c1" data-label="Monsieur (Vendeur 2) reprensente Monsieur (Vendeur 1)"/>
+            </clause_de_representation_vendeur>
+        </un_couple_monsieur_et_monsieur>
+        <un_couple_madame_et_madame data-type="item" data-uid="5c730f111c60dee3c2fc9e4c1337d4b1" data-label="Un couple : Madame et Madame">
+            <indiquer_un_numero_de_telephone_et_email_vendeur data-type="menu" data-uid="f4865f2d3e6b392da19fec5c12404790" data-label="Souhaitez-vous indiquer leurs numeros de telephone et e-mails?">
+                <oui data-type="item" data-uid="15b5bad9400d5ab1e4cb853e22035b67" data-label="Oui"/>
+                <oui_esign data-type="item" data-uid="6852cbf72023925dce8483357d397693" data-label="Oui, uniquement pour la signature électronique"/>
+                <non data-type="item" data-uid="9cc2c4ae0d955a27d9511f94f05d5eb7" data-label="Non"/>
+            </indiquer_un_numero_de_telephone_et_email_vendeur>
+            <quelle_est_la_situation_matrimoniale_vendeur data-type="menu" data-uid="cd895082dca03c8e6db17f44cb20e53a" data-label="Quelle est leur situation matrimoniale ?">
+                <marie_sans_contrat_communaute_legale data-type="item" data-uid="3c2a7bdf6e7405fdbfc6741983c8a787" data-label="Mariées sans contrat : communauté légale"/>
+                <marie_sous_le_regime_de_la_separation_de_biens data-type="item" data-uid="3870881075d3445d72021a3709906233" data-label="Mariées sous un régime de séparation de biens"/>
+                <marie_sous_le_regime_de_la_communaute_universelle data-type="item" data-uid="7ac56aaa8272f583e9f087f8e7f0a704" data-label="Mariées sous le régime de la communauté universelle"/>
+                <marie_sous_le_regime_de_la_participation_aux_acquets data-type="item" data-uid="5ed37bb90a1e1dc3f17035ac09f47e5e" data-label="Mariées sous le régime de la participation aux acquêts"/>
+                <marie_sous_un_autre_regime data-type="item" data-uid="a9b60e2ed9021483c84ec456b81a4ec0" data-label="Mariés sous un autre régime (étrangers)"/>
+                <celibataire_lie_par_un_pacs data-type="item" data-uid="756c12c6496060162c02ee93c74742b8" data-label="Célibataires liées par un PACS"/>
+                <celibataire data-type="item" data-uid="4baf9da1e1818fa8f94773eddc62b689" data-label="Célibataires non liées par un PACS"/>
+                <autre data-type="item" data-uid="073958e374ad57ea365ccb2ef54e9ac9" data-label="Autre"/>
+            </quelle_est_la_situation_matrimoniale_vendeur>
+            <est_il_resident_fiscal_en_france_vendeur data-type="menu" data-uid="f40f199e36e17038c25b72bc7b78e76d" data-label="Ont-elles leur residence fiscale en france ?">
+                <oui data-type="item" data-uid="7aff290ca6afed62cbad5e6067f397be" data-label="Oui"/>
+                <non data-type="item" data-uid="66acd52aa93e5c3741815241b4fe9a07" data-label="Non"/>
+            </est_il_resident_fiscal_en_france_vendeur>
+            <precisions_vendeur data-type="menu" data-uid="c32cd33ec6ede53b1f5da8eba2c6bffd" data-label="Souhaitez-vous apporter des precisions ?">
+                <non data-type="item" data-uid="67f51acb4c8039d239a984aabc00d0b5" data-label="Non"/>
+                <oui data-type="item" data-uid="f91de2bd56407f8d8626670648763a50" data-label="Oui"/>
+            </precisions_vendeur>
+            <clause_de_representation_vendeur data-type="menu" data-uid="3dc509bcbc059349cd5010242b0ccf10" data-label="Souhaitez-vous inserer une clause de representation ?">
+                <non data-type="item" data-uid="0691b7ad5c2888a2ac6ad5a8b16ca821" data-label="Non"/>
+                <tiers_represente_couple data-type="item" data-uid="d5bf26647f68214023c438a4be6f34f1" data-label="Un tiers représente le couple">
+                    <indiquer_un_numero_de_telephone_et_email_representant_vendeur data-type="menu" data-uid="3b398cc6c4e6956c8277a7c5c0bd87cd" data-label="Souhaitez-vous indiquer son numero de telephone et son e-mail ?">
+                        <oui data-type="item" data-uid="9f80c9a43cade4c915d22f1209ad5f1a" data-label="Oui"/>
+                        <oui_esign data-type="item" data-uid="88d9a8972d5de4e15577d91b60325e49" data-label="Oui, uniquement pour la signature électronique"/>
+                        <non data-type="item" data-uid="eaa5603e1387f59c8318878041d6badc" data-label="Non"/>
+                    </indiquer_un_numero_de_telephone_et_email_representant_vendeur>
+                </tiers_represente_couple>
+                <vendeur_represente_vendeur_1 data-type="item" data-uid="55a3cbceffac485f17b3ee936f803969" data-label="Madame (Vendeur 1) reprensente Madame (Vendeur 2)"/>
+                <vendeur_1_represente_vendeur data-type="item" data-uid="91f56f263c0a0e9439aae54b4d3957f5" data-label="Madame (Vendeur 2) reprensente Madame (Vendeur 1)"/>
+            </clause_de_representation_vendeur>
+        </un_couple_madame_et_madame>
+        <un_mineur data-type="item" data-uid="b8f7e14637ad4048033ef46c5b8a4c4d" data-label="Un mineur">
+            <qui_est_titulaire_de_l_autorite_parentale data-type="menu" data-uid="b688d9f4aa0f03f98eb21215a1956bac" data-label="Qui est titulaire de l'autorite parentale ?">
+                <mere data-type="item" data-uid="cb930e7fff10fce322234565b6021300" data-label="La mère">
+                    <indiquer_un_numero_de_telephone_et_email_parent_vendeur data-type="menu" data-uid="1f80bafd3f76e96a13e872d313553c3e" data-label="Souhaitez-vous indiquer son numero de telephone et son e-mail ?">
+                        <oui data-type="item" data-uid="636bdb568a367c075d599c4961af5552" data-label="Oui"/>
+                        <non data-type="item" data-uid="3de289e4c389d7f6e966ba4e4ebb4d6d" data-label="Non"/>
+                    </indiquer_un_numero_de_telephone_et_email_parent_vendeur>
+                </mere>
+                <pere data-type="item" data-uid="7db42ef8afe20f6d0742dccdd2a8f9dc" data-label="Le père">
+                    <indiquer_un_numero_de_telephone_et_email_parent_vendeur data-type="menu" data-uid="b3d58b4e12f92e082eddf18c45d22e34" data-label="Souhaitez-vous indiquer son numero de telephone et son e-mail ?">
+                        <oui data-type="item" data-uid="8b079a7f72941d411629e34d544205fc" data-label="Oui"/>
+                        <non data-type="item" data-uid="8a1bbe28a2ce6a0501bcf1250320b314" data-label="Non"/>
+                    </indiquer_un_numero_de_telephone_et_email_parent_vendeur>
+                </pere>
+                <les_deux_parents data-type="item" data-uid="3f51d133da39dd85778e7dfd4a1a4e63" data-label="Les parents">
+                    <indiquer_un_numero_de_telephone_et_email_parent_vendeur data-type="menu" data-uid="c558c3db042df53353f605de616d1c62" data-label="Souhaitez-vous indiquer leurs numeros de telephone et e-mails ?">
+                        <oui data-type="item" data-uid="bd5f6345281d57887cd1c671b26111e0" data-label="Oui"/>
+                        <non data-type="item" data-uid="8c71eb5521c59447516a801c9b9a3c68" data-label="Non"/>
+                    </indiquer_un_numero_de_telephone_et_email_parent_vendeur>
+                </les_deux_parents>
+                <un_tuteur data-type="item" data-uid="fa972b76a8b917060408849a357fed3e" data-label="Un tuteur"/>
+            </qui_est_titulaire_de_l_autorite_parentale>
+            <precisions_vendeur data-type="menu" data-uid="ed970c16d1c1decfb0b9fcc5c56c8c05" data-label="Souhaitez-vous apporter des precisions ?">
+                <non data-type="item" data-uid="1e768613189c44cee608e8cc7fe84ec8" data-label="Non"/>
+                <oui data-type="item" data-uid="059c35820373895c745ee38fb6d96725" data-label="Oui"/>
+            </precisions_vendeur>
+        </un_mineur>
+        <un_majeur_sous_curatelle data-type="item" data-uid="dd553a2c0b0e86709750519a0bb4f6a5" data-label="Un majeur sous curatelle">
+            <indiquer_un_numero_de_telephone_et_email_vendeur data-type="menu" data-uid="e59ed37415fc55467d994a3ae757b027" data-label="Souhaitez-vous indiquer le numero de telephone et l'e-mail du vendeur ?">
+                <oui data-type="item" data-uid="6e105f314c8ec8727060d03a99bb3aea" data-label="Oui"/>
+                <non data-type="item" data-uid="c17671a9dde9b5815fd183a05b3b2083" data-label="Non"/>
+            </indiquer_un_numero_de_telephone_et_email_vendeur>
+            <indiquer_un_numero_de_telephone_et_email_curateur data-type="menu" data-uid="7e2bb947b0e5fac58f6765fca5c70020" data-label="Souhaitez-vous indiquer le numero de telephone et l'e-mail du curateur ?">
+                <oui data-type="item" data-uid="e2e3a7a4062b0a14fb9f16f37e903ed6" data-label="Oui"/>
+                <non data-type="item" data-uid="df819bfb59755b815aa237278da85eb6" data-label="Non"/>
+            </indiquer_un_numero_de_telephone_et_email_curateur>
+        </un_majeur_sous_curatelle>
+        <un_majeur_sous_tutelle data-type="item" data-uid="11ff3b499a8d9827b23107d7ba4d82b2" data-label="Un majeur sous tutelle">
+            <indiquer_un_numero_de_telephone_et_email_vendeur data-type="menu" data-uid="e44b3e709849e86e0f36792ff42a6a94" data-label="Souhaitez-vous indiquer le numero de telephone et l'e-mail de son tuteur ?" data-duplicate="1">
+                <oui data-type="item" data-uid="23a8b833d59ac0b8c571eff23f2c7264" data-label="Oui"/>
+                <non data-type="item" data-uid="53f2a3cc3fffd9a1f278176fa057b7b1" data-label="Non"/>
+            </indiquer_un_numero_de_telephone_et_email_vendeur>
+            <precisions_vendeur data-type="menu" data-uid="50a786e3b2cbfd83e99ff3a4d1d2cf28" data-label="Souhaitez-vous apporter des precisions ?">
+                <non data-type="item" data-uid="8270eee12590a5387be3164a8e8e452c" data-label="Non"/>
+                <oui data-type="item" data-uid="4053c239c55a7dc8b85d7add6a0102bf" data-label="Oui"/>
+            </precisions_vendeur>
+        </un_majeur_sous_tutelle>
+        <une_personne_sous_habilitation_familiale data-type="item" data-uid="eb7b0fff613655db0341c61bc371c9e2" data-label="Une personne bénéficiant d'une habilitation familiale">
+            <indiquer_un_numero_de_telephone_et_email_representant_vendeur data-type="menu" data-uid="cfb8f7711a4a81bc19f3a73d2f3a1d88" data-label="Souhaitez-vous indiquer le numero de telephone et l'e-mail de son representant ?" data-duplicate="1">
+                <oui data-type="item" data-uid="b3aaa2d704be74a0e2ca40a2ad8db9e0" data-label="Oui"/>
+                <oui_esign data-type="item" data-uid="e5131f7b5ba2daa7652121ccd23b6e7d" data-label="Oui, uniquement pour la signature électronique"/>
+                <non data-type="item" data-uid="3a80d89dc170e0de0ea0aebc5be4fbfd" data-label="Non"/>
+            </indiquer_un_numero_de_telephone_et_email_representant_vendeur>
+            <precisions_vendeur data-type="menu" data-uid="2f3776cadb067e6e66d512c9c22e9a5b" data-label="Souhaitez-vous apporter des precisions ?">
+                <non data-type="item" data-uid="a45cad7f46cd1fbe93d4950c23f364aa" data-label="Non"/>
+                <oui data-type="item" data-uid="4a4f0c170fa4e7008bb37cc0be28fdcf" data-label="Oui"/>
+            </precisions_vendeur>
+        </une_personne_sous_habilitation_familiale>
+        <une_personne_morale_autre_qu_une_societe data-type="item" data-uid="b740a696a2a66884601bcf15fd807ff1" data-label="Une personne morale autre qu'une société">
+            <choisir_une_civilite_vendeur data-type="menu" data-uid="fd583bcffe30aa9ea6af6f7d1a363a47" data-label="Choisir une civilite" data-duplicate="1">
+                <un_homme_monsieur data-type="item" data-uid="387595a17bc1943140313abd766e02b5" data-label="Monsieur">
+                    <indiquer_un_numero_de_telephone_et_email_vendeur data-type="menu" data-uid="b4166b1e4a069ae5482355ce2f709193" data-label="Souhaitez-vous indiquer son numero de telephone et son e-mail ?">
+                        <oui data-type="item" data-uid="08be5f727fbb228de251f7941d61a9c5" data-label="Oui"/>
+                        <oui_esign data-type="item" data-uid="d7990cf61234fc6e9470c8f23841c7f6" data-label="Oui, uniquement pour la signature électronique"/>
+                        <non data-type="item" data-uid="f84e2a2a2b0fe008b5b2b65c0e589c0a" data-label="Non"/>
+                    </indiquer_un_numero_de_telephone_et_email_vendeur>
+                </un_homme_monsieur>
+                <une_femme_madame data-type="item" data-uid="5c06dae224e919d17c80fbb2281f07ba" data-label="Madame">
+                    <indiquer_un_numero_de_telephone_et_email_vendeur data-type="menu" data-uid="9f73e57abe82000482f76cb9b23df6ca" data-label="Souhaitez-vous indiquer son numero de telephone et son e-mail ?">
+                        <oui data-type="item" data-uid="8a18786394b60c0179877508711b9902" data-label="Oui"/>
+                        <oui_esign data-type="item" data-uid="26296a19e449543eca5a5091f466f56f" data-label="Oui, uniquement pour la signature électronique"/>
+                        <non data-type="item" data-uid="1a1830c2ed19e7260b410e0b54a20c9a" data-label="Non"/>
+                    </indiquer_un_numero_de_telephone_et_email_vendeur>
+                </une_femme_madame>
+            </choisir_une_civilite_vendeur>
+            <precisions_vendeur data-type="menu" data-uid="dc9f81b1d8d7bf4a48c70c5796402d73" data-label="Souhaitez-vous apporter des precisions ?">
+                <non data-type="item" data-uid="6264ac9708fadd12bdf783272d4b4b00" data-label="Non"/>
+                <oui data-type="item" data-uid="33c1a59bf18e814b2fc30a43335b84d5" data-label="Oui"/>
+            </precisions_vendeur>
+        </une_personne_morale_autre_qu_une_societe>
+        <autre_situation_civilite data-type="item" data-uid="c9449f5eacac4ded61366deb13d72f1e" data-label="Autre situation">
+            <indiquer_un_numero_de_telephone_et_email_vendeur data-type="menu" data-uid="ba4843fa0b6041d3841937c8ae98b227" data-label="Souhaitez-vous indiquer un numero de telephone et un e-mail ?" data-duplicate="1">
+                <oui data-type="item" data-uid="61b62858331a9d498d3c1ee2e587919e" data-label="Oui"/>
+                <oui_esign data-type="item" data-uid="24a35bb79d6da130275edb708d2d1674" data-label="Oui, uniquement pour la signature électronique"/>
+                <non data-type="item" data-uid="5d0690d8af1a99eb717a595ecdbfa96d" data-label="Non"/>
+            </indiquer_un_numero_de_telephone_et_email_vendeur>
+            <precisions_vendeur data-type="menu" data-uid="d85a3e2e208839e8ba0b61c697ec8935" data-label="Souhaitez-vous apporter des precisions ?">
+                <non data-type="item" data-uid="d99b19bc9646613ff321dd7d3e501088" data-label="Non"/>
+                <oui data-type="item" data-uid="b7ed231f4c257ab388e4e051f84e0fe1" data-label="Oui"/>
+            </precisions_vendeur>
+        </autre_situation_civilite>
+        <vous_souhaitez_le_completer_a_la_main data-type="item" data-uid="baa0afbe331eb4ff2e80fbe80a085877" data-label="Vous souhaitez le compléter à la main"/>
+    </qui_est_le_vendeur>
+    <exercez_vous_en_societe data-type="menu" data-uid="02389a4f47401ef6c44cb1d2dcbe1705" data-label="Exercez-vous votre activite en societe ?">
+        <oui data-type="item" data-uid="30bed421f3ad65f668aa8381a6ed844c" data-label="Oui"/>
+        <non_en_entreprise_individuelle data-type="item" data-uid="c56b36c24ea1ade53131ccb66a01677b" data-label="Non, en entreprise individuelle"/>
+    </exercez_vous_en_societe>
+    <etes_vous_adherent_d_une_caisse_de_garantie data-type="menu" data-uid="b6db6f317b4c229bacb5317a5bc1b59f" data-label="Etes-vous adherent d'une caisse de garantie ?">
+        <oui data-type="item" data-uid="aa20e82c62649191d2cef88bf70f0d21" data-label="Oui"/>
+        <non data-type="item" data-uid="a46d3bd9741027d41ab1fb5ae7c08fd4" data-label="Non"/>
+    </etes_vous_adherent_d_une_caisse_de_garantie>
+    <etes_vous_titulaire_d_un_compte_special data-type="menu" data-uid="83d0c971b42338711ecf705af54bc217" data-label="Etes-vous titulaire d'un compte special ?">
+        <oui data-type="item" data-uid="2413a090cde4950adaddbc2cd533d0ec" data-label="Oui"/>
+        <non data-type="item" data-uid="ca9506a277bddfebc649601441cb8dac" data-label="Non"/>
+    </etes_vous_titulaire_d_un_compte_special>
+    <etes_vous_immatricule_a_l_orias data-type="menu" data-uid="b5a2aeef7cf88dd8a284e29984696f12" data-label="Etes-vous immatricule a l'orias ?">
+        <oui_en_qualite_de_courtier_en_assurance data-type="item" data-uid="5751980ccfb98f9899aa130c521dd15c" data-label="Oui, en qualité de courtier en assurance"/>
+        <oui_en_qualit_de_mandataire_d_interm_diaire_en_assurance_mia data-type="item" data-uid="d7cba8e5844295e1516b3bf9f97edf06" data-label="Oui, en qualité de mandataire d'intermédiaire en assurance (MIA)"/>
+        <oui_en_qualite_de_mandataire_d_intermediaire_en_operations_de_banque_miobsp data-type="item" data-uid="404d7a2f58a4ddd65aa076f8fe9ccb44" data-label="Oui, en qualité de mandataire d'intermédiaire en opérations de banque (MIOBSP)"/>
+        <oui_en_qualite_de_courtier_en_operations_de_banque data-type="item" data-uid="85318f9ddfa39b1b2bba9af43e479d3b" data-label="Oui, en qualité de courtier en opérations de banque"/>
+        <non data-type="item" data-uid="fb8c5204e4b3082247b2e5757372b00a" data-label="Non"/>
+    </etes_vous_immatricule_a_l_orias>
+    <avez_vous_un_lien_capitalistique_ou_juridique_avec_une_banque_ou_autre data-type="menu" data-uid="e5984807c01d16231bf29948509ece23" data-label="Avez-vous un lien capitalistique ou juridique avec une banque ou autre ?">
+        <non data-type="item" data-uid="be7d7e4e2b1f267b88bfffefed28b3a7" data-label="Non"/>
+        <oui data-type="item" data-uid="cf7a987c283f57456af77900c54c7fd0" data-label="Oui"/>
+    </avez_vous_un_lien_capitalistique_ou_juridique_avec_une_banque_ou_autre>
+    <le_redacteur_du_mandat_est_il_un_agent_commercial data-type="menu" data-uid="c32f35a859f3559988bd2f6214355de7" data-label="Qui signera le mandat pour le compte de l'agence ?">
+        <non data-type="item" data-uid="48049fa68e897563a5e90d23acf15073" data-label="Le représentant du titulaire de la carte professionnelle"/>
+        <un_collaborateur_salari_de_l_agence data-type="item" data-uid="5caaafdda11c726700aaaa6d7e11baeb" data-label="Un collaborateur salarié de l'agence"/>
+        <oui data-type="item" data-uid="3a8c0ca34e024efc38c67b249fbea130" data-label="Un négociateur agent commercial immobilier"/>
+    </le_redacteur_du_mandat_est_il_un_agent_commercial>
+    <nature_bien_vente data-type="menu" data-uid="7d10b49b1f6da6b51ba536c5402fb939" data-label="Quelle est la nature des biens a vendre ?" data-duplicate="1">
+        <lot_principal data-type="item" data-uid="6f67d9b1e8fb8a53e59f6b1910f877f1" data-label="Un lot principal de copropriété">
+            <references_cadastrales data-type="menu" data-uid="2e393915bc423a2d79f7aa9eca0fef43" data-label="Souhaitez-vous mentionner les references cadastrales ?">
+                <au_cadastre data-type="item" data-uid="6587e50ba894a6cd88b00409915bf6ce" data-label="Oui et le bien est enregistré au cadastre"/>
+                <au_livre_foncier data-type="item" data-uid="4e0ebf89ec21a46fa7ccf94345f55aee" data-label="Oui et le bien est enregistré au livre foncier"/>
+                <saisie_libre data-type="item" data-uid="500873021c39d3f4df48d8a86f5b9568" data-label="Oui et texte de saisie libre"/>
+                <non data-type="item" data-uid="f4dfac8d48c6b4d293d50a2cb21d1e9a" data-label="Non"/>
+            </references_cadastrales>
+            <souhaitez_vous_signaler_des_particularites_complement_bien data-type="menu" data-uid="0840b11434c8dd16166d5e218bc7fac6" data-label="Souhaitez-vous ajouter des precisions ?">
+                <non data-type="item" data-uid="e7a484b41e4e33220a88b51ddd3171b1" data-label="Non"/>
+                <oui data-type="item" data-uid="5b8a3a9aa2756b101528216ee84257f9" data-label="Oui"/>
+            </souhaitez_vous_signaler_des_particularites_complement_bien>
+            <combien_de_tantiemes data-type="menu" data-uid="6b370a062e41aeae946e1c383905bc33" data-label="Combien de tantiemes souhaitez-vous mentionner ?">
+                <un data-type="item" data-uid="91cea343ec900b7a3d068767943697dd" data-label="Un"/>
+                <deux data-type="item" data-uid="afea83fe1993a84c1a936fe650e40aac" data-label="Deux"/>
+                <trois data-type="item" data-uid="22fe6cc90ee3637238e4ecafa62f9d58" data-label="Trois"/>
+                <quatre data-type="item" data-uid="0cb13355ec4b22c43c086e0dad66f403" data-label="Quatre"/>
+                <plus_de_quatre data-type="item" data-uid="2b2ddc79f991aa2133b105e88b16969b" data-label="Plus de quatre"/>
+            </combien_de_tantiemes>
+            <qui_a_effectue_le_mesurage data-type="menu" data-uid="765b3933ec2a406f0a3d34ae402a77f6" data-label="Le mesurage du lot a-t-il deja ete effectue ?">
+                <un_geometre_expert data-type="item" data-uid="9a66a5fb33c5e69dad3eb96b7ce1ebeb" data-label="Oui, par un géomètre-expert ou un diagnostiqueur professionnel"/>
+                <le_vendeur_qui_fournit_le_certificat_de_mesurage_annexe_a_son_titre_de_propriete data-type="item" data-uid="8f55a5a854d4a6fee6cdc6864a73d3eb" data-label="Oui, par le vendeur qui fournit le certificat de mesurage annexé à son titre de propriété"/>
+                <le_vendeur_lui_meme_et_il_garantit_son_mesurage data-type="item" data-uid="5f33de797d54174388144fc6cd85800d" data-label="Oui, par le vendeur lui-même qui garantit son mesurage"/>
+                <le_vendeur_lui_meme_qui_fournit_un_autre_justificatif data-type="item" data-uid="6217c06917016166b67561aa6f83af8f" data-label="Oui, par le vendeur lui-même qui fournit un autre justificatif"/>
+                <non data-type="item" data-uid="57f48359ffd96cd99b1fd29afec5b6c2" data-label="Non"/>
+            </qui_a_effectue_le_mesurage>
+            <des_biens_meubles_sont_ils_compris_dans_la_vente data-type="menu" data-uid="423306d107f20210e394f2981dea988a" data-label="Des biens meubles sont-ils compris dans la vente ?">
+                <oui_et_vous_souhaitez_les_mentionner_dans_un_tableau data-type="item" data-uid="9cd8a4e7593ca67bf7207dd566756094" data-label="Oui et vous souhaitez les mentionner dans un tableau"/>
+                <oui_et_vous_souhaitez_les_mentionner_dans_une_zone_de_saisie_libre data-type="item" data-uid="fe24c4cb2eb065f94498c7611eaea40d" data-label="Oui et vous souhaitez les mentionner dans une zone de texte libre"/>
+                <oui_mais_vous_preferez_annexer_au_compromis_un_inventaire_detaille data-type="item" data-uid="e4474e084b49b18968a9fefd61deca5d" data-label="Oui mais vous préférez les mentionner dans une annexe"/>
+                <oui_mais_vous_preferez_ne_pas_les_evoquer_dans_le_mandat data-type="item" data-uid="70c9c840ac5c7db9745e7c1fc79b8e23" data-label="Oui mais vous préférez ne pas les évoquer ici"/>
+                <non data-type="item" data-uid="fbbe71f0758ada6054aec38dd5a693cf" data-label="Non"/>
+            </des_biens_meubles_sont_ils_compris_dans_la_vente>
+            <souhaitez_vous_signaler_des_particularites_lots data-type="menu" data-uid="13416ecc5b6e10518e1956bc298b8c8a" data-label="Souhaitez-vous signaler des particularites ?">
+                <non data-type="item" data-uid="b91834caa3fc15243faf839fba49b86b" data-label="Non"/>
+                <oui data-type="item" data-uid="5e67922097cdaa16014c54e62d379ce8" data-label="Oui"/>
+            </souhaitez_vous_signaler_des_particularites_lots>
+            <vente_porte_t_elle_aussi_sur_un_lot_annexe data-type="menu" data-uid="bf0afe2fa7919c12b23d91b6d3fed914" data-label="La vente porte-t-elle aussi sur la vente d'un ou plusieurs lots annexes compris dans la meme copropriete ?" data-duplicate="1">
+                <non data-type="item" data-uid="71fb9ec20ac168a6410b3ce2e1104ae5" data-label="Non"/>
+                <oui_meme_copropriete data-type="item" data-uid="f1b6b66518de58557a3a1fd6d69b6611" data-label="Oui">
+                    <combien_de_tantiemes data-type="menu" data-uid="0994a18b30c617b28d7a8ee5a1b2773a" data-label="Combien de tantiemes souhaitez-vous mentionner ?">
+                        <un data-type="item" data-uid="0362e70844a981ac0d8e80ea02b2141c" data-label="Un"/>
+                        <deux data-type="item" data-uid="fd683b2638bf649ab1d0120430646a1a" data-label="Deux"/>
+                        <trois data-type="item" data-uid="99100308803dfec8d20750684cad1e5f" data-label="Trois"/>
+                        <quatre data-type="item" data-uid="abf326657c04065c39bc2c00186b89d1" data-label="Quatre"/>
+                        <plus_de_quatre data-type="item" data-uid="94dab404718631de2708d9a3453cd32a" data-label="Plus de quatre"/>
+                    </combien_de_tantiemes>
+                    <qui_a_effectue_le_mesurage data-type="menu" data-uid="07ecca7ed7205320eb5153ffa1d07e2f" data-label="Le mesurage du lot a-t-il deja ete effectue ?">
+                        <un_geometre_expert data-type="item" data-uid="9706c91d8b7ad171232da263b4d102ab" data-label="Oui, par un géomètre-expert ou un diagnostiqueur professionnel"/>
+                        <le_vendeur_qui_fournit_le_certificat_de_mesurage_annexe_a_son_titre_de_propriete data-type="item" data-uid="42db44a4dec0085150ceb8be89e647b3" data-label="Oui, par le vendeur qui fournit le certificat de mesurage annexé à son titre de propriété"/>
+                        <le_vendeur_lui_meme_qui_fournit_un_autre_justificatif data-type="item" data-uid="68790e8363c3b47ef71c10e89895c788" data-label="Oui, par le vendeur lui-même qui fournit un autre justificatif"/>
+                        <le_vendeur_lui_meme_et_il_garantit_son_mesurage data-type="item" data-uid="2ac49d038708dbd89274d787215e8f26" data-label="Oui, par le vendeur lui-même et il garantit son mesurage"/>
+                        <non data-type="item" data-uid="ff7734d451e981d565e6985e089dd75f" data-label="Non, pas concerné par l'obligation de mesurage"/>
+                    </qui_a_effectue_le_mesurage>
+                    <souhaitez_vous_signaler_des_particularites_cadastre data-type="menu" data-uid="f2aaac9fbbaafcaffae6ea4ebeaa38f1" data-label="Souhaitez-vous signaler des particularites ?">
+                        <non data-type="item" data-uid="490b4dd31c3700fa32782279eddad8a1" data-label="Non"/>
+                        <oui data-type="item" data-uid="63e8a851c479484f50edc4970456c516" data-label="Oui"/>
+                    </souhaitez_vous_signaler_des_particularites_cadastre>
+                </oui_meme_copropriete>
+            </vente_porte_t_elle_aussi_sur_un_lot_annexe>
+        </lot_principal>
+        <lot_annexe data-type="item" data-uid="b047e4693180bc9834f231af78b2741d" data-label="Un lot annexe de copropriété">
+            <quelle_est_la_nature_du_bien_vendu data-type="menu" data-uid="0e2ef024013775a24a337fe2f9e3ee8f" data-label="Quelle est la nature du lot annexe ?" data-duplicate="1">
+                <une_cave_situee_dans_la_meme_copropriete data-type="item" data-uid="cc1cde353d60b007d346f48b20338805" data-label="Une cave">
+                    <nature_du_lot data-type="menu" data-uid="73724b00fe786e6ae72d6e49320cff11" data-label="Quelle est la nature du lot ?">
+                        <lot_defini_dans_le_reglement_de_copropriete data-type="item" data-uid="bf0b11fc8086a5ddacdbc113b5ca3a99" data-label="Il est défini dans le règlement de copropriété"/>
+                        <lot_issu_de_la_division_d_un_ou_plusieurs_lots data-type="item" data-uid="e2dbb7fe2d3d5ef512b225196e55fe88" data-label="Il résulte de la division d'un ou plusieurs lots"/>
+                        <lot_issu_de_la_reunion_d_un_ou_plusieurs_lots data-type="item" data-uid="7b44eca0f5e641bc48a56b3cac425c18" data-label="Il résulte de la réunion d'un ou plusieurs lots"/>
+                    </nature_du_lot>
+                </une_cave_situee_dans_la_meme_copropriete>
+                <un_garage_situe_dans_la_meme_copropriete data-type="item" data-uid="1009515fd980a4d9061c66ce5840b7e1" data-label="Un garage">
+                    <nature_du_lot data-type="menu" data-uid="41aa5de226fd25668e3b093c3e1079f0" data-label="Quelle est la nature du lot ?">
+                        <lot_defini_dans_le_reglement_de_copropriete data-type="item" data-uid="97187f6c0a314890f317ba9dc63a686e" data-label="Il est défini dans le règlement de copropriété"/>
+                        <lot_issu_de_la_division_d_un_ou_plusieurs_lots data-type="item" data-uid="b0d06e58fade0a67728f17c0a7094a96" data-label="Il résulte de la division d'un ou plusieurs lots"/>
+                        <lot_issu_de_la_reunion_d_un_ou_plusieurs_lots data-type="item" data-uid="cc49dd7e61e22d60404128455085d975" data-label="Il résulte de la réunion d'un ou plusieurs lots"/>
+                    </nature_du_lot>
+                </un_garage_situe_dans_la_meme_copropriete>
+                <un_emplacement_de_stationnement_situe_dans_la_meme_copropriete data-type="item" data-uid="560f812c72a9a4b630969f015193e044" data-label="Un emplacement de stationnement">
+                    <nature_du_lot data-type="menu" data-uid="fe3189fe77ce945a52104ee8f7ebf383" data-label="Quelle est la nature du lot ?">
+                        <lot_defini_dans_le_reglement_de_copropriete data-type="item" data-uid="816c07cb0394da43090e987bb7bfe398" data-label="Il est défini dans le règlement de copropriété"/>
+                        <lot_issu_de_la_division_d_un_ou_plusieurs_lots data-type="item" data-uid="f23dfa2c6c7600c85ee428d8834e08f8" data-label="Il résulte de la division d'un ou plusieurs lots"/>
+                        <lot_issu_de_la_reunion_d_un_ou_plusieurs_lots data-type="item" data-uid="7e54a0c71c1070edda5a6429f2b205c2" data-label="Il résulte de la réunion d'un ou plusieurs lots"/>
+                    </nature_du_lot>
+                </un_emplacement_de_stationnement_situe_dans_la_meme_copropriete>
+                <autre data-type="item" data-uid="64f6dced4898eda51fe0e2b82e4b0385" data-label="Autre">
+                    <nature_du_lot data-type="menu" data-uid="5ffa19c631f9a5358f6c880c5c3c6939" data-label="Quelle est la nature du lot ?">
+                        <lot_defini_dans_le_reglement_de_copropriete data-type="item" data-uid="58978bd9925a4a5675f8db0c28c782f2" data-label="Il est défini dans le règlement de copropriété"/>
+                        <lot_issu_de_la_division_d_un_ou_plusieurs_lots data-type="item" data-uid="256b53f3459284db16c779a55f1ae0db" data-label="Il résulte de la division d'un ou plusieurs lots"/>
+                        <lot_issu_de_la_reunion_d_un_ou_plusieurs_lots data-type="item" data-uid="321b8a401227bfd5b5d32d472e5c1207" data-label="Il résulte de la réunion d'un ou plusieurs lots"/>
+                    </nature_du_lot>
+                </autre>
+            </quelle_est_la_nature_du_bien_vendu>
+            <references_cadastrales data-type="menu" data-uid="3a0a6a52b1613b89a3c46b1940461625" data-label="Souhaitez-vous mentionner les references cadastrales ?">
+                <au_cadastre data-type="item" data-uid="f02699653613b5488dee8cb592703b16" data-label="Oui et le bien est enregistré au cadastre"/>
+                <au_livre_foncier data-type="item" data-uid="27e2c0167009996a3765d14a4cc1759c" data-label="Oui et le bien est enregistré au livre foncier"/>
+                <saisie_libre data-type="item" data-uid="b55fbadf43da6f0f21f3e0d820fd8110" data-label="Oui et texte de saisie libre"/>
+                <non data-type="item" data-uid="f6c759fe5f21788d179593fee55e9fe7" data-label="Non"/>
+            </references_cadastrales>
+            <souhaitez_vous_signaler_des_particularites_cadastre data-type="menu" data-uid="22897756fe27ba11b984911e586cf2e2" data-label="Souhaitez-vous signaler des particularites ?">
+                <non data-type="item" data-uid="6cf6172be264b7e6e6dc48bf2d7043f6" data-label="Non"/>
+                <oui data-type="item" data-uid="5ae2fc9b67e39e91540442bd0785f3e4" data-label="Oui"/>
+            </souhaitez_vous_signaler_des_particularites_cadastre>
+        </lot_annexe>
+        <bien_monopropriete data-type="item" data-uid="188621393c089db7159ce0f30bc93277" data-label="Un bien en monopropriété (maison)">
+            <references_cadastrales data-type="menu" data-uid="560773e3cf5f5a78bc57a1cb8b9729ff" data-label="Souhaitez-vous mentionner les references cadastrales ?">
+                <au_cadastre data-type="item" data-uid="4d91a59982ef0a07f57d2cc2d1726155" data-label="Oui et le bien est enregistré au cadastre"/>
+                <au_livre_foncier data-type="item" data-uid="0a1752cc19d53217274313ecf3db1135" data-label="Oui et le bien est enregistré au livre foncier"/>
+                <saisie_libre data-type="item" data-uid="0c8c4d1637607bc09694408923d08fd0" data-label="Oui et texte de saisie libre"/>
+                <non data-type="item" data-uid="24a6cce0fa5578565e65a43e8ffab353" data-label="Non"/>
+            </references_cadastrales>
+            <des_biens_meubles_sont_ils_compris_dans_la_vente data-type="menu" data-uid="54ad03224230854d1d0fd8f9d62beb46" data-label="Des biens meubles sont-ils compris dans la vente ?">
+                <oui_et_vous_souhaitez_les_mentionner_dans_un_tableau data-type="item" data-uid="29a83a6a72b7af088d024f0db21e0d60" data-label="Oui et vous souhaitez les mentionner dans le mandat dans un tableau"/>
+                <oui_et_vous_souhaitez_les_mentionner_dans_une_saisie_libre data-type="item" data-uid="9d5f557b53a909d58afff026dad483b4" data-label="Oui et vous souhaitez les mentionner dans une zone de texte libre"/>
+                <oui_mais_vous_preferez_annexer_au_compromis_un_inventaire_detaille data-type="item" data-uid="074074cf994098386189cd6679183f93" data-label="Oui mais vous préférez les mentionner dans une annexe"/>
+                <oui_mais_vous_preferez_ne_pas_les_evoquer_dans_le_mandat data-type="item" data-uid="91064aa26727196e91846b49baf9e505" data-label="Oui mais vous préférez ne pas les évoquer ici"/>
+                <non data-type="item" data-uid="f5590678944118a32fe87b99a8781ed0" data-label="Non"/>
+            </des_biens_meubles_sont_ils_compris_dans_la_vente>
+            <souhaitez_vous_signaler_des_particularites_equipements data-type="menu" data-uid="7de12a35d5ff793366de03e6f535004c" data-label="Souhaitez-vous signaler des particularites ?">
+                <non data-type="item" data-uid="d0e488fce5ad6e43f4970c2b3246679e" data-label="Non"/>
+                <oui data-type="item" data-uid="bd53ea48f415bdebb701f354d49d1c8f" data-label="Oui"/>
+            </souhaitez_vous_signaler_des_particularites_equipements>
+        </bien_monopropriete>
+        <un_terrain_a_batir data-type="item" data-uid="03180daa971d1003358f9ff460ed04fa" data-label="Un terrain à bâtir hors lotissement et hors ZAC">
+            <references_cadastrales data-type="menu" data-uid="a3e8f99dd9403b96a57dba56ff7c710d" data-label="Souhaitez-vous mentionner les references cadastrales ?">
+                <au_cadastre data-type="item" data-uid="aa7627e455f47917ec1f7be8a8215cf4" data-label="Oui et le bien est enregistré au cadastre"/>
+                <au_livre_foncier data-type="item" data-uid="f3dce0348c69ee6871d99b979f0a230d" data-label="Oui et le bien est enregistré au livre foncier"/>
+                <saisie_libre data-type="item" data-uid="0e13fe56754a1dea4c8a83bb8d1ec60e" data-label="Oui et texte de saisie libre"/>
+                <non data-type="item" data-uid="3be9d89de711f5d81f2965086503d051" data-label="Non"/>
+            </references_cadastrales>
+            <le_terrain_est_il_situe_soumis_a_l_obligation_de_fournir_une_etude_geotechnique_prealable data-type="menu" data-uid="2aae869fe492cb58c77532b53cd01b39" data-label="Le terrain est-il situe soumis a l’obligation de fournir une etude geotechnique prealable ?">
+                <non data-type="item" data-uid="3d57df7fea479fa1fb79add01bb63057" data-label="Non"/>
+                <oui data-type="item" data-uid="123e936ca2d4ec4baa1257b8cd278df6" data-label="Oui">
+                    <le_mandant_vous_charge_t_il_de_lui_recommander_un_bureau_d_etudes data-type="menu" data-uid="60ea5e3f198bf3f71233832ffdbf4f70" data-label="Le mandant vous charge-t-il de lui recommander un bureau d’etudes ?">
+                        <non data-type="item" data-uid="ef4290243690c79d887f7a92f061e442" data-label="Non"/>
+                        <oui data-type="item" data-uid="9283497f8d6f8c59f8c783e36a872df4" data-label="Oui"/>
+                    </le_mandant_vous_charge_t_il_de_lui_recommander_un_bureau_d_etudes>
+                </oui>
+            </le_terrain_est_il_situe_soumis_a_l_obligation_de_fournir_une_etude_geotechnique_prealable>
+            <souhaitez_vous_signaler_des_particularites_cadastre data-type="menu" data-uid="88df5eedc63d80c1fc53888fb2f9ae55" data-label="Souhaitez-vous signaler des particularites ?">
+                <non data-type="item" data-uid="723a27875f8406c6c7cb722fdf8e3352" data-label="Non"/>
+                <oui data-type="item" data-uid="f5602e9996e4ae8e6fd11aa3b93df6df" data-label="Oui"/>
+            </souhaitez_vous_signaler_des_particularites_cadastre>
+        </un_terrain_a_batir>
+        <un_terrain data-type="item" data-uid="675408720534bb4f2aec0b0e0ed3b75e" data-label="Un terrain non constructible">
+            <references_cadastrales data-type="menu" data-uid="8295d882d0c0c4e1ff8954e47251c748" data-label="Souhaitez-vous mentionner les references cadastrales ?">
+                <au_cadastre data-type="item" data-uid="6f55fc1949d0794cf4c40c52afc95d23" data-label="Oui et le bien est enregistré au cadastre"/>
+                <au_livre_foncier data-type="item" data-uid="4022d02463e87cfd50492525dab00a55" data-label="Oui et le bien est enregistré au livre foncier"/>
+                <saisie_libre data-type="item" data-uid="3a49dbeac9ad19213030cba3c353ce0d" data-label="Oui et texte de saisie libre"/>
+                <non data-type="item" data-uid="597bde13afd5243fcdcbcb9437183be6" data-label="Non"/>
+            </references_cadastrales>
+            <souhaitez_vous_signaler_des_particularites_cadastre data-type="menu" data-uid="c540c16362659a84a92ec53ca8a99eb8" data-label="Souhaitez-vous signaler des particularites ?">
+                <non data-type="item" data-uid="c0f387df0f315bebbe874cbbbdb4902f" data-label="Non"/>
+                <oui data-type="item" data-uid="1799324ffaa48d4c6df13911b4be281b" data-label="Oui"/>
+            </souhaitez_vous_signaler_des_particularites_cadastre>
+        </un_terrain>
+        <un_terrain_lotissement data-type="item" data-uid="da1da02b1ef2f928814ebc86534dd960" data-label="Un terrain situé dans un lotissement">
+            <terrain_compris_dans_une_copropriete_horizontale data-type="menu" data-uid="717017c98c1a4fa42cd31e1932e0084d" data-label="Le terrain est-il compris dans une copropriete horizontale ?">
+                <non data-type="item" data-uid="fe13d235e82ce8bc9247d28322b7e822" data-label="Non"/>
+                <oui data-type="item" data-uid="579a323ba50af5f679b28df697a79ea6" data-label="Oui"/>
+            </terrain_compris_dans_une_copropriete_horizontale>
+            <le_bien_est_il_enregistre_au_cadastre data-type="menu" data-uid="201a6faac83d5b947514c3320c5dce34" data-label="Le terrain dispose-t-il deja de references cadastrales propres ?">
+                <rien_indiquer data-type="item" data-uid="66c8240fcc45f1d992b3485223657abb" data-label="Vous préférez ne rien indiquer"/>
+                <non data-type="item" data-uid="ea2b13f56e08f67cc8ff80cce5790a59" data-label="Non"/>
+                <au_cadastre data-type="item" data-uid="0215b4be33f3669efd04acb06a8f41e8" data-label="Oui, au cadastre"/>
+                <au_livre_foncier data-type="item" data-uid="d6f99bcc8e0d825c82eb559bc177ea5e" data-label="Oui, au livre foncier"/>
+                <saisie_libre data-type="item" data-uid="def3edb8f3bd1b07e50255d5d7cc5af9" data-label="Oui et texte de saisie libre"/>
+            </le_bien_est_il_enregistre_au_cadastre>
+            <le_terrain_est_il_destine_a_recevoir_une_construction_a_usage_d_habitation data-type="menu" data-uid="dfd81925b214d330cc3e6cf02b3c6b3b" data-label="Le terrain est-il destine a recevoir une construction a usage d'habitation ou mixte (bornage) ?">
+                <oui_et_le_bornage_a_ete_realise data-type="item" data-uid="649b9506686e97160d8b6f5ba38ab820" data-label="Oui : le bornage a été réalisé"/>
+                <oui_mais_le_bornage_n_a_pas_encore_ete_realise data-type="item" data-uid="544a09e250472839725fb89d2d4648dd" data-label="Oui : le bornage n'a pas été réalisé"/>
+                <non_mais_un_bornage_est_joint data-type="item" data-uid="c43859592ade82d2501388122f605c1a" data-label="Non mais un bornage est joint"/>
+                <non_et_il_n_y_a_pas_de_bornage data-type="item" data-uid="214d865f528d5898274d45fe4641be08" data-label="Non et il n’y a pas de bornage"/>
+                <autre_situation data-type="item" data-uid="edde1cf5fcb5f3a889347d96d2898585" data-label="Autre situation"/>
+            </le_terrain_est_il_destine_a_recevoir_une_construction_a_usage_d_habitation>
+            <mentionner_la_surface_constructible data-type="menu" data-uid="86dd5cb03bb85b71d153d63f501da179" data-label="Souhaitez-vous mentionner la surface constructible ?">
+                <oui data-type="item" data-uid="e938c12c9a9e17ceb74aa5252818746b" data-label="Oui"/>
+                <non data-type="item" data-uid="52b1013c93f5fe3fd4b35f357be0a5c9" data-label="Non"/>
+            </mentionner_la_surface_constructible>
+            <le_terrain_est_il_situe_soumis_a_l_obligation_de_fournir_une_etude_geotechnique_prealable data-type="menu" data-uid="82d1c165ec0f22f3b2a20978eeb8bd06" data-label="Le terrain est-il situe soumis a l’obligation de fournir une etude geotechnique prealable ?">
+                <non data-type="item" data-uid="b2ea938d0aaa9652ff83fe32ce4a61a5" data-label="Non"/>
+                <oui data-type="item" data-uid="a4a869a41dc3183280d75bd6d55c04f4" data-label="Oui">
+                    <le_mandant_vous_charge_t_il_de_lui_recommander_un_bureau_d_etudes data-type="menu" data-uid="51a16e656de59add1a4f9e35f7f1dea9" data-label="Le mandant vous charge-t-il de lui recommander un bureau d’etudes ?">
+                        <non data-type="item" data-uid="c85fa5b97d14395afe38e498b4098b55" data-label="Non"/>
+                        <oui data-type="item" data-uid="413935737ae7f79d9001c819a6126897" data-label="Oui"/>
+                    </le_mandant_vous_charge_t_il_de_lui_recommander_un_bureau_d_etudes>
+                </oui>
+            </le_terrain_est_il_situe_soumis_a_l_obligation_de_fournir_une_etude_geotechnique_prealable>
+        </un_terrain_lotissement>
+        <autre_situation data-type="item" data-uid="e237c9135f4ed7c9f45404f33d8d9965" data-label="Autre bien">
+            <references_cadastrales data-type="menu" data-uid="b72f6b2449bb29f395fe0a2bae7d374c" data-label="Souhaitez-vous mentionner les references cadastrales ?">
+                <au_cadastre data-type="item" data-uid="5d8e82ca7f6cc6eae05b0c840248a9fe" data-label="Oui et le bien est enregistré au cadastre"/>
+                <au_livre_foncier data-type="item" data-uid="a54a44daa32c722405cd1c8bc97dd4d9" data-label="Oui et le bien est enregistré au livre foncier"/>
+                <saisie_libre data-type="item" data-uid="cb53606b525344c0f7221d87ad6a4520" data-label="Oui et texte de saisie libre"/>
+                <non data-type="item" data-uid="5ffafcd64e01ede6f5df113b2c2cf4c8" data-label="Non"/>
+            </references_cadastrales>
+            <souhaitez_vous_signaler_des_particularites_cadastre data-type="menu" data-uid="f26239862eaf1e5fedc6bb1a9db697c5" data-label="Souhaitez-vous signaler des particularites ?">
+                <non data-type="item" data-uid="8ce2b5bae8464898e8f05e2e67c24700" data-label="Non"/>
+                <oui data-type="item" data-uid="62733dd9bf34c1131dfe9c08ee3cfc11" data-label="Oui"/>
+            </souhaitez_vous_signaler_des_particularites_cadastre>
+        </autre_situation>
+        <vous_souhaitez_le_completer_a_la_main data-type="item" data-uid="324153ecf02fc48f8dada7bd22018171" data-label="Vous souhaitez le compléter à la main"/>
+    </nature_bien_vente>
+    <quel_est_l_etat_locatif_des_biens data-type="menu" data-uid="2cc836d27f5ef40468b10fb58cca982c" data-label="Quel est l'etat d'occupation des biens ?">
+        <ils_sont_occupes_par_le_mandant data-type="item" data-uid="03d18c4ae237743962fcafc114907229" data-label="Ils sont occupés par le Mandant"/>
+        <ils_sont_libres_d_occupants data-type="item" data-uid="134dbd20a73ab8ec70087c2928581401" data-label="Ils sont libres d'occupants"/>
+        <un_bail_loi_de_1989_est_en_cours data-type="item" data-uid="4129ec3f561697f74ffd90cae90443b5" data-label="Un bail est en cours">
+            <les_biens_seront_ils_libre_d_occupant data-type="menu" data-uid="6d3dd2afb0e273721124cf7606da3a18" data-label="Les biens seront-ils vendus libres d'occupant ?">
+                <non data-type="item" data-uid="833f78bfae721fcb69d0277f761cf152" data-label="Non"/>
+                <oui data-type="item" data-uid="0e6171a18e9b04982d99fbe94a46877e" data-label="Oui">
+                    <le_locataire_dispose_t_il_d_un_droit_de_preemption data-type="menu" data-uid="28099f6787446c3e13cc4a612b69a8ca" data-label="Le locataire dispose-t-il d'un droit de preemption ?">
+                        <non data-type="item" data-uid="e06fb6db3f69ba0c725761803ae302fc" data-label="Non"/>
+                        <oui_et_il_a_ete_purge_loi_1989_bail_d_habitation data-type="item" data-uid="7983b872e1a917fceded84ee727d988b" data-label="Oui et il a été purgé (loi 1989 : bail d'habitation)"/>
+                        <oui_et_il_a_ete_purge_local_commercial_ou_artisanal data-type="item" data-uid="2c2cc249b9e0947be9908db704c2f3cc" data-label="Oui et il a été purgé (local commercial ou artisanal)"/>
+                        <oui_et_il_a_ete_purge_autres_cas data-type="item" data-uid="383d98100cd9a4fcd777e2a58a99a332" data-label="Oui et il a été purgé : autres cas"/>
+                        <oui_et_il_n_a_pas_encore_ete_purge data-type="item" data-uid="d4f68fdf5900cf36937e75ecd268e30a" data-label="Oui et il n'a pas encore été purgé"/>
+                    </le_locataire_dispose_t_il_d_un_droit_de_preemption>
+                </oui>
+            </les_biens_seront_ils_libre_d_occupant>
+        </un_bail_loi_de_1989_est_en_cours>
+        <un_conge_pour_vendre_a_ete_delivre_au_vendeur data-type="item" data-uid="2c65ec14f4d7826a8452dd80f25c7384" data-label="Ils sont occupés, mais un congé a été délivré par le locataire"/>
+        <non_les_locataires_sont_partis_suite_au_conge_qu_ils_ont_donne_au_vendeur data-type="item" data-uid="3ef06adfd0835f424ccb45410b3cb048" data-label="Ils sont libres, les locataires étant partis suite au congé qu'ils ont donné au vendeur"/>
+        <oui_mais_un_conge_pour_vendre_a_ete_delivre_aux_locataires data-type="item" data-uid="684ebf29fc2d79d496a328fd0fbb240b" data-label="Ils sont loués, mais un congé pour vendre a été délivré aux locataires"/>
+        <oui_mais_un_conge_a_ete_delivre_sans_droit_de_preemption_location_en_meuble data-type="item" data-uid="c15229dadda6f8403fb91ddc2a397f0c" data-label="Ils sont loués, mais un congé pour vendre a été délivré aux locataires sans droit de préemption (location en meublé)"/>
+        <oui_mais_un_conge_pour_motif_legitime_et_serieux_a_ete_delivre_aux_locataires data-type="item" data-uid="ef4424136a8187757072413812914936" data-label="Ils sont loués, mais un congé pour motif légitime et sérieux a été délivré aux locataires"/>
+        <non_ils_ont_ete_liberes_suite_a_un_conge_delivre_au_x_locataire_s data-type="item" data-uid="8d497cbca4dc4e2a2f1afd0982cf438d" data-label="Ils sont libres à la suite d'un congé pour vendre délivré au(x) locataire(s)"/>
+        <situation_particuliere data-type="item" data-uid="543870d00d57a16a89def448a08d7199" data-label="Situation particulière"/>
+    </quel_est_l_etat_locatif_des_biens>
+    <souhaitez_vous_preciser_le_montant_de_votre_estimation data-type="menu" data-uid="5912ddfce4be259a2330e74f1821eeb6" data-label="Souhaitez-vous preciser le montant de votre estimation ?">
+        <non data-type="item" data-uid="3cbe9a072432ed0da4994c2fd70a718c" data-label="Non"/>
+        <oui data-type="item" data-uid="41632509304d070b4f52dff1ee6ce213" data-label="Oui"/>
+    </souhaitez_vous_preciser_le_montant_de_votre_estimation>
+    <qui_supporte_les_honoraires data-type="menu" data-uid="a4417b253016f65bc01645c64249a7c7" data-label="Qui supporte les honoraires de l'agence ?">
+        <vendeur data-type="item" data-uid="78855032b6aab0c0e78200d4e51fc405" data-label="Le vendeur">
+            <souhaitez_vous_preciser_leur_mode_de_calcul data-type="menu" data-uid="2061fbe2a7f66e36515488b4f319c42b" data-label="Souhaitez-vous preciser leur mode de calcul ?">
+                <non data-type="item" data-uid="c6280bb2cc0ea3afa351509f75954199" data-label="Non"/>
+                <oui data-type="item" data-uid="fce3cf26d39efaf90abce7ee5dbaa332" data-label="Oui"/>
+            </souhaitez_vous_preciser_leur_mode_de_calcul>
+        </vendeur>
+        <acheteur data-type="item" data-uid="81aed26fa75a3ca45459884a4ceec587" data-label="L'acquéreur">
+            <souhaitez_vous_preciser_leur_mode_de_calcul data-type="menu" data-uid="45d65b3904250e7657003e3267c07938" data-label="Souhaitez-vous preciser leur mode de calcul ?">
+                <non data-type="item" data-uid="b6d094df6a6828806f8cc640fe0e2c6d" data-label="Non"/>
+                <oui data-type="item" data-uid="a934058338e43905c3b1f04c4ac863aa" data-label="Oui"/>
+            </souhaitez_vous_preciser_leur_mode_de_calcul>
+        </acheteur>
+        <partage data-type="item" data-uid="8d6c0ce92a5af084d3af7a3200176241" data-label="Partage entre le vendeur et l'acquéreur">
+            <souhaitez_vous_preciser_leur_mode_de_calcul data-type="menu" data-uid="840479bbb27f2e1a5a3ede0348cedbb4" data-label="Souhaitez-vous preciser leur mode de calcul ?">
+                <non data-type="item" data-uid="3832f09ebc15f978bdfe38cf5a177658" data-label="Non"/>
+                <oui data-type="item" data-uid="dff0b6a0498c4ea70251eed3ea8b1782" data-label="Oui"/>
+            </souhaitez_vous_preciser_leur_mode_de_calcul>
+        </partage>
+    </qui_supporte_les_honoraires>
+    <comment_souhaitez_vous_exprimer_la_duree data-type="menu" data-uid="0ab32cf8b75c89c7e546e7414f411cb7" data-label="Comment souhaitez-vous exprimer la duree ?">
+        <une_duree_de_3_mois_avec_prorogation_sans_tacite_reconduction data-type="item" data-uid="cf418a0b915d6c4e9e6f05f81697f5f6" data-label="Une durée de 3 mois avec prorogation (sans tacite reconduction)"/>
+        <une_duree_inferieure_a_3_mois_avec_prorogation_sans_tacite_reconduction data-type="item" data-uid="99bfb27a644a0f4a6ad620f2e3906716" data-label="Une durée inférieure à 3 mois avec prorogation (sans tacite reconduction)">
+            <comment_souhaitez_vous_exprimer_la_duree data-type="menu" data-uid="3d50a87dbe51eecf38a10dc5088e8a53" data-label="Quelle est la duree de l'irrevocabilite ?">
+                <une_dur_e_de_1_mois_avec_prorogation data-type="item" data-uid="7da1fd1a01dd66571567b87a23d865e5" data-label="Une durée de 1 mois avec prorogation"/>
+                <une_dur_e_de_2_mois_avec_prorogation data-type="item" data-uid="cef5ac84525b2c405f5295e6a3d8c788" data-label="Une durée de 2 mois avec prorogation"/>
+            </comment_souhaitez_vous_exprimer_la_duree>
+        </une_duree_inferieure_a_3_mois_avec_prorogation_sans_tacite_reconduction>
+        <une_duree_superieure_a_3_mois_sans_tacite_reconduction data-type="item" data-uid="1b293f6150a6d98c50556ee902dcdaa3" data-label="Une durée fixe supérieure à 3 mois sans tacite reconduction"/>
+        <une_duree_fixe_avec_faculte_de_denonciation_avant_3_mois data-type="item" data-uid="0019a0cc04cfb58cbdc8c05723a417dc" data-label="Une durée fixe avec faculté de dénonciation avant 3 mois">
+            <quelle_est_la_duree_de_l_irrevocabilite data-type="menu" data-uid="c6afd0cd81bf82b529e03f6f02027840" data-label="Quelle est la duree de l'irrevocabilite ?">
+                <deux_mois data-type="item" data-uid="4eaf8cdbf0e669481539543c1d2a29d8" data-label="Deux mois"/>
+                <un_mois data-type="item" data-uid="067d97f84ac7ffa5365722d4fa44f979" data-label="Un mois"/>
+                <aucune_le_mandat_peut_etre_denonce_a_tout_moment data-type="item" data-uid="819f01172d871c3a3dd821b6a71948eb" data-label="Aucune : le mandat peut être dénoncé à tout moment"/>
+            </quelle_est_la_duree_de_l_irrevocabilite>
+        </une_duree_fixe_avec_faculte_de_denonciation_avant_3_mois>
+        <une_duree_superieure_a_3_mois_avec_tacite_reconduction data-type="item" data-uid="60e36488b6678bad7ca9b987c9fa2d28" data-label="Une durée supérieure à 3 mois avec tacite reconduction"/>
+        <une_duree_inferieure_a_3_mois_avec_tacite_reconduction data-type="item" data-uid="a20530dfe7c0be83a415884bf53f094a" data-label="Une durée inférieure à 3 mois avec tacite reconduction"/>
+    </comment_souhaitez_vous_exprimer_la_duree>
+    <que_recouvre_la_semi_exclusivite data-type="menu" data-uid="9d9e02706de4202d582a53f2517ab5d8" data-label="Que recouvre la semi-exclusivite ?">
+        <le_mandant_conserve_la_liberte_de_vendre_seul_les_biens data-type="item" data-uid="8ab9a75663cba96caa0ba31e290abf80" data-label="Le Mandant conserve la liberté de vendre seul les biens"/>
+        <elle_conduit_a_une_reduction_des_honoraires_charge_vendeur_si_le_mandant_trouve_l_acquereur data-type="item" data-uid="d5f9fdb33d6920b160691b76f4d96c19" data-label="Elle conduit à une réduction des honoraires charge vendeur si le mandant trouve l'acquéreur"/>
+    </que_recouvre_la_semi_exclusivite>
+    <souhaitez_vous_inserer_une_obligation_d_accepter_les_offres_faites_aux_conditions_du_mandat data-type="menu" data-uid="31ae412f1be04a351f00a459a89fe810" data-label="Souhaitez-vous inserer une obligation d'accepter les offres faites aux conditions du mandat ?">
+        <non data-type="item" data-uid="9c68f222cb65c006bad64f0583ed14a5" data-label="Non"/>
+        <oui data-type="item" data-uid="8f120bf6cd405370947298b98bf8571d" data-label="Oui"/>
+    </souhaitez_vous_inserer_une_obligation_d_accepter_les_offres_faites_aux_conditions_du_mandat>
+    <le_mandant_fait_il_l_objet_d_une_mesure_de_protection_tutelle_curatelle_etc data-type="menu" data-uid="9a751406ec9bc6e642e810466fee8f81" data-label="Le mandant fait-il l'objet d'une mesure de protection (tutelle, curatelle etc.) ?">
+        <non data-type="item" data-uid="dc1d361e72b224c6b27c4aa942ecbd43" data-label="Non"/>
+        <item_data_label data-type="item" data-uid="3659ebd76acc3d9575b9f63957e051b4" data-label="Oui"/>
+    </le_mandant_fait_il_l_objet_d_une_mesure_de_protection_tutelle_curatelle_etc>
+    <un_dpe_a_t_il_ete_realise_avant_le_1er_juillet_2021_pour_le_bien data-type="menu" data-uid="756fe2a63b11a95536062b7218ca38fc" data-label="Un dpe conforme a la reglementation applicable au 1er juillet 2021 a-t-il ete etabli ?">
+        <oui data-type="item" data-uid="45d0eefd2cd4ca1366a264448d6e5b85" data-label="Oui"/>
+        <non_le_mandant_n_a_pas_de_dpe_et_le_dpe_sera_tabli_apr_s_le_1er_juillet_2021 data-type="item" data-uid="3a9e593c73d6f8fa977a2210487cdf5e" data-label="Non, le mandant n'a pas de DPE"/>
+        <non_et_le_mandant_dispose_d_un_dpe_en_cours_de_validit data-type="item" data-uid="7b570ca3daa38a2809475bb3e38a69fd" data-label="Non car le mandant dispose d'un DPE établi avant le 1er juillet 2021 et encore valable">
+            <le_mandant_accepte_t_il_de_realiser_un_dpe_conforme_a_la_nouvelle_reglementation data-type="menu" data-uid="c490850f58f86f14f72d4b87ed6dbb6d" data-label="Le mandant accepte-t-il de realiser un dpe conforme a la nouvelle reglementation ?">
+                <oui data-type="item" data-uid="01f211ea8019885264d07b84397ee40d" data-label="Oui"/>
+                <non data-type="item" data-uid="1d5411a297395e6c73b7e136086faefe" data-label="Non"/>
+                <autres_modalit_s data-type="item" data-uid="2c5e2744e6172a234fadec2c7c8d36a5" data-label="Autres modalités"/>
+            </le_mandant_accepte_t_il_de_realiser_un_dpe_conforme_a_la_nouvelle_reglementation>
+        </non_et_le_mandant_dispose_d_un_dpe_en_cours_de_validit>
+        <vous_souhaitez_rediger_la_clause data-type="item" data-uid="74f5fe90e70deb999dd44c2a6c2c477a" data-label="Autre situation : texte libre"/>
+        <sans_objet_le_bien_n_est_pas_soumis_au_dpe data-type="item" data-uid="03abcbe6c2a831eb320a1f7f32f60ab5" data-label="Sans objet : le bien n'est pas soumis au DPE"/>
+    </un_dpe_a_t_il_ete_realise_avant_le_1er_juillet_2021_pour_le_bien>
+    <le_bien_est_il_a_usage_d_habitation_ou_destine_a_cet_usage data-type="menu" data-uid="3b30f0e2dba07b4404257774bad15a2c" data-label="Le bien est-il a usage d'habitation ou destine a cet usage ?">
+        <oui_en_france_metropolitaine_ou_corse data-type="item" data-uid="bdb4b6b0ba88b545eb8b7dcea737e8da" data-label="Oui, en France métropolitaine et en Corse"/>
+        <oui_en_guadeloupe_martinique_guyane_a_la_reunion_ou_mayotte data-type="item" data-uid="e7ad1fd11312bf647aaec1959cdf5af5" data-label="Oui, en Guadeloupe, Martinique, Guyane, à La Réunion ou Mayotte"/>
+        <non data-type="item" data-uid="d68c0a938684a2b5e66538bbc40f21ad" data-label="Non"/>
+        <autre_texte_libre data-type="item" data-uid="fe61a4f83442d3e44c4bf547eeefb6da" data-label="Autre (Texte libre)"/>
+    </le_bien_est_il_a_usage_d_habitation_ou_destine_a_cet_usage>
+    <mandant_autorise_la_pose_d_un_panonceau data-type="menu" data-uid="a71b2c74aa872c8f02cfa237be5dd905" data-label="Le mandant autorise-t-il la pose d'un panonceau vendu par l'agence ?">
+        <oui data-type="item" data-uid="a3969741b7f3415b77d13ace5dcbbc72" data-label="Oui"/>
+        <non data-type="item" data-uid="ce9443fdc8d20a149e4f65337807fec9" data-label="Non"/>
+    </mandant_autorise_la_pose_d_un_panonceau>
+    <disposez_vous_d_un_compte_sequestre data-type="menu" data-uid="1e420ac31c452bc9216f9a45dd6044ad" data-label="Serez-vous sequestre de l'acompte eventuellement verse ?">
+        <oui data-type="item" data-uid="9998750aabe4c27b51107b60a3fce8cb" data-label="Oui"/>
+        <non data-type="item" data-uid="9de39589648b080b083b61be0cf296ff" data-label="Non"/>
+    </disposez_vous_d_un_compte_sequestre>
+    <souhaitez_vous_ajouter_d_autres_conditions_particulieres data-type="menu" data-uid="bab88e51a4fedac901664fabc77c9782" data-label="Souhaitez-vous inserer une clause d’acceptation des offres notifiees electroniquement ?">
+        <oui data-type="item" data-uid="9adc0c8115620966f618ddfe2953a1d4" data-label="Oui"/>
+        <non data-type="item" data-uid="a14b6d7789d16dc65cfad94f371f2a21" data-label="Non"/>
+    </souhaitez_vous_ajouter_d_autres_conditions_particulieres>
+    <realisation_d_un_dossier_de_presentation_des_biens data-type="menu" data-uid="89e03c9a523aaaee763e3c8b74f959ec" data-label="Realisation d'un dossier de presentation des biens ?">
+        <oui data-type="item" data-uid="e5507490892a749798b909e4390096f2" data-label="Oui"/>
+        <non data-type="item" data-uid="5249c303bf1d87016297a25f49ff4fbc" data-label="Non"/>
+    </realisation_d_un_dossier_de_presentation_des_biens>
+    <realisation_d_un_reportage_photo data-type="menu" data-uid="89115ee28dedbd0cbe94d29a591b6c9e" data-label="Realisation d'un reportage photo ?">
+        <oui data-type="item" data-uid="3681a0da5ba804fe79e5d4c9d81caaec" data-label="Oui"/>
+        <non data-type="item" data-uid="bb805100eb4ec0f352b8b53a997d5ecf" data-label="Non"/>
+    </realisation_d_un_reportage_photo>
+    <realisation_d_une_video_de_presentation data-type="menu" data-uid="0eb58eb50533970cdfd7be8fcb7ad2da" data-label="Realisation d'une video de presentation ?">
+        <oui data-type="item" data-uid="a4af6cdf89728c0feb57ce62899ca193" data-label="Oui"/>
+        <non data-type="item" data-uid="83ff794a99abd9c1947537b721ff3dd4" data-label="Non"/>
+    </realisation_d_une_video_de_presentation>
+    <affichage_en_vitrine data-type="menu" data-uid="2b5c849dda8b2fbf8b11e0a3eaf47aa2" data-label="Affichage en vitrine ?">
+        <oui data-type="item" data-uid="599969ac63eef380ba4d3add6b8c5937" data-label="Oui"/>
+        <non data-type="item" data-uid="732f329aa5aa92c645aad691b5a5afd0" data-label="Non"/>
+    </affichage_en_vitrine>
+    <pose_d_un_panonceau data-type="menu" data-uid="8ee1386a4bf1362db83ce7cd02df9eb7" data-label="Pose d'un panonceau ?">
+        <oui data-type="item" data-uid="fd0f5089f232b61fa1b4343836459b83" data-label="Oui"/>
+        <non data-type="item" data-uid="99f9ec385b612bb70b76c5b624958d0d" data-label="Non"/>
+    </pose_d_un_panonceau>
+    <presentation_sur_le_site_web_de_l_agence data-type="menu" data-uid="1b8a2e56457a0ba851b7383689fe605f" data-label="Presentation sur le site web de l'agence ?">
+        <oui data-type="item" data-uid="822d00cd24cc8d94c0ae1f782b977a1e" data-label="Oui"/>
+        <non data-type="item" data-uid="59f60d6740bf7a65046818649f2956c7" data-label="Non"/>
+    </presentation_sur_le_site_web_de_l_agence>
+    <presentation_sur_le_site_web_du_reseau data-type="menu" data-uid="964763606a2eeba8f460111a57839430" data-label="Presentation sur le site web du reseau ?">
+        <oui data-type="item" data-uid="9af26c10b0789370c55af2ce9ea52257" data-label="Oui"/>
+        <non data-type="item" data-uid="41508dbc790e8815cb3e7c137c2b43b0" data-label="Non"/>
+    </presentation_sur_le_site_web_du_reseau>
+    <presentation_sur_des_sites_web_specialises data-type="menu" data-uid="5e45e8071641897098509f5bd3626564" data-label="Presentation sur des sites web specialises ?">
+        <oui data-type="item" data-uid="73b2fa319e770697fe9efa87f2846d23" data-label="Oui"/>
+        <non data-type="item" data-uid="5595cfea3ac97868acfca6372fe0222e" data-label="Non"/>
+    </presentation_sur_des_sites_web_specialises>
+    <d_autres_actions_de_communication data-type="menu" data-uid="027fca6b9480040eb71ecd42e645d378" data-label="D'autres actions de communication ?">
+        <oui data-type="item" data-uid="b1ec68813b900702656cf05e324493b2" data-label="Oui"/>
+        <non data-type="item" data-uid="95db7a5b92da9e18edabf431c0b43ff5" data-label="Non"/>
+    </d_autres_actions_de_communication>
+    <frequence_des_comptes_rendus_des_visites data-type="menu" data-uid="9096528439a020b4970f9d0aafd55115" data-label="Frequence des comptes rendus des visites ?">
+        <apres_chaque_visite data-type="item" data-uid="589379e1b8de9bf56e2ae6180e6a150b" data-label="Après chaque visite"/>
+        <chaque_semaine data-type="item" data-uid="a97b561240fe3de22702a6bac90cf636" data-label="Chaque semaine"/>
+        <autre data-type="item" data-uid="c02e99898223ffbf439d81fd4b478704" data-label="Autre"/>
+    </frequence_des_comptes_rendus_des_visites>
+    <souhaitez_vous_indiquer_d_autres_engagements data-type="menu" data-uid="e2e21ec7266fa487f2b2f3e298ac49e6" data-label="Souhaitez-vous indiquer d'autres engagements ?">
+        <oui data-type="item" data-uid="5f3b441de8e01bc889915c743219b347" data-label="Oui"/>
+        <non data-type="item" data-uid="f24a5b4bbe8bcf9d0ab5e6e645de7c7d" data-label="Non"/>
+    </souhaitez_vous_indiquer_d_autres_engagements>
+    <le_mandant_souhaite_t_il_des_maintenant_designer_un_notaire_particulier data-type="menu" data-uid="b25d61cfeaeac9bc7a1537960ef842d7" data-label="Le mandant souhaite-t-il des maintenant designer un notaire particulier ?">
+        <non data-type="item" data-uid="8c3aa22e3d064cdf8bc60c391ffa8a3b" data-label="Non"/>
+        <oui data-type="item" data-uid="e59dd2c3a9b6e572696a375420bf5a55" data-label="Oui"/>
+    </le_mandant_souhaite_t_il_des_maintenant_designer_un_notaire_particulier>
+    <le_mandant_est_il_un_particulier data-type="menu" data-uid="69fe621fd1723abfde3542a20d8e7320" data-label="Le mandant est-il un consommateur ?">
+        <oui data-type="item" data-uid="b6200a4ba03d4eded01d813739f06982" data-label="Oui">
+            <avez_vous_designe_un_mediateur_de_la_consommation data-type="menu" data-uid="98bb11c31a980f1a8b501106fdc3d369" data-label="Avez-vous designe un mediateur de la consommation?">
+                <non data-type="item" data-uid="c0c309ee55ccf37451b1b0b2527a1c8d" data-label="Non"/>
+                <oui data-type="item" data-uid="342cf8ef7b8bbd4d4755dfcd8e7613f1" data-label="Oui"/>
+            </avez_vous_designe_un_mediateur_de_la_consommation>
+        </oui>
+        <non data-type="item" data-uid="19ade31abd1f2550a1638c1df2cf2b71" data-label="Non"/>
+    </le_mandant_est_il_un_particulier>
+    <souhaitez_vous_inserer_une_clause_de_delegation_de_mandat data-type="menu" data-uid="0706bc675d598c5ca63e8a781542abfe" data-label="Souhaitez-vous inserer une clause de delegation de mandat ?">
+        <non data-type="item" data-uid="ee4e9c803c949909557a5e5da5c4820c" data-label="Non"/>
+        <oui data-type="item" data-uid="c0e056b06b154b3118025652c922928c" data-label="Oui"/>
+    </souhaitez_vous_inserer_une_clause_de_delegation_de_mandat>
+    <votre_agence_fait_elle_partie_d_un_reseau_d_agences_immobilieres data-type="menu" data-uid="72bce36c6ccb884d1178f8a162ed04b0" data-label="Votre agence fait-elle partie d’un reseau d’agences immobilieres ?">
+        <non data-type="item" data-uid="f8b96419685a1434b1ee5074a9fe46c3" data-label="Non"/>
+        <oui data-type="item" data-uid="4379b5f1915dd0ca223ae670f83b1494" data-label="Oui"/>
+    </votre_agence_fait_elle_partie_d_un_reseau_d_agences_immobilieres>
+    <souhaitez_vous_ajouter_une_clause_particuliere data-type="menu" data-uid="b4acbb5085e3d69553adb1f4ef1a73f8" data-label="Souhaitez-vous ajouter une clause particuliere ?">
+        <oui data-type="item" data-uid="3cd84a518eb3695a1f4bc5c5e0970ccb" data-label="Oui"/>
+        <oui_mais_vous_souhaitez_le_completer_a_la_main data-type="item" data-uid="66127f793499dd7c891ff2d5d9426b5d" data-label="Oui, mais vous souhaitez le compléter à la main"/>
+        <non data-type="item" data-uid="88813190811ab289118c3181e78ec316" data-label="Non"/>
+    </souhaitez_vous_ajouter_une_clause_particuliere>
+    <le_mandat_est_il_conclu_en_dehors_des_locaux_de_l_agence data-type="menu" data-uid="1d9e64d090ffbf1cc0e9bda6c4e93463" data-label="Le mandant beneficie-t-il d’un droit de retractation ?">
+        <non data-type="item" data-uid="ea143daae438204b1606c6d4bf4d4b41" data-label="Non">
+            <le_mandat_est_il_signe_electroniquement data-type="menu" data-uid="0d8212275dff359360d607724dc3c0eb" data-label="Le mandat est-il signe electroniquement ?">
+                <non data-type="item" data-uid="4790c1fbb9283e497e09daf68f4078f3" data-label="Non">
+                    <souhaitez_vous_indiquer_les_mots_chiffres_ou_lignes_rayes_nuls data-type="menu" data-uid="523c8a6a35a6f680bdece031d3618209" data-label="Souhaitez-vous indiquer les mots, chiffres ou lignes rayes nuls ?">
+                        <non data-type="item" data-uid="b2d4f4b7b1eb3bb473a8d5434360c4ca" data-label="Non"/>
+                        <oui data-type="item" data-uid="447197b20dcd86e16c4f505af8c402e7" data-label="Oui"/>
+                    </souhaitez_vous_indiquer_les_mots_chiffres_ou_lignes_rayes_nuls>
+                </non>
+                <oui data-type="item" data-uid="7c1201f482ecc320ceaa9f4f6beb84ce" data-label="Oui"/>
+                <oui_a_distance data-type="item" data-uid="d479b7e14d007fceaa83ed93f3d5091f" data-label="Oui et à distance"/>
+            </le_mandat_est_il_signe_electroniquement>
+        </non>
+        <oui data-type="item" data-uid="1f945aadd50068eae2d700a92c2ea007" data-label="Oui">
+            <le_mandant_souhaite_t_il_demander_l_execution_immediate_du_mandat data-type="menu" data-uid="0a8e9494c270b9b1c27417249a52f794" data-label="Le mandant souhaite-t-il demander l'execution immediate du mandat ?">
+                <non data-type="item" data-uid="d0053c41d8e32ff232226e6bb2e4f32a" data-label="Non">
+                    <le_mandat_est_il_signe_electroniquement data-type="menu" data-uid="4bb63a13d8b205104c320cbd20c9f810" data-label="Le mandat est-il signe electroniquement ?">
+                        <non data-type="item" data-uid="b7905ce5a2a069beb4011acdc4bc5417" data-label="Non">
+                            <souhaitez_vous_indiquer_les_mots_chiffres_ou_lignes_rayes_nuls data-type="menu" data-uid="f1fa86ba40ff5f9e0b95a6e8ca239aed" data-label="Souhaitez-vous indiquer les mots, chiffres ou lignes rayes nuls ?">
+                                <non data-type="item" data-uid="c0b0b40256eea2adc5ad9393fb5984a7" data-label="Non"/>
+                                <oui data-type="item" data-uid="0edd39a51ac94aacc7eb9ceeb32d23c3" data-label="Oui"/>
+                            </souhaitez_vous_indiquer_les_mots_chiffres_ou_lignes_rayes_nuls>
+                        </non>
+                        <oui data-type="item" data-uid="c77c256516be9e2df391cb9df92c920f" data-label="Oui"/>
+                    </le_mandat_est_il_signe_electroniquement>
+                </non>
+                <oui data-type="item" data-uid="66b4750400f9284005e2329092c0b1b2" data-label="Oui">
+                    <le_mandat_est_il_signe_electroniquement data-type="menu" data-uid="a289899b8423361e148ec930beb33bd2" data-label="Le mandat est-il signe electroniquement ?">
+                        <non data-type="item" data-uid="df641741db0d8c2042b8127d685a3641" data-label="Non">
+                            <souhaitez_vous_indiquer_les_mots_chiffres_ou_lignes_rayes_nuls data-type="menu" data-uid="1b2b3a6d1fa9640548f0e10d462ade64" data-label="Souhaitez-vous indiquer les mots, chiffres ou lignes rayes nuls ?">
+                                <non data-type="item" data-uid="0acb911ecd39feb70aeae9c776d48091" data-label="Non"/>
+                                <oui data-type="item" data-uid="21d5928d4e51bb6189184bdbada8f56e" data-label="Oui"/>
+                            </souhaitez_vous_indiquer_les_mots_chiffres_ou_lignes_rayes_nuls>
+                        </non>
+                        <oui data-type="item" data-uid="2a6d0ef75682a882e07219b6fc9e6954" data-label="Oui"/>
+                    </le_mandat_est_il_signe_electroniquement>
+                </oui>
+            </le_mandant_souhaite_t_il_demander_l_execution_immediate_du_mandat>
+        </oui>
+    </le_mandat_est_il_conclu_en_dehors_des_locaux_de_l_agence>
+</xml>

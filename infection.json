@@ -1,0 +1,17 @@
+{
+    "source": {
+        "directories": [
+            "src"
+        ],
+        "excludes": [
+            "DependencyInjection",
+            "Exception"
+        ]
+    },
+    "logs": {
+        "text": "log\/infection.log"
+    },
+    "mutators": {
+        "@default": true
+    }
+}

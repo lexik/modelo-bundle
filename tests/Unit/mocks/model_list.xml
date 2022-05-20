@@ -1,0 +1,35 @@
+<xml>
+    <item>
+        <_id>
+            5821b62174d5584e35a2359a
+        </_id>
+        <titre>
+            Document d'information précontractuelle - Vente ou Acquisition
+        </titre>
+        <_rubrique>
+            HABITATION_VENTE_MANDAT
+        </_rubrique>
+    </item>
+    <item>
+        <_id>
+            5d7895fdada90c739e087444
+        </_id>
+        <titre>
+            Mandat 'professionnel' de recherche d'acquéreur
+        </titre>
+        <_rubrique>
+            HABITATION_VENTE_MANDAT
+        </_rubrique>
+    </item>
+    <item>
+        <_id>
+            5821658a74d55820fca2359a
+        </_id>
+        <titre>
+            Mandat exclusif de vente
+        </titre>
+        <_rubrique>
+            HABITATION_VENTE_MANDAT
+        </_rubrique>
+    </item>
+</xml>

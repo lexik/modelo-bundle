@@ -1,0 +1,2976 @@
+<?xml version="1.0"?>
+<phpunit xmlns="https://schema.phpunit.de/coverage/1.0">
+  <file name="ModeloClient.php" path="/Service">
+    <totals>
+      <lines total="355" comments="136" code="219" executable="73" executed="60" percent="82.19"/>
+      <methods count="14" tested="7" percent="50.00"/>
+      <functions count="0" tested="0" percent="0"/>
+      <classes count="1" tested="0" percent="0.00"/>
+      <traits count="0" tested="0" percent="0"/>
+    </totals>
+    <class name="Choosit\ModeloBundle\Service\ModeloClient" start="22" executable="73" executed="60" crap="53.44">
+      <namespace name="Choosit\ModeloBundle\Service"/>
+      <method name="__construct" signature="__construct(Symfony\Contracts\HttpClient\HttpClientInterface $client, ?string $agencyCode, string $privateKey)" start="28" end="32" crap="1" executable="2" executed="2" coverage="100"/>
+      <method name="setAuthKey" signature="setAuthKey(?string $agencyCode, ?string $privateKey): void" start="34" end="39" crap="3" executable="2" executed="2" coverage="100"/>
+      <method name="getAuthKey" signature="getAuthKey(): ?string" start="41" end="48" crap="2" executable="3" executed="3" coverage="100"/>
+      <method name="createContract" signature="createContract(string $modelName, bool $isDocType, string $xml, bool $outputPdf): string" start="67" end="77" crap="3" executable="5" executed="5" coverage="100"/>
+      <method name="getModelIdByNameAndType" signature="getModelIdByNameAndType(string $modelName, bool $isDocType): ?string" start="93" end="119" crap="7" executable="13" executed="13" coverage="100"/>
+      <method name="getContractFilledContent" signature="getContractFilledContent(string $contractId, bool $returnAsArray)" start="138" end="151" crap="2.03" executable="5" executed="4" coverage="80"/>
+      <method name="getAllModelFields" signature="getAllModelFields(string $modelId, bool $returnAsArray)" start="169" end="181" crap="2.03" executable="5" executed="4" coverage="80"/>
+      <method name="createContractByModelId" signature="createContractByModelId(string $modelId, bool $isDocType, string $xml, bool $outputPdf): string" start="200" end="222" crap="5.03" executable="9" executed="8" coverage="88.888888888889"/>
+      <method name="updateContract" signature="updateContract(string $contractId, string $xml, bool $outputPdf): string" start="240" end="259" crap="12" executable="7" executed="0" coverage="0"/>
+      <method name="disableContract" signature="disableContract(string $contractId): string" start="275" end="290" crap="2.02" executable="6" executed="5" coverage="83.333333333333"/>
+      <method name="getGenericParams" signature="getGenericParams(): array" start="297" end="302" crap="1" executable="1" executed="1" coverage="100"/>
+      <method name="processError" signature="processError(int $statusCode, string $content): void" start="309" end="320" crap="5" executable="5" executed="5" coverage="100"/>
+      <method name="processXmlErrorResponse" signature="processXmlErrorResponse(int $statusCode, string $content)" start="329" end="341" crap="5.07" executable="7" executed="6" coverage="85.714285714286"/>
+      <method name="processXmlResponse" signature="processXmlResponse(string $content, bool $returnAsArray)" start="346" end="353" crap="2.15" executable="3" executed="2" coverage="66.666666666667"/>
+    </class>
+    <coverage>
+      <line nr="30">
+        <covered by="Choosit\ModeloBundle\Tests\Integration\KernelTest::testLoadedBaseConfig"/>
+        <covered by="Choosit\ModeloBundle\Tests\Integration\KernelTest::testLoadedMinimalConfig"/>
+        <covered by="Choosit\ModeloBundle\Tests\DependencyInjection\ModeloExtensionTest::testLoadMinimalConfiguration"/>
+        <covered by="Choosit\ModeloBundle\Tests\DependencyInjection\ModeloExtensionTest::testLoadBaseConfiguration"/>
+        <covered by="Choosit\ModeloBundle\Tests\Unit\ModeloHttpClientTest::testServiceWithAuthkeyShouldReturnAuthkey"/>
+        <covered by="Choosit\ModeloBundle\Tests\Unit\ModeloHttpClientTest::testCreateContratFromExistentModelShouldReturnString with data set &quot;model&quot;"/>
+        <covered by="Choosit\ModeloBundle\Tests\Unit\ModeloHttpClientTest::testCreateContratFromExistentModelShouldReturnString with data set &quot;doctype&quot;"/>
+        <covered by="Choosit\ModeloBundle\Tests\Unit\ModeloHttpClientTest::testDisableContractShouldReturnNoticeMessage with data set &quot;disable-contract-success&quot;"/>
+        <covered by="Choosit\ModeloBundle\Tests\Unit\ModeloHttpClientTest::testGetContractFilledContentShouldReturnContentAsArray with data set &quot;content-filled&quot;"/>
+        <covered by="Choosit\ModeloBundle\Tests\Unit\ModeloHttpClientTest::testCreateContratFromNonExistentModelShouldThrowModelNotFound with data set &quot;model&quot;"/>
+        <covered by="Choosit\ModeloBundle\Tests\Unit\ModeloHttpClientTest::testCreateContratFromNonExistentModelShouldThrowModelNotFound with data set &quot;doctype&quot;"/>
+        <covered by="Choosit\ModeloBundle\Tests\Unit\ModeloHttpClientTest::testAnyRequestWithTechnicalIssueShouldThrowException with data set &quot;authentication&quot;"/>
+        <covered by="Choosit\ModeloBundle\Tests\Unit\ModeloHttpClientTest::testAnyRequestWithTechnicalIssueShouldThrowException with data set &quot;technical&quot;"/>
+        <covered by="Choosit\ModeloBundle\Tests\Unit\ModeloHttpClientTest::testAnyRequestWithTechnicalIssueShouldThrowException with data set &quot;unauthorized&quot;"/>
+        <covered by="Choosit\ModeloBundle\Tests\Unit\ModeloHttpClientTest::testServiceWithoutAuthkeyMustThrowAuthkeyMisingException"/>
+        <covered by="Choosit\ModeloBundle\Tests\Unit\ModeloHttpClientTest::testGetAllModelFieldsShouldReturnFieldsAsArray with data set &quot;all-model-fields&quot;"/>
+      </line>
+      <line nr="31">
+        <covered by="Choosit\ModeloBundle\Tests\Integration\KernelTest::testLoadedBaseConfig"/>
+        <covered by="Choosit\ModeloBundle\Tests\Integration\KernelTest::testLoadedMinimalConfig"/>
+        <covered by="Choosit\ModeloBundle\Tests\DependencyInjection\ModeloExtensionTest::testLoadMinimalConfiguration"/>
+        <covered by="Choosit\ModeloBundle\Tests\DependencyInjection\ModeloExtensionTest::testLoadBaseConfiguration"/>
+        <covered by="Choosit\ModeloBundle\Tests\Unit\ModeloHttpClientTest::testServiceWithAuthkeyShouldReturnAuthkey"/>
+        <covered by="Choosit\ModeloBundle\Tests\Unit\ModeloHttpClientTest::testCreateContratFromExistentModelShouldReturnString with data set &quot;model&quot;"/>
+        <covered by="Choosit\ModeloBundle\Tests\Unit\ModeloHttpClientTest::testCreateContratFromExistentModelShouldReturnString with data set &quot;doctype&quot;"/>
+        <covered by="Choosit\ModeloBundle\Tests\Unit\ModeloHttpClientTest::testDisableContractShouldReturnNoticeMessage with data set &quot;disable-contract-success&quot;"/>
+        <covered by="Choosit\ModeloBundle\Tests\Unit\ModeloHttpClientTest::testGetContractFilledContentShouldReturnContentAsArray with data set &quot;content-filled&quot;"/>
+        <covered by="Choosit\ModeloBundle\Tests\Unit\ModeloHttpClientTest::testCreateContratFromNonExistentModelShouldThrowModelNotFound with data set &quot;model&quot;"/>
+        <covered by="Choosit\ModeloBundle\Tests\Unit\ModeloHttpClientTest::testCreateContratFromNonExistentModelShouldThrowModelNotFound with data set &quot;doctype&quot;"/>
+        <covered by="Choosit\ModeloBundle\Tests\Unit\ModeloHttpClientTest::testAnyRequestWithTechnicalIssueShouldThrowException with data set &quot;authentication&quot;"/>
+        <covered by="Choosit\ModeloBundle\Tests\Unit\ModeloHttpClientTest::testAnyRequestWithTechnicalIssueShouldThrowException with data set &quot;technical&quot;"/>
+        <covered by="Choosit\ModeloBundle\Tests\Unit\ModeloHttpClientTest::testAnyRequestWithTechnicalIssueShouldThrowException with data set &quot;unauthorized&quot;"/>
+        <covered by="Choosit\ModeloBundle\Tests\Unit\ModeloHttpClientTest::testServiceWithoutAuthkeyMustThrowAuthkeyMisingException"/>
+        <covered by="Choosit\ModeloBundle\Tests\Unit\ModeloHttpClientTest::testGetAllModelFieldsShouldReturnFieldsAsArray with data set &quot;all-model-fields&quot;"/>
+      </line>
+      <line nr="36">
+        <covered by="Choosit\ModeloBundle\Tests\Integration\KernelTest::testLoadedBaseConfig"/>
+        <covered by="Choosit\ModeloBundle\Tests\Integration\KernelTest::testLoadedMinimalConfig"/>
+        <covered by="Choosit\ModeloBundle\Tests\DependencyInjection\ModeloExtensionTest::testLoadMinimalConfiguration"/>
+        <covered by="Choosit\ModeloBundle\Tests\DependencyInjection\ModeloExtensionTest::testLoadBaseConfiguration"/>
+        <covered by="Choosit\ModeloBundle\Tests\Unit\ModeloHttpClientTest::testServiceWithAuthkeyShouldReturnAuthkey"/>
+        <covered by="Choosit\ModeloBundle\Tests\Unit\ModeloHttpClientTest::testCreateContratFromExistentModelShouldReturnString with data set &quot;model&quot;"/>
+        <covered by="Choosit\ModeloBundle\Tests\Unit\ModeloHttpClientTest::testCreateContratFromExistentModelShouldReturnString with data set &quot;doctype&quot;"/>
+        <covered by="Choosit\ModeloBundle\Tests\Unit\ModeloHttpClientTest::testDisableContractShouldReturnNoticeMessage with data set &quot;disable-contract-success&quot;"/>
+        <covered by="Choosit\ModeloBundle\Tests\Unit\ModeloHttpClientTest::testGetContractFilledContentShouldReturnContentAsArray with data set &quot;content-filled&quot;"/>
+        <covered by="Choosit\ModeloBundle\Tests\Unit\ModeloHttpClientTest::testCreateContratFromNonExistentModelShouldThrowModelNotFound with data set &quot;model&quot;"/>
+        <covered by="Choosit\ModeloBundle\Tests\Unit\ModeloHttpClientTest::testCreateContratFromNonExistentModelShouldThrowModelNotFound with data set &quot;doctype&quot;"/>
+        <covered by="Choosit\ModeloBundle\Tests\Unit\ModeloHttpClientTest::testAnyRequestWithTechnicalIssueShouldThrowException with data set &quot;authentication&quot;"/>
+        <covered by="Choosit\ModeloBundle\Tests\Unit\ModeloHttpClientTest::testAnyRequestWithTechnicalIssueShouldThrowException with data set &quot;technical&quot;"/>
+        <covered by="Choosit\ModeloBundle\Tests\Unit\ModeloHttpClientTest::testAnyRequestWithTechnicalIssueShouldThrowException with data set &quot;unauthorized&quot;"/>
+        <covered by="Choosit\ModeloBundle\Tests\Unit\ModeloHttpClientTest::testServiceWithoutAuthkeyMustThrowAuthkeyMisingException"/>
+        <covered by="Choosit\ModeloBundle\Tests\Unit\ModeloHttpClientTest::testGetAllModelFieldsShouldReturnFieldsAsArray with data set &quot;all-model-fields&quot;"/>
+      </line>
+      <line nr="37">
+        <covered by="Choosit\ModeloBundle\Tests\Integration\KernelTest::testLoadedBaseConfig"/>
+        <covered by="Choosit\ModeloBundle\Tests\DependencyInjection\ModeloExtensionTest::testLoadBaseConfiguration"/>
+        <covered by="Choosit\ModeloBundle\Tests\Unit\ModeloHttpClientTest::testServiceWithAuthkeyShouldReturnAuthkey"/>
+        <covered by="Choosit\ModeloBundle\Tests\Unit\ModeloHttpClientTest::testCreateContratFromExistentModelShouldReturnString with data set &quot;model&quot;"/>
+        <covered by="Choosit\ModeloBundle\Tests\Unit\ModeloHttpClientTest::testCreateContratFromExistentModelShouldReturnString with data set &quot;doctype&quot;"/>
+        <covered by="Choosit\ModeloBundle\Tests\Unit\ModeloHttpClientTest::testDisableContractShouldReturnNoticeMessage with data set &quot;disable-contract-success&quot;"/>
+        <covered by="Choosit\ModeloBundle\Tests\Unit\ModeloHttpClientTest::testGetContractFilledContentShouldReturnContentAsArray with data set &quot;content-filled&quot;"/>
+        <covered by="Choosit\ModeloBundle\Tests\Unit\ModeloHttpClientTest::testCreateContratFromNonExistentModelShouldThrowModelNotFound with data set &quot;model&quot;"/>
+        <covered by="Choosit\ModeloBundle\Tests\Unit\ModeloHttpClientTest::testCreateContratFromNonExistentModelShouldThrowModelNotFound with data set &quot;doctype&quot;"/>
+        <covered by="Choosit\ModeloBundle\Tests\Unit\ModeloHttpClientTest::testAnyRequestWithTechnicalIssueShouldThrowException with data set &quot;authentication&quot;"/>
+        <covered by="Choosit\ModeloBundle\Tests\Unit\ModeloHttpClientTest::testAnyRequestWithTechnicalIssueShouldThrowException with data set &quot;technical&quot;"/>
+        <covered by="Choosit\ModeloBundle\Tests\Unit\ModeloHttpClientTest::testAnyRequestWithTechnicalIssueShouldThrowException with data set &quot;unauthorized&quot;"/>
+        <covered by="Choosit\ModeloBundle\Tests\Unit\ModeloHttpClientTest::testGetAllModelFieldsShouldReturnFieldsAsArray with data set &quot;all-model-fields&quot;"/>
+      </line>
+      <line nr="43">
+        <covered by="Choosit\ModeloBundle\Tests\Integration\KernelTest::testLoadedBaseConfig"/>
+        <covered by="Choosit\ModeloBundle\Tests\Integration\KernelTest::testLoadedMinimalConfig"/>
+        <covered by="Choosit\ModeloBundle\Tests\DependencyInjection\ModeloExtensionTest::testLoadMinimalConfiguration"/>
+        <covered by="Choosit\ModeloBundle\Tests\DependencyInjection\ModeloExtensionTest::testLoadBaseConfiguration"/>
+        <covered by="Choosit\ModeloBundle\Tests\Unit\ModeloHttpClientTest::testServiceWithAuthkeyShouldReturnAuthkey"/>
+        <covered by="Choosit\ModeloBundle\Tests\Unit\ModeloHttpClientTest::testCreateContratFromExistentModelShouldReturnString with data set &quot;model&quot;"/>
+        <covered by="Choosit\ModeloBundle\Tests\Unit\ModeloHttpClientTest::testCreateContratFromExistentModelShouldReturnString with data set &quot;doctype&quot;"/>
+        <covered by="Choosit\ModeloBundle\Tests\Unit\ModeloHttpClientTest::testDisableContractShouldReturnNoticeMessage with data set &quot;disable-contract-success&quot;"/>
+        <covered by="Choosit\ModeloBundle\Tests\Unit\ModeloHttpClientTest::testGetContractFilledContentShouldReturnContentAsArray with data set &quot;content-filled&quot;"/>
+        <covered by="Choosit\ModeloBundle\Tests\Unit\ModeloHttpClientTest::testCreateContratFromNonExistentModelShouldThrowModelNotFound with data set &quot;model&quot;"/>
+        <covered by="Choosit\ModeloBundle\Tests\Unit\ModeloHttpClientTest::testCreateContratFromNonExistentModelShouldThrowModelNotFound with data set &quot;doctype&quot;"/>
+        <covered by="Choosit\ModeloBundle\Tests\Unit\ModeloHttpClientTest::testAnyRequestWithTechnicalIssueShouldThrowException with data set &quot;authentication&quot;"/>
+        <covered by="Choosit\ModeloBundle\Tests\Unit\ModeloHttpClientTest::testAnyRequestWithTechnicalIssueShouldThrowException with data set &quot;technical&quot;"/>
+        <covered by="Choosit\ModeloBundle\Tests\Unit\ModeloHttpClientTest::testAnyRequestWithTechnicalIssueShouldThrowException with data set &quot;unauthorized&quot;"/>
+        <covered by="Choosit\ModeloBundle\Tests\Unit\ModeloHttpClientTest::testServiceWithoutAuthkeyMustThrowAuthkeyMisingException"/>
+        <covered by="Choosit\ModeloBundle\Tests\Unit\ModeloHttpClientTest::testGetAllModelFieldsShouldReturnFieldsAsArray with data set &quot;all-model-fields&quot;"/>
+      </line>
+      <line nr="44">
+        <covered by="Choosit\ModeloBundle\Tests\Integration\KernelTest::testLoadedMinimalConfig"/>
+        <covered by="Choosit\ModeloBundle\Tests\DependencyInjection\ModeloExtensionTest::testLoadMinimalConfiguration"/>
+        <covered by="Choosit\ModeloBundle\Tests\Unit\ModeloHttpClientTest::testServiceWithoutAuthkeyMustThrowAuthkeyMisingException"/>
+      </line>
+      <line nr="47">
+        <covered by="Choosit\ModeloBundle\Tests\Integration\KernelTest::testLoadedBaseConfig"/>
+        <covered by="Choosit\ModeloBundle\Tests\DependencyInjection\ModeloExtensionTest::testLoadBaseConfiguration"/>
+        <covered by="Choosit\ModeloBundle\Tests\Unit\ModeloHttpClientTest::testServiceWithAuthkeyShouldReturnAuthkey"/>
+        <covered by="Choosit\ModeloBundle\Tests\Unit\ModeloHttpClientTest::testCreateContratFromExistentModelShouldReturnString with data set &quot;model&quot;"/>
+        <covered by="Choosit\ModeloBundle\Tests\Unit\ModeloHttpClientTest::testCreateContratFromExistentModelShouldReturnString with data set &quot;doctype&quot;"/>
+        <covered by="Choosit\ModeloBundle\Tests\Unit\ModeloHttpClientTest::testDisableContractShouldReturnNoticeMessage with data set &quot;disable-contract-success&quot;"/>
+        <covered by="Choosit\ModeloBundle\Tests\Unit\ModeloHttpClientTest::testGetContractFilledContentShouldReturnContentAsArray with data set &quot;content-filled&quot;"/>
+        <covered by="Choosit\ModeloBundle\Tests\Unit\ModeloHttpClientTest::testCreateContratFromNonExistentModelShouldThrowModelNotFound with data set &quot;model&quot;"/>
+        <covered by="Choosit\ModeloBundle\Tests\Unit\ModeloHttpClientTest::testCreateContratFromNonExistentModelShouldThrowModelNotFound with data set &quot;doctype&quot;"/>
+        <covered by="Choosit\ModeloBundle\Tests\Unit\ModeloHttpClientTest::testAnyRequestWithTechnicalIssueShouldThrowException with data set &quot;authentication&quot;"/>
+        <covered by="Choosit\ModeloBundle\Tests\Unit\ModeloHttpClientTest::testAnyRequestWithTechnicalIssueShouldThrowException with data set &quot;technical&quot;"/>
+        <covered by="Choosit\ModeloBundle\Tests\Unit\ModeloHttpClientTest::testAnyRequestWithTechnicalIssueShouldThrowException with data set &quot;unauthorized&quot;"/>
+        <covered by="Choosit\ModeloBundle\Tests\Unit\ModeloHttpClientTest::testGetAllModelFieldsShouldReturnFieldsAsArray with data set &quot;all-model-fields&quot;"/>
+      </line>
+      <line nr="69">
+        <covered by="Choosit\ModeloBundle\Tests\Unit\ModeloHttpClientTest::testCreateContratFromExistentModelShouldReturnString with data set &quot;model&quot;"/>
+        <covered by="Choosit\ModeloBundle\Tests\Unit\ModeloHttpClientTest::testCreateContratFromExistentModelShouldReturnString with data set &quot;doctype&quot;"/>
+        <covered by="Choosit\ModeloBundle\Tests\Unit\ModeloHttpClientTest::testCreateContratFromNonExistentModelShouldThrowModelNotFound with data set &quot;model&quot;"/>
+        <covered by="Choosit\ModeloBundle\Tests\Unit\ModeloHttpClientTest::testCreateContratFromNonExistentModelShouldThrowModelNotFound with data set &quot;doctype&quot;"/>
+      </line>
+      <line nr="71">
+        <covered by="Choosit\ModeloBundle\Tests\Unit\ModeloHttpClientTest::testCreateContratFromExistentModelShouldReturnString with data set &quot;model&quot;"/>
+        <covered by="Choosit\ModeloBundle\Tests\Unit\ModeloHttpClientTest::testCreateContratFromExistentModelShouldReturnString with data set &quot;doctype&quot;"/>
+        <covered by="Choosit\ModeloBundle\Tests\Unit\ModeloHttpClientTest::testCreateContratFromNonExistentModelShouldThrowModelNotFound with data set &quot;model&quot;"/>
+        <covered by="Choosit\ModeloBundle\Tests\Unit\ModeloHttpClientTest::testCreateContratFromNonExistentModelShouldThrowModelNotFound with data set &quot;doctype&quot;"/>
+      </line>
+      <line nr="72">
+        <covered by="Choosit\ModeloBundle\Tests\Unit\ModeloHttpClientTest::testCreateContratFromNonExistentModelShouldThrowModelNotFound with data set &quot;model&quot;"/>
+        <covered by="Choosit\ModeloBundle\Tests\Unit\ModeloHttpClientTest::testCreateContratFromNonExistentModelShouldThrowModelNotFound with data set &quot;doctype&quot;"/>
+      </line>
+      <line nr="73">
+        <covered by="Choosit\ModeloBundle\Tests\Unit\ModeloHttpClientTest::testCreateContratFromNonExistentModelShouldThrowModelNotFound with data set &quot;model&quot;"/>
+        <covered by="Choosit\ModeloBundle\Tests\Unit\ModeloHttpClientTest::testCreateContratFromNonExistentModelShouldThrowModelNotFound with data set &quot;doctype&quot;"/>
+      </line>
+      <line nr="76">
+        <covered by="Choosit\ModeloBundle\Tests\Unit\ModeloHttpClientTest::testCreateContratFromExistentModelShouldReturnString with data set &quot;model&quot;"/>
+        <covered by="Choosit\ModeloBundle\Tests\Unit\ModeloHttpClientTest::testCreateContratFromExistentModelShouldReturnString with data set &quot;doctype&quot;"/>
+      </line>
+      <line nr="95">
+        <covered by="Choosit\ModeloBundle\Tests\Unit\ModeloHttpClientTest::testCreateContratFromExistentModelShouldReturnString with data set &quot;model&quot;"/>
+        <covered by="Choosit\ModeloBundle\Tests\Unit\ModeloHttpClientTest::testCreateContratFromExistentModelShouldReturnString with data set &quot;doctype&quot;"/>
+        <covered by="Choosit\ModeloBundle\Tests\Unit\ModeloHttpClientTest::testCreateContratFromNonExistentModelShouldThrowModelNotFound with data set &quot;model&quot;"/>
+        <covered by="Choosit\ModeloBundle\Tests\Unit\ModeloHttpClientTest::testCreateContratFromNonExistentModelShouldThrowModelNotFound with data set &quot;doctype&quot;"/>
+        <covered by="Choosit\ModeloBundle\Tests\Unit\ModeloHttpClientTest::testAnyRequestWithTechnicalIssueShouldThrowException with data set &quot;authentication&quot;"/>
+        <covered by="Choosit\ModeloBundle\Tests\Unit\ModeloHttpClientTest::testAnyRequestWithTechnicalIssueShouldThrowException with data set &quot;technical&quot;"/>
+        <covered by="Choosit\ModeloBundle\Tests\Unit\ModeloHttpClientTest::testAnyRequestWithTechnicalIssueShouldThrowException with data set &quot;unauthorized&quot;"/>
+      </line>
+      <line nr="97">
+        <covered by="Choosit\ModeloBundle\Tests\Unit\ModeloHttpClientTest::testCreateContratFromExistentModelShouldReturnString with data set &quot;model&quot;"/>
+        <covered by="Choosit\ModeloBundle\Tests\Unit\ModeloHttpClientTest::testCreateContratFromExistentModelShouldReturnString with data set &quot;doctype&quot;"/>
+        <covered by="Choosit\ModeloBundle\Tests\Unit\ModeloHttpClientTest::testCreateContratFromNonExistentModelShouldThrowModelNotFound with data set &quot;model&quot;"/>
+        <covered by="Choosit\ModeloBundle\Tests\Unit\ModeloHttpClientTest::testCreateContratFromNonExistentModelShouldThrowModelNotFound with data set &quot;doctype&quot;"/>
+        <covered by="Choosit\ModeloBundle\Tests\Unit\ModeloHttpClientTest::testAnyRequestWithTechnicalIssueShouldThrowException with data set &quot;authentication&quot;"/>
+        <covered by="Choosit\ModeloBundle\Tests\Unit\ModeloHttpClientTest::testAnyRequestWithTechnicalIssueShouldThrowException with data set &quot;technical&quot;"/>
+        <covered by="Choosit\ModeloBundle\Tests\Unit\ModeloHttpClientTest::testAnyRequestWithTechnicalIssueShouldThrowException with data set &quot;unauthorized&quot;"/>
+      </line>
+      <line nr="98">
+        <covered by="Choosit\ModeloBundle\Tests\Unit\ModeloHttpClientTest::testCreateContratFromExistentModelShouldReturnString with data set &quot;model&quot;"/>
+        <covered by="Choosit\ModeloBundle\Tests\Unit\ModeloHttpClientTest::testCreateContratFromExistentModelShouldReturnString with data set &quot;doctype&quot;"/>
+        <covered by="Choosit\ModeloBundle\Tests\Unit\ModeloHttpClientTest::testCreateContratFromNonExistentModelShouldThrowModelNotFound with data set &quot;model&quot;"/>
+        <covered by="Choosit\ModeloBundle\Tests\Unit\ModeloHttpClientTest::testCreateContratFromNonExistentModelShouldThrowModelNotFound with data set &quot;doctype&quot;"/>
+        <covered by="Choosit\ModeloBundle\Tests\Unit\ModeloHttpClientTest::testAnyRequestWithTechnicalIssueShouldThrowException with data set &quot;authentication&quot;"/>
+        <covered by="Choosit\ModeloBundle\Tests\Unit\ModeloHttpClientTest::testAnyRequestWithTechnicalIssueShouldThrowException with data set &quot;technical&quot;"/>
+        <covered by="Choosit\ModeloBundle\Tests\Unit\ModeloHttpClientTest::testAnyRequestWithTechnicalIssueShouldThrowException with data set &quot;unauthorized&quot;"/>
+      </line>
+      <line nr="101">
+        <covered by="Choosit\ModeloBundle\Tests\Unit\ModeloHttpClientTest::testCreateContratFromExistentModelShouldReturnString with data set &quot;model&quot;"/>
+        <covered by="Choosit\ModeloBundle\Tests\Unit\ModeloHttpClientTest::testCreateContratFromExistentModelShouldReturnString with data set &quot;doctype&quot;"/>
+        <covered by="Choosit\ModeloBundle\Tests\Unit\ModeloHttpClientTest::testCreateContratFromNonExistentModelShouldThrowModelNotFound with data set &quot;model&quot;"/>
+        <covered by="Choosit\ModeloBundle\Tests\Unit\ModeloHttpClientTest::testCreateContratFromNonExistentModelShouldThrowModelNotFound with data set &quot;doctype&quot;"/>
+        <covered by="Choosit\ModeloBundle\Tests\Unit\ModeloHttpClientTest::testAnyRequestWithTechnicalIssueShouldThrowException with data set &quot;authentication&quot;"/>
+        <covered by="Choosit\ModeloBundle\Tests\Unit\ModeloHttpClientTest::testAnyRequestWithTechnicalIssueShouldThrowException with data set &quot;technical&quot;"/>
+        <covered by="Choosit\ModeloBundle\Tests\Unit\ModeloHttpClientTest::testAnyRequestWithTechnicalIssueShouldThrowException with data set &quot;unauthorized&quot;"/>
+      </line>
+      <line nr="102">
+        <covered by="Choosit\ModeloBundle\Tests\Unit\ModeloHttpClientTest::testAnyRequestWithTechnicalIssueShouldThrowException with data set &quot;authentication&quot;"/>
+        <covered by="Choosit\ModeloBundle\Tests\Unit\ModeloHttpClientTest::testAnyRequestWithTechnicalIssueShouldThrowException with data set &quot;technical&quot;"/>
+        <covered by="Choosit\ModeloBundle\Tests\Unit\ModeloHttpClientTest::testAnyRequestWithTechnicalIssueShouldThrowException with data set &quot;unauthorized&quot;"/>
+      </line>
+      <line nr="105">
+        <covered by="Choosit\ModeloBundle\Tests\Unit\ModeloHttpClientTest::testCreateContratFromExistentModelShouldReturnString with data set &quot;model&quot;"/>
+        <covered by="Choosit\ModeloBundle\Tests\Unit\ModeloHttpClientTest::testCreateContratFromExistentModelShouldReturnString with data set &quot;doctype&quot;"/>
+        <covered by="Choosit\ModeloBundle\Tests\Unit\ModeloHttpClientTest::testCreateContratFromNonExistentModelShouldThrowModelNotFound with data set &quot;model&quot;"/>
+        <covered by="Choosit\ModeloBundle\Tests\Unit\ModeloHttpClientTest::testCreateContratFromNonExistentModelShouldThrowModelNotFound with data set &quot;doctype&quot;"/>
+      </line>
+      <line nr="107">
+        <covered by="Choosit\ModeloBundle\Tests\Unit\ModeloHttpClientTest::testCreateContratFromExistentModelShouldReturnString with data set &quot;model&quot;"/>
+        <covered by="Choosit\ModeloBundle\Tests\Unit\ModeloHttpClientTest::testCreateContratFromExistentModelShouldReturnString with data set &quot;doctype&quot;"/>
+        <covered by="Choosit\ModeloBundle\Tests\Unit\ModeloHttpClientTest::testCreateContratFromNonExistentModelShouldThrowModelNotFound with data set &quot;model&quot;"/>
+        <covered by="Choosit\ModeloBundle\Tests\Unit\ModeloHttpClientTest::testCreateContratFromNonExistentModelShouldThrowModelNotFound with data set &quot;doctype&quot;"/>
+      </line>
+      <line nr="108">
+        <covered by="Choosit\ModeloBundle\Tests\Unit\ModeloHttpClientTest::testCreateContratFromExistentModelShouldReturnString with data set &quot;model&quot;"/>
+        <covered by="Choosit\ModeloBundle\Tests\Unit\ModeloHttpClientTest::testCreateContratFromExistentModelShouldReturnString with data set &quot;doctype&quot;"/>
+        <covered by="Choosit\ModeloBundle\Tests\Unit\ModeloHttpClientTest::testCreateContratFromNonExistentModelShouldThrowModelNotFound with data set &quot;model&quot;"/>
+        <covered by="Choosit\ModeloBundle\Tests\Unit\ModeloHttpClientTest::testCreateContratFromNonExistentModelShouldThrowModelNotFound with data set &quot;doctype&quot;"/>
+      </line>
+      <line nr="110">
+        <covered by="Choosit\ModeloBundle\Tests\Unit\ModeloHttpClientTest::testCreateContratFromExistentModelShouldReturnString with data set &quot;model&quot;"/>
+        <covered by="Choosit\ModeloBundle\Tests\Unit\ModeloHttpClientTest::testCreateContratFromExistentModelShouldReturnString with data set &quot;doctype&quot;"/>
+        <covered by="Choosit\ModeloBundle\Tests\Unit\ModeloHttpClientTest::testCreateContratFromNonExistentModelShouldThrowModelNotFound with data set &quot;model&quot;"/>
+        <covered by="Choosit\ModeloBundle\Tests\Unit\ModeloHttpClientTest::testCreateContratFromNonExistentModelShouldThrowModelNotFound with data set &quot;doctype&quot;"/>
+      </line>
+      <line nr="111">
+        <covered by="Choosit\ModeloBundle\Tests\Unit\ModeloHttpClientTest::testCreateContratFromExistentModelShouldReturnString with data set &quot;model&quot;"/>
+        <covered by="Choosit\ModeloBundle\Tests\Unit\ModeloHttpClientTest::testCreateContratFromExistentModelShouldReturnString with data set &quot;doctype&quot;"/>
+        <covered by="Choosit\ModeloBundle\Tests\Unit\ModeloHttpClientTest::testCreateContratFromNonExistentModelShouldThrowModelNotFound with data set &quot;model&quot;"/>
+        <covered by="Choosit\ModeloBundle\Tests\Unit\ModeloHttpClientTest::testCreateContratFromNonExistentModelShouldThrowModelNotFound with data set &quot;doctype&quot;"/>
+      </line>
+      <line nr="112">
+        <covered by="Choosit\ModeloBundle\Tests\Unit\ModeloHttpClientTest::testCreateContratFromExistentModelShouldReturnString with data set &quot;model&quot;"/>
+        <covered by="Choosit\ModeloBundle\Tests\Unit\ModeloHttpClientTest::testCreateContratFromExistentModelShouldReturnString with data set &quot;doctype&quot;"/>
+        <covered by="Choosit\ModeloBundle\Tests\Unit\ModeloHttpClientTest::testCreateContratFromNonExistentModelShouldThrowModelNotFound with data set &quot;model&quot;"/>
+        <covered by="Choosit\ModeloBundle\Tests\Unit\ModeloHttpClientTest::testCreateContratFromNonExistentModelShouldThrowModelNotFound with data set &quot;doctype&quot;"/>
+      </line>
+      <line nr="113">
+        <covered by="Choosit\ModeloBundle\Tests\Unit\ModeloHttpClientTest::testCreateContratFromExistentModelShouldReturnString with data set &quot;model&quot;"/>
+        <covered by="Choosit\ModeloBundle\Tests\Unit\ModeloHttpClientTest::testCreateContratFromExistentModelShouldReturnString with data set &quot;doctype&quot;"/>
+      </line>
+      <line nr="118">
+        <covered by="Choosit\ModeloBundle\Tests\Unit\ModeloHttpClientTest::testCreateContratFromExistentModelShouldReturnString with data set &quot;model&quot;"/>
+        <covered by="Choosit\ModeloBundle\Tests\Unit\ModeloHttpClientTest::testCreateContratFromExistentModelShouldReturnString with data set &quot;doctype&quot;"/>
+        <covered by="Choosit\ModeloBundle\Tests\Unit\ModeloHttpClientTest::testCreateContratFromNonExistentModelShouldThrowModelNotFound with data set &quot;model&quot;"/>
+        <covered by="Choosit\ModeloBundle\Tests\Unit\ModeloHttpClientTest::testCreateContratFromNonExistentModelShouldThrowModelNotFound with data set &quot;doctype&quot;"/>
+      </line>
+      <line nr="140">
+        <covered by="Choosit\ModeloBundle\Tests\Unit\ModeloHttpClientTest::testGetContractFilledContentShouldReturnContentAsArray with data set &quot;content-filled&quot;"/>
+      </line>
+      <line nr="141">
+        <covered by="Choosit\ModeloBundle\Tests\Unit\ModeloHttpClientTest::testGetContractFilledContentShouldReturnContentAsArray with data set &quot;content-filled&quot;"/>
+      </line>
+      <line nr="146">
+        <covered by="Choosit\ModeloBundle\Tests\Unit\ModeloHttpClientTest::testGetContractFilledContentShouldReturnContentAsArray with data set &quot;content-filled&quot;"/>
+      </line>
+      <line nr="150">
+        <covered by="Choosit\ModeloBundle\Tests\Unit\ModeloHttpClientTest::testGetContractFilledContentShouldReturnContentAsArray with data set &quot;content-filled&quot;"/>
+      </line>
+      <line nr="171">
+        <covered by="Choosit\ModeloBundle\Tests\Unit\ModeloHttpClientTest::testGetAllModelFieldsShouldReturnFieldsAsArray with data set &quot;all-model-fields&quot;"/>
+      </line>
+      <line nr="172">
+        <covered by="Choosit\ModeloBundle\Tests\Unit\ModeloHttpClientTest::testGetAllModelFieldsShouldReturnFieldsAsArray with data set &quot;all-model-fields&quot;"/>
+      </line>
+      <line nr="176">
+        <covered by="Choosit\ModeloBundle\Tests\Unit\ModeloHttpClientTest::testGetAllModelFieldsShouldReturnFieldsAsArray with data set &quot;all-model-fields&quot;"/>
+      </line>
+      <line nr="180">
+        <covered by="Choosit\ModeloBundle\Tests\Unit\ModeloHttpClientTest::testGetAllModelFieldsShouldReturnFieldsAsArray with data set &quot;all-model-fields&quot;"/>
+      </line>
+      <line nr="202">
+        <covered by="Choosit\ModeloBundle\Tests\Unit\ModeloHttpClientTest::testCreateContratFromExistentModelShouldReturnString with data set &quot;model&quot;"/>
+        <covered by="Choosit\ModeloBundle\Tests\Unit\ModeloHttpClientTest::testCreateContratFromExistentModelShouldReturnString with data set &quot;doctype&quot;"/>
+      </line>
+      <line nr="204">
+        <covered by="Choosit\ModeloBundle\Tests\Unit\ModeloHttpClientTest::testCreateContratFromExistentModelShouldReturnString with data set &quot;model&quot;"/>
+        <covered by="Choosit\ModeloBundle\Tests\Unit\ModeloHttpClientTest::testCreateContratFromExistentModelShouldReturnString with data set &quot;doctype&quot;"/>
+      </line>
+      <line nr="205">
+        <covered by="Choosit\ModeloBundle\Tests\Unit\ModeloHttpClientTest::testCreateContratFromExistentModelShouldReturnString with data set &quot;model&quot;"/>
+        <covered by="Choosit\ModeloBundle\Tests\Unit\ModeloHttpClientTest::testCreateContratFromExistentModelShouldReturnString with data set &quot;doctype&quot;"/>
+      </line>
+      <line nr="207">
+        <covered by="Choosit\ModeloBundle\Tests\Unit\ModeloHttpClientTest::testCreateContratFromExistentModelShouldReturnString with data set &quot;model&quot;"/>
+        <covered by="Choosit\ModeloBundle\Tests\Unit\ModeloHttpClientTest::testCreateContratFromExistentModelShouldReturnString with data set &quot;doctype&quot;"/>
+      </line>
+      <line nr="208">
+        <covered by="Choosit\ModeloBundle\Tests\Unit\ModeloHttpClientTest::testCreateContratFromExistentModelShouldReturnString with data set &quot;model&quot;"/>
+        <covered by="Choosit\ModeloBundle\Tests\Unit\ModeloHttpClientTest::testCreateContratFromExistentModelShouldReturnString with data set &quot;doctype&quot;"/>
+      </line>
+      <line nr="213">
+        <covered by="Choosit\ModeloBundle\Tests\Unit\ModeloHttpClientTest::testCreateContratFromExistentModelShouldReturnString with data set &quot;model&quot;"/>
+        <covered by="Choosit\ModeloBundle\Tests\Unit\ModeloHttpClientTest::testCreateContratFromExistentModelShouldReturnString with data set &quot;doctype&quot;"/>
+      </line>
+      <line nr="217">
+        <covered by="Choosit\ModeloBundle\Tests\Unit\ModeloHttpClientTest::testCreateContratFromExistentModelShouldReturnString with data set &quot;model&quot;"/>
+        <covered by="Choosit\ModeloBundle\Tests\Unit\ModeloHttpClientTest::testCreateContratFromExistentModelShouldReturnString with data set &quot;doctype&quot;"/>
+      </line>
+      <line nr="221">
+        <covered by="Choosit\ModeloBundle\Tests\Unit\ModeloHttpClientTest::testCreateContratFromExistentModelShouldReturnString with data set &quot;model&quot;"/>
+        <covered by="Choosit\ModeloBundle\Tests\Unit\ModeloHttpClientTest::testCreateContratFromExistentModelShouldReturnString with data set &quot;doctype&quot;"/>
+      </line>
+      <line nr="277">
+        <covered by="Choosit\ModeloBundle\Tests\Unit\ModeloHttpClientTest::testDisableContractShouldReturnNoticeMessage with data set &quot;disable-contract-success&quot;"/>
+      </line>
+      <line nr="278">
+        <covered by="Choosit\ModeloBundle\Tests\Unit\ModeloHttpClientTest::testDisableContractShouldReturnNoticeMessage with data set &quot;disable-contract-success&quot;"/>
+      </line>
+      <line nr="283">
+        <covered by="Choosit\ModeloBundle\Tests\Unit\ModeloHttpClientTest::testDisableContractShouldReturnNoticeMessage with data set &quot;disable-contract-success&quot;"/>
+      </line>
+      <line nr="287">
+        <covered by="Choosit\ModeloBundle\Tests\Unit\ModeloHttpClientTest::testDisableContractShouldReturnNoticeMessage with data set &quot;disable-contract-success&quot;"/>
+      </line>
+      <line nr="289">
+        <covered by="Choosit\ModeloBundle\Tests\Unit\ModeloHttpClientTest::testDisableContractShouldReturnNoticeMessage with data set &quot;disable-contract-success&quot;"/>
+      </line>
+      <line nr="300">
+        <covered by="Choosit\ModeloBundle\Tests\Unit\ModeloHttpClientTest::testCreateContratFromExistentModelShouldReturnString with data set &quot;model&quot;"/>
+        <covered by="Choosit\ModeloBundle\Tests\Unit\ModeloHttpClientTest::testCreateContratFromExistentModelShouldReturnString with data set &quot;doctype&quot;"/>
+        <covered by="Choosit\ModeloBundle\Tests\Unit\ModeloHttpClientTest::testDisableContractShouldReturnNoticeMessage with data set &quot;disable-contract-success&quot;"/>
+        <covered by="Choosit\ModeloBundle\Tests\Unit\ModeloHttpClientTest::testGetContractFilledContentShouldReturnContentAsArray with data set &quot;content-filled&quot;"/>
+        <covered by="Choosit\ModeloBundle\Tests\Unit\ModeloHttpClientTest::testCreateContratFromNonExistentModelShouldThrowModelNotFound with data set &quot;model&quot;"/>
+        <covered by="Choosit\ModeloBundle\Tests\Unit\ModeloHttpClientTest::testCreateContratFromNonExistentModelShouldThrowModelNotFound with data set &quot;doctype&quot;"/>
+        <covered by="Choosit\ModeloBundle\Tests\Unit\ModeloHttpClientTest::testAnyRequestWithTechnicalIssueShouldThrowException with data set &quot;authentication&quot;"/>
+        <covered by="Choosit\ModeloBundle\Tests\Unit\ModeloHttpClientTest::testAnyRequestWithTechnicalIssueShouldThrowException with data set &quot;technical&quot;"/>
+        <covered by="Choosit\ModeloBundle\Tests\Unit\ModeloHttpClientTest::testAnyRequestWithTechnicalIssueShouldThrowException with data set &quot;unauthorized&quot;"/>
+        <covered by="Choosit\ModeloBundle\Tests\Unit\ModeloHttpClientTest::testGetAllModelFieldsShouldReturnFieldsAsArray with data set &quot;all-model-fields&quot;"/>
+      </line>
+      <line nr="312">
+        <covered by="Choosit\ModeloBundle\Tests\Unit\ModeloHttpClientTest::testAnyRequestWithTechnicalIssueShouldThrowException with data set &quot;authentication&quot;"/>
+        <covered by="Choosit\ModeloBundle\Tests\Unit\ModeloHttpClientTest::testAnyRequestWithTechnicalIssueShouldThrowException with data set &quot;technical&quot;"/>
+        <covered by="Choosit\ModeloBundle\Tests\Unit\ModeloHttpClientTest::testAnyRequestWithTechnicalIssueShouldThrowException with data set &quot;unauthorized&quot;"/>
+      </line>
+      <line nr="313">
+        <covered by="Choosit\ModeloBundle\Tests\Unit\ModeloHttpClientTest::testAnyRequestWithTechnicalIssueShouldThrowException with data set &quot;technical&quot;"/>
+        <covered by="Choosit\ModeloBundle\Tests\Unit\ModeloHttpClientTest::testAnyRequestWithTechnicalIssueShouldThrowException with data set &quot;unauthorized&quot;"/>
+      </line>
+      <line nr="314">
+        <covered by="Choosit\ModeloBundle\Tests\Unit\ModeloHttpClientTest::testAnyRequestWithTechnicalIssueShouldThrowException with data set &quot;technical&quot;"/>
+        <covered by="Choosit\ModeloBundle\Tests\Unit\ModeloHttpClientTest::testAnyRequestWithTechnicalIssueShouldThrowException with data set &quot;unauthorized&quot;"/>
+      </line>
+      <line nr="315">
+        <covered by="Choosit\ModeloBundle\Tests\Unit\ModeloHttpClientTest::testAnyRequestWithTechnicalIssueShouldThrowException with data set &quot;authentication&quot;"/>
+        <covered by="Choosit\ModeloBundle\Tests\Unit\ModeloHttpClientTest::testAnyRequestWithTechnicalIssueShouldThrowException with data set &quot;unauthorized&quot;"/>
+      </line>
+      <line nr="318">
+        <covered by="Choosit\ModeloBundle\Tests\Unit\ModeloHttpClientTest::testAnyRequestWithTechnicalIssueShouldThrowException with data set &quot;technical&quot;"/>
+      </line>
+      <line nr="331">
+        <covered by="Choosit\ModeloBundle\Tests\Unit\ModeloHttpClientTest::testAnyRequestWithTechnicalIssueShouldThrowException with data set &quot;authentication&quot;"/>
+        <covered by="Choosit\ModeloBundle\Tests\Unit\ModeloHttpClientTest::testAnyRequestWithTechnicalIssueShouldThrowException with data set &quot;unauthorized&quot;"/>
+      </line>
+      <line nr="333">
+        <covered by="Choosit\ModeloBundle\Tests\Unit\ModeloHttpClientTest::testAnyRequestWithTechnicalIssueShouldThrowException with data set &quot;authentication&quot;"/>
+        <covered by="Choosit\ModeloBundle\Tests\Unit\ModeloHttpClientTest::testAnyRequestWithTechnicalIssueShouldThrowException with data set &quot;unauthorized&quot;"/>
+      </line>
+      <line nr="334">
+        <covered by="Choosit\ModeloBundle\Tests\Unit\ModeloHttpClientTest::testAnyRequestWithTechnicalIssueShouldThrowException with data set &quot;authentication&quot;"/>
+      </line>
+      <line nr="335">
+        <covered by="Choosit\ModeloBundle\Tests\Unit\ModeloHttpClientTest::testAnyRequestWithTechnicalIssueShouldThrowException with data set &quot;unauthorized&quot;"/>
+      </line>
+      <line nr="336">
+        <covered by="Choosit\ModeloBundle\Tests\Unit\ModeloHttpClientTest::testAnyRequestWithTechnicalIssueShouldThrowException with data set &quot;unauthorized&quot;"/>
+      </line>
+      <line nr="337">
+        <covered by="Choosit\ModeloBundle\Tests\Unit\ModeloHttpClientTest::testAnyRequestWithTechnicalIssueShouldThrowException with data set &quot;unauthorized&quot;"/>
+      </line>
+      <line nr="348">
+        <covered by="Choosit\ModeloBundle\Tests\Unit\ModeloHttpClientTest::testCreateContratFromExistentModelShouldReturnString with data set &quot;model&quot;"/>
+        <covered by="Choosit\ModeloBundle\Tests\Unit\ModeloHttpClientTest::testCreateContratFromExistentModelShouldReturnString with data set &quot;doctype&quot;"/>
+        <covered by="Choosit\ModeloBundle\Tests\Unit\ModeloHttpClientTest::testDisableContractShouldReturnNoticeMessage with data set &quot;disable-contract-success&quot;"/>
+        <covered by="Choosit\ModeloBundle\Tests\Unit\ModeloHttpClientTest::testGetContractFilledContentShouldReturnContentAsArray with data set &quot;content-filled&quot;"/>
+        <covered by="Choosit\ModeloBundle\Tests\Unit\ModeloHttpClientTest::testCreateContratFromNonExistentModelShouldThrowModelNotFound with data set &quot;model&quot;"/>
+        <covered by="Choosit\ModeloBundle\Tests\Unit\ModeloHttpClientTest::testCreateContratFromNonExistentModelShouldThrowModelNotFound with data set &quot;doctype&quot;"/>
+        <covered by="Choosit\ModeloBundle\Tests\Unit\ModeloHttpClientTest::testGetAllModelFieldsShouldReturnFieldsAsArray with data set &quot;all-model-fields&quot;"/>
+      </line>
+      <line nr="349">
+        <covered by="Choosit\ModeloBundle\Tests\Unit\ModeloHttpClientTest::testCreateContratFromExistentModelShouldReturnString with data set &quot;model&quot;"/>
+        <covered by="Choosit\ModeloBundle\Tests\Unit\ModeloHttpClientTest::testCreateContratFromExistentModelShouldReturnString with data set &quot;doctype&quot;"/>
+        <covered by="Choosit\ModeloBundle\Tests\Unit\ModeloHttpClientTest::testDisableContractShouldReturnNoticeMessage with data set &quot;disable-contract-success&quot;"/>
+        <covered by="Choosit\ModeloBundle\Tests\Unit\ModeloHttpClientTest::testGetContractFilledContentShouldReturnContentAsArray with data set &quot;content-filled&quot;"/>
+        <covered by="Choosit\ModeloBundle\Tests\Unit\ModeloHttpClientTest::testCreateContratFromNonExistentModelShouldThrowModelNotFound with data set &quot;model&quot;"/>
+        <covered by="Choosit\ModeloBundle\Tests\Unit\ModeloHttpClientTest::testCreateContratFromNonExistentModelShouldThrowModelNotFound with data set &quot;doctype&quot;"/>
+        <covered by="Choosit\ModeloBundle\Tests\Unit\ModeloHttpClientTest::testGetAllModelFieldsShouldReturnFieldsAsArray with data set &quot;all-model-fields&quot;"/>
+      </line>
+    </coverage>
+    <source>
+      <line no="1">
+        <token name="T_OPEN_TAG">&lt;?php</token>
+      </line>
+      <line no="2"/>
+      <line no="3">
+        <token name="T_NAMESPACE">namespace</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_STRING">Choosit</token>
+        <token name="T_NS_SEPARATOR">\</token>
+        <token name="T_STRING">ModeloBundle</token>
+        <token name="T_NS_SEPARATOR">\</token>
+        <token name="T_STRING">Service</token>
+        <token name="T_SEMICOLON">;</token>
+      </line>
+      <line no="4"/>
+      <line no="5">
+        <token name="T_USE">use</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_STRING">Choosit</token>
+        <token name="T_NS_SEPARATOR">\</token>
+        <token name="T_STRING">ModeloBundle</token>
+        <token name="T_NS_SEPARATOR">\</token>
+        <token name="T_STRING">Exception</token>
+        <token name="T_NS_SEPARATOR">\</token>
+        <token name="T_STRING">AuthenticateException</token>
+        <token name="T_SEMICOLON">;</token>
+      </line>
+      <line no="6">
+        <token name="T_USE">use</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_STRING">Choosit</token>
+        <token name="T_NS_SEPARATOR">\</token>
+        <token name="T_STRING">ModeloBundle</token>
+        <token name="T_NS_SEPARATOR">\</token>
+        <token name="T_STRING">Exception</token>
+        <token name="T_NS_SEPARATOR">\</token>
+        <token name="T_STRING">AuthKeyMissingException</token>
+        <token name="T_SEMICOLON">;</token>
+      </line>
+      <line no="7">
+        <token name="T_USE">use</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_STRING">Choosit</token>
+        <token name="T_NS_SEPARATOR">\</token>
+        <token name="T_STRING">ModeloBundle</token>
+        <token name="T_NS_SEPARATOR">\</token>
+        <token name="T_STRING">Exception</token>
+        <token name="T_NS_SEPARATOR">\</token>
+        <token name="T_STRING">HttpException</token>
+        <token name="T_SEMICOLON">;</token>
+      </line>
+      <line no="8">
+        <token name="T_USE">use</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_STRING">Choosit</token>
+        <token name="T_NS_SEPARATOR">\</token>
+        <token name="T_STRING">ModeloBundle</token>
+        <token name="T_NS_SEPARATOR">\</token>
+        <token name="T_STRING">Exception</token>
+        <token name="T_NS_SEPARATOR">\</token>
+        <token name="T_STRING">ModelNotFound</token>
+        <token name="T_SEMICOLON">;</token>
+      </line>
+      <line no="9">
+        <token name="T_USE">use</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_STRING">Choosit</token>
+        <token name="T_NS_SEPARATOR">\</token>
+        <token name="T_STRING">ModeloBundle</token>
+        <token name="T_NS_SEPARATOR">\</token>
+        <token name="T_STRING">Exception</token>
+        <token name="T_NS_SEPARATOR">\</token>
+        <token name="T_STRING">UnexpectedException</token>
+        <token name="T_SEMICOLON">;</token>
+      </line>
+      <line no="10">
+        <token name="T_USE">use</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_STRING">Choosit</token>
+        <token name="T_NS_SEPARATOR">\</token>
+        <token name="T_STRING">ModeloBundle</token>
+        <token name="T_NS_SEPARATOR">\</token>
+        <token name="T_STRING">Utils</token>
+        <token name="T_NS_SEPARATOR">\</token>
+        <token name="T_STRING">XmlProcessor</token>
+        <token name="T_SEMICOLON">;</token>
+      </line>
+      <line no="11">
+        <token name="T_USE">use</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_STRING">Symfony</token>
+        <token name="T_NS_SEPARATOR">\</token>
+        <token name="T_STRING">Component</token>
+        <token name="T_NS_SEPARATOR">\</token>
+        <token name="T_STRING">HttpFoundation</token>
+        <token name="T_NS_SEPARATOR">\</token>
+        <token name="T_STRING">Response</token>
+        <token name="T_SEMICOLON">;</token>
+      </line>
+      <line no="12">
+        <token name="T_USE">use</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_STRING">Symfony</token>
+        <token name="T_NS_SEPARATOR">\</token>
+        <token name="T_STRING">Contracts</token>
+        <token name="T_NS_SEPARATOR">\</token>
+        <token name="T_STRING">HttpClient</token>
+        <token name="T_NS_SEPARATOR">\</token>
+        <token name="T_STRING">Exception</token>
+        <token name="T_NS_SEPARATOR">\</token>
+        <token name="T_STRING">ClientExceptionInterface</token>
+        <token name="T_SEMICOLON">;</token>
+      </line>
+      <line no="13">
+        <token name="T_USE">use</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_STRING">Symfony</token>
+        <token name="T_NS_SEPARATOR">\</token>
+        <token name="T_STRING">Contracts</token>
+        <token name="T_NS_SEPARATOR">\</token>
+        <token name="T_STRING">HttpClient</token>
+        <token name="T_NS_SEPARATOR">\</token>
+        <token name="T_STRING">Exception</token>
+        <token name="T_NS_SEPARATOR">\</token>
+        <token name="T_STRING">RedirectionExceptionInterface</token>
+        <token name="T_SEMICOLON">;</token>
+      </line>
+      <line no="14">
+        <token name="T_USE">use</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_STRING">Symfony</token>
+        <token name="T_NS_SEPARATOR">\</token>
+        <token name="T_STRING">Contracts</token>
+        <token name="T_NS_SEPARATOR">\</token>
+        <token name="T_STRING">HttpClient</token>
+        <token name="T_NS_SEPARATOR">\</token>
+        <token name="T_STRING">Exception</token>
+        <token name="T_NS_SEPARATOR">\</token>
+        <token name="T_STRING">ServerExceptionInterface</token>
+        <token name="T_SEMICOLON">;</token>
+      </line>
+      <line no="15">
+        <token name="T_USE">use</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_STRING">Symfony</token>
+        <token name="T_NS_SEPARATOR">\</token>
+        <token name="T_STRING">Contracts</token>
+        <token name="T_NS_SEPARATOR">\</token>
+        <token name="T_STRING">HttpClient</token>
+        <token name="T_NS_SEPARATOR">\</token>
+        <token name="T_STRING">Exception</token>
+        <token name="T_NS_SEPARATOR">\</token>
+        <token name="T_STRING">TransportExceptionInterface</token>
+        <token name="T_SEMICOLON">;</token>
+      </line>
+      <line no="16">
+        <token name="T_USE">use</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_STRING">Symfony</token>
+        <token name="T_NS_SEPARATOR">\</token>
+        <token name="T_STRING">Contracts</token>
+        <token name="T_NS_SEPARATOR">\</token>
+        <token name="T_STRING">HttpClient</token>
+        <token name="T_NS_SEPARATOR">\</token>
+        <token name="T_STRING">HttpClientInterface</token>
+        <token name="T_SEMICOLON">;</token>
+      </line>
+      <line no="17"/>
+      <line no="18">
+        <token name="T_DOC_COMMENT">/**</token>
+      </line>
+      <line no="19">
+        <token name="T_DOC_COMMENT"> * ModeloClient : An http client that performs and handle</token>
+      </line>
+      <line no="20">
+        <token name="T_DOC_COMMENT"> * HTTP request to modelo API</token>
+      </line>
+      <line no="21">
+        <token name="T_DOC_COMMENT"> */</token>
+      </line>
+      <line no="22">
+        <token name="T_CLASS">class</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_STRING">ModeloClient</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_IMPLEMENTS">implements</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_STRING">ModeloClientInterface</token>
+      </line>
+      <line no="23">
+        <token name="T_OPEN_CURLY">{</token>
+      </line>
+      <line no="24">
+        <token name="T_WHITESPACE">    </token>
+        <token name="T_PRIVATE">private</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_STRING">HttpClientInterface</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_VARIABLE">$client</token>
+        <token name="T_SEMICOLON">;</token>
+      </line>
+      <line no="25"/>
+      <line no="26">
+        <token name="T_WHITESPACE">    </token>
+        <token name="T_PRIVATE">private</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_QUESTION_MARK">?</token>
+        <token name="T_STRING">string</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_VARIABLE">$authKey</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_EQUAL">=</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_STRING">null</token>
+        <token name="T_SEMICOLON">;</token>
+      </line>
+      <line no="27"/>
+      <line no="28">
+        <token name="T_WHITESPACE">    </token>
+        <token name="T_PUBLIC">public</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_FUNCTION">function</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_STRING">__construct</token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_STRING">HttpClientInterface</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_VARIABLE">$client</token>
+        <token name="T_COMMA">,</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_QUESTION_MARK">?</token>
+        <token name="T_STRING">string</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_VARIABLE">$agencyCode</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_EQUAL">=</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_STRING">null</token>
+        <token name="T_COMMA">,</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_STRING">string</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_VARIABLE">$privateKey</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_EQUAL">=</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_STRING">null</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+      </line>
+      <line no="29">
+        <token name="T_WHITESPACE">    </token>
+        <token name="T_OPEN_CURLY">{</token>
+      </line>
+      <line no="30">
+        <token name="T_WHITESPACE">        </token>
+        <token name="T_VARIABLE">$this</token>
+        <token name="T_OBJECT_OPERATOR">-&gt;</token>
+        <token name="T_STRING">client</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_EQUAL">=</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_VARIABLE">$client</token>
+        <token name="T_SEMICOLON">;</token>
+      </line>
+      <line no="31">
+        <token name="T_WHITESPACE">        </token>
+        <token name="T_VARIABLE">$this</token>
+        <token name="T_OBJECT_OPERATOR">-&gt;</token>
+        <token name="T_STRING">setAuthKey</token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_VARIABLE">$agencyCode</token>
+        <token name="T_COMMA">,</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_VARIABLE">$privateKey</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_SEMICOLON">;</token>
+      </line>
+      <line no="32">
+        <token name="T_WHITESPACE">    </token>
+        <token name="T_CLOSE_CURLY">}</token>
+      </line>
+      <line no="33"/>
+      <line no="34">
+        <token name="T_WHITESPACE">    </token>
+        <token name="T_PUBLIC">public</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_FUNCTION">function</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_STRING">setAuthKey</token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_QUESTION_MARK">?</token>
+        <token name="T_STRING">string</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_VARIABLE">$agencyCode</token>
+        <token name="T_COMMA">,</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_QUESTION_MARK">?</token>
+        <token name="T_STRING">string</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_VARIABLE">$privateKey</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_COLON">:</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_STRING">void</token>
+      </line>
+      <line no="35">
+        <token name="T_WHITESPACE">    </token>
+        <token name="T_OPEN_CURLY">{</token>
+      </line>
+      <line no="36">
+        <token name="T_WHITESPACE">        </token>
+        <token name="T_IF">if</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_STRING">null</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_IS_NOT_IDENTICAL">!==</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_VARIABLE">$agencyCode</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_BOOLEAN_AND">&amp;&amp;</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_STRING">null</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_IS_NOT_IDENTICAL">!==</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_VARIABLE">$privateKey</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_OPEN_CURLY">{</token>
+      </line>
+      <line no="37">
+        <token name="T_WHITESPACE">            </token>
+        <token name="T_VARIABLE">$this</token>
+        <token name="T_OBJECT_OPERATOR">-&gt;</token>
+        <token name="T_STRING">authKey</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_EQUAL">=</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_STRING">md5</token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_VARIABLE">$agencyCode</token>
+        <token name="T_DOT">.</token>
+        <token name="T_CONSTANT_ENCAPSED_STRING">'&amp;'</token>
+        <token name="T_DOT">.</token>
+        <token name="T_STRING">date</token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_CONSTANT_ENCAPSED_STRING">'dmY'</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_DOT">.</token>
+        <token name="T_CONSTANT_ENCAPSED_STRING">'&amp;'</token>
+        <token name="T_DOT">.</token>
+        <token name="T_VARIABLE">$privateKey</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_SEMICOLON">;</token>
+      </line>
+      <line no="38">
+        <token name="T_WHITESPACE">        </token>
+        <token name="T_CLOSE_CURLY">}</token>
+      </line>
+      <line no="39">
+        <token name="T_WHITESPACE">    </token>
+        <token name="T_CLOSE_CURLY">}</token>
+      </line>
+      <line no="40"/>
+      <line no="41">
+        <token name="T_WHITESPACE">    </token>
+        <token name="T_PUBLIC">public</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_FUNCTION">function</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_STRING">getAuthKey</token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_COLON">:</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_QUESTION_MARK">?</token>
+        <token name="T_STRING">string</token>
+      </line>
+      <line no="42">
+        <token name="T_WHITESPACE">    </token>
+        <token name="T_OPEN_CURLY">{</token>
+      </line>
+      <line no="43">
+        <token name="T_WHITESPACE">        </token>
+        <token name="T_IF">if</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_STRING">null</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_IS_IDENTICAL">===</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_VARIABLE">$this</token>
+        <token name="T_OBJECT_OPERATOR">-&gt;</token>
+        <token name="T_STRING">authKey</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_OPEN_CURLY">{</token>
+      </line>
+      <line no="44">
+        <token name="T_WHITESPACE">            </token>
+        <token name="T_THROW">throw</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_NEW">new</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_STRING">AuthKeyMissingException</token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_SEMICOLON">;</token>
+      </line>
+      <line no="45">
+        <token name="T_WHITESPACE">        </token>
+        <token name="T_CLOSE_CURLY">}</token>
+      </line>
+      <line no="46"/>
+      <line no="47">
+        <token name="T_WHITESPACE">        </token>
+        <token name="T_RETURN">return</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_VARIABLE">$this</token>
+        <token name="T_OBJECT_OPERATOR">-&gt;</token>
+        <token name="T_STRING">authKey</token>
+        <token name="T_SEMICOLON">;</token>
+      </line>
+      <line no="48">
+        <token name="T_WHITESPACE">    </token>
+        <token name="T_CLOSE_CURLY">}</token>
+      </line>
+      <line no="49"/>
+      <line no="50">
+        <token name="T_WHITESPACE">    </token>
+        <token name="T_DOC_COMMENT">/**</token>
+      </line>
+      <line no="51">
+        <token name="T_DOC_COMMENT">     * Create a new document / contract by providing only the merge fields or by providing the complete document structure.</token>
+      </line>
+      <line no="52">
+        <token name="T_DOC_COMMENT">     *</token>
+      </line>
+      <line no="53">
+        <token name="T_DOC_COMMENT">     * @param string      $modelName Model or Doctype name from which to create the contract</token>
+      </line>
+      <line no="54">
+        <token name="T_DOC_COMMENT">     * @param bool        $isDocType true = Doctype, false = Model</token>
+      </line>
+      <line no="55">
+        <token name="T_DOC_COMMENT">     * @param string|null $xml       xml as string</token>
+      </line>
+      <line no="56">
+        <token name="T_DOC_COMMENT">     * @param bool        $outputPdf true = return pdf base64 encoded string, false return html</token>
+      </line>
+      <line no="57">
+        <token name="T_DOC_COMMENT">     *</token>
+      </line>
+      <line no="58">
+        <token name="T_DOC_COMMENT">     * @throws AuthenticateException</token>
+      </line>
+      <line no="59">
+        <token name="T_DOC_COMMENT">     * @throws ClientExceptionInterface</token>
+      </line>
+      <line no="60">
+        <token name="T_DOC_COMMENT">     * @throws HttpException</token>
+      </line>
+      <line no="61">
+        <token name="T_DOC_COMMENT">     * @throws ModelNotFound</token>
+      </line>
+      <line no="62">
+        <token name="T_DOC_COMMENT">     * @throws RedirectionExceptionInterface</token>
+      </line>
+      <line no="63">
+        <token name="T_DOC_COMMENT">     * @throws ServerExceptionInterface</token>
+      </line>
+      <line no="64">
+        <token name="T_DOC_COMMENT">     * @throws TransportExceptionInterface</token>
+      </line>
+      <line no="65">
+        <token name="T_DOC_COMMENT">     * @throws UnexpectedException</token>
+      </line>
+      <line no="66">
+        <token name="T_DOC_COMMENT">     */</token>
+      </line>
+      <line no="67">
+        <token name="T_WHITESPACE">    </token>
+        <token name="T_PUBLIC">public</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_FUNCTION">function</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_STRING">createContract</token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_STRING">string</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_VARIABLE">$modelName</token>
+        <token name="T_COMMA">,</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_STRING">bool</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_VARIABLE">$isDocType</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_EQUAL">=</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_STRING">false</token>
+        <token name="T_COMMA">,</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_STRING">string</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_VARIABLE">$xml</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_EQUAL">=</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_STRING">null</token>
+        <token name="T_COMMA">,</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_STRING">bool</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_VARIABLE">$outputPdf</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_EQUAL">=</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_STRING">false</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_COLON">:</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_STRING">string</token>
+      </line>
+      <line no="68">
+        <token name="T_WHITESPACE">    </token>
+        <token name="T_OPEN_CURLY">{</token>
+      </line>
+      <line no="69">
+        <token name="T_WHITESPACE">        </token>
+        <token name="T_VARIABLE">$modelId</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_EQUAL">=</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_VARIABLE">$this</token>
+        <token name="T_OBJECT_OPERATOR">-&gt;</token>
+        <token name="T_STRING">getModelIdByNameAndType</token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_VARIABLE">$modelName</token>
+        <token name="T_COMMA">,</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_VARIABLE">$isDocType</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_SEMICOLON">;</token>
+      </line>
+      <line no="70"/>
+      <line no="71">
+        <token name="T_WHITESPACE">        </token>
+        <token name="T_IF">if</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_STRING">null</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_IS_IDENTICAL">===</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_VARIABLE">$modelId</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_OPEN_CURLY">{</token>
+      </line>
+      <line no="72">
+        <token name="T_WHITESPACE">            </token>
+        <token name="T_VARIABLE">$type</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_EQUAL">=</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_VARIABLE">$isDocType</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_QUESTION_MARK">?</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_CONSTANT_ENCAPSED_STRING">'Doctype'</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_COLON">:</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_CONSTANT_ENCAPSED_STRING">'Model'</token>
+        <token name="T_SEMICOLON">;</token>
+      </line>
+      <line no="73">
+        <token name="T_WHITESPACE">            </token>
+        <token name="T_THROW">throw</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_NEW">new</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_STRING">ModelNotFound</token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_VARIABLE">$type</token>
+        <token name="T_DOT">.</token>
+        <token name="T_CONSTANT_ENCAPSED_STRING">' was not found with specific '</token>
+        <token name="T_DOT">.</token>
+        <token name="T_VARIABLE">$modelName</token>
+        <token name="T_DOT">.</token>
+        <token name="T_CONSTANT_ENCAPSED_STRING">' name.'</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_SEMICOLON">;</token>
+      </line>
+      <line no="74">
+        <token name="T_WHITESPACE">        </token>
+        <token name="T_CLOSE_CURLY">}</token>
+      </line>
+      <line no="75"/>
+      <line no="76">
+        <token name="T_WHITESPACE">        </token>
+        <token name="T_RETURN">return</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_VARIABLE">$this</token>
+        <token name="T_OBJECT_OPERATOR">-&gt;</token>
+        <token name="T_STRING">createContractByModelId</token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_VARIABLE">$modelId</token>
+        <token name="T_COMMA">,</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_VARIABLE">$outputPdf</token>
+        <token name="T_COMMA">,</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_VARIABLE">$xml</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_SEMICOLON">;</token>
+      </line>
+      <line no="77">
+        <token name="T_WHITESPACE">    </token>
+        <token name="T_CLOSE_CURLY">}</token>
+      </line>
+      <line no="78"/>
+      <line no="79">
+        <token name="T_WHITESPACE">    </token>
+        <token name="T_DOC_COMMENT">/**</token>
+      </line>
+      <line no="80">
+        <token name="T_DOC_COMMENT">     * Returns the id of a model or doctype given its name</token>
+      </line>
+      <line no="81">
+        <token name="T_DOC_COMMENT">     *</token>
+      </line>
+      <line no="82">
+        <token name="T_DOC_COMMENT">     * @param string $modelName Model or Doctype name</token>
+      </line>
+      <line no="83">
+        <token name="T_DOC_COMMENT">     * @param bool   $isDocType true = Doctype, false = Model</token>
+      </line>
+      <line no="84">
+        <token name="T_DOC_COMMENT">     *</token>
+      </line>
+      <line no="85">
+        <token name="T_DOC_COMMENT">     * @throws AuthenticateException</token>
+      </line>
+      <line no="86">
+        <token name="T_DOC_COMMENT">     * @throws ClientExceptionInterface</token>
+      </line>
+      <line no="87">
+        <token name="T_DOC_COMMENT">     * @throws HttpException</token>
+      </line>
+      <line no="88">
+        <token name="T_DOC_COMMENT">     * @throws RedirectionExceptionInterface</token>
+      </line>
+      <line no="89">
+        <token name="T_DOC_COMMENT">     * @throws ServerExceptionInterface</token>
+      </line>
+      <line no="90">
+        <token name="T_DOC_COMMENT">     * @throws TransportExceptionInterface</token>
+      </line>
+      <line no="91">
+        <token name="T_DOC_COMMENT">     * @throws UnexpectedException</token>
+      </line>
+      <line no="92">
+        <token name="T_DOC_COMMENT">     */</token>
+      </line>
+      <line no="93">
+        <token name="T_WHITESPACE">    </token>
+        <token name="T_PUBLIC">public</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_FUNCTION">function</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_STRING">getModelIdByNameAndType</token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_STRING">string</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_VARIABLE">$modelName</token>
+        <token name="T_COMMA">,</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_STRING">bool</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_VARIABLE">$isDocType</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_EQUAL">=</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_STRING">false</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_COLON">:</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_QUESTION_MARK">?</token>
+        <token name="T_STRING">string</token>
+      </line>
+      <line no="94">
+        <token name="T_WHITESPACE">    </token>
+        <token name="T_OPEN_CURLY">{</token>
+      </line>
+      <line no="95">
+        <token name="T_WHITESPACE">        </token>
+        <token name="T_VARIABLE">$uri</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_EQUAL">=</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_VARIABLE">$isDocType</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_QUESTION_MARK">?</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_STRING">self</token>
+        <token name="T_DOUBLE_COLON">::</token>
+        <token name="T_STRING">DOCTYPE_URI</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_COLON">:</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_STRING">self</token>
+        <token name="T_DOUBLE_COLON">::</token>
+        <token name="T_STRING">MODELE_URI</token>
+        <token name="T_SEMICOLON">;</token>
+      </line>
+      <line no="96"/>
+      <line no="97">
+        <token name="T_WHITESPACE">        </token>
+        <token name="T_VARIABLE">$response</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_EQUAL">=</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_VARIABLE">$this</token>
+        <token name="T_OBJECT_OPERATOR">-&gt;</token>
+        <token name="T_STRING">client</token>
+        <token name="T_OBJECT_OPERATOR">-&gt;</token>
+        <token name="T_STRING">request</token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_CONSTANT_ENCAPSED_STRING">'GET'</token>
+        <token name="T_COMMA">,</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_VARIABLE">$uri</token>
+        <token name="T_COMMA">,</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_OPEN_SQUARE">[</token>
+      </line>
+      <line no="98">
+        <token name="T_WHITESPACE">            </token>
+        <token name="T_CONSTANT_ENCAPSED_STRING">'query'</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_DOUBLE_ARROW">=&gt;</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_VARIABLE">$this</token>
+        <token name="T_OBJECT_OPERATOR">-&gt;</token>
+        <token name="T_STRING">getGenericParams</token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_COMMA">,</token>
+      </line>
+      <line no="99">
+        <token name="T_WHITESPACE">        </token>
+        <token name="T_CLOSE_SQUARE">]</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_SEMICOLON">;</token>
+      </line>
+      <line no="100"/>
+      <line no="101">
+        <token name="T_WHITESPACE">        </token>
+        <token name="T_IF">if</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_STRING">Response</token>
+        <token name="T_DOUBLE_COLON">::</token>
+        <token name="T_STRING">HTTP_OK</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_IS_NOT_IDENTICAL">!==</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_VARIABLE">$response</token>
+        <token name="T_OBJECT_OPERATOR">-&gt;</token>
+        <token name="T_STRING">getStatusCode</token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_OPEN_CURLY">{</token>
+      </line>
+      <line no="102">
+        <token name="T_WHITESPACE">            </token>
+        <token name="T_VARIABLE">$this</token>
+        <token name="T_OBJECT_OPERATOR">-&gt;</token>
+        <token name="T_STRING">processError</token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_VARIABLE">$response</token>
+        <token name="T_OBJECT_OPERATOR">-&gt;</token>
+        <token name="T_STRING">getStatusCode</token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_COMMA">,</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_VARIABLE">$response</token>
+        <token name="T_OBJECT_OPERATOR">-&gt;</token>
+        <token name="T_STRING">getContent</token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_STRING">false</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_SEMICOLON">;</token>
+      </line>
+      <line no="103">
+        <token name="T_WHITESPACE">        </token>
+        <token name="T_CLOSE_CURLY">}</token>
+      </line>
+      <line no="104"/>
+      <line no="105">
+        <token name="T_WHITESPACE">        </token>
+        <token name="T_VARIABLE">$xmlArray</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_EQUAL">=</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_VARIABLE">$this</token>
+        <token name="T_OBJECT_OPERATOR">-&gt;</token>
+        <token name="T_STRING">processXmlResponse</token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_VARIABLE">$response</token>
+        <token name="T_OBJECT_OPERATOR">-&gt;</token>
+        <token name="T_STRING">getContent</token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_STRING">false</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_COMMA">,</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_STRING">true</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_SEMICOLON">;</token>
+      </line>
+      <line no="106"/>
+      <line no="107">
+        <token name="T_WHITESPACE">        </token>
+        <token name="T_VARIABLE">$modelId</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_EQUAL">=</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_STRING">null</token>
+        <token name="T_SEMICOLON">;</token>
+      </line>
+      <line no="108">
+        <token name="T_WHITESPACE">        </token>
+        <token name="T_VARIABLE">$keyName</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_EQUAL">=</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_VARIABLE">$isDocType</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_QUESTION_MARK">?</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_STRING">self</token>
+        <token name="T_DOUBLE_COLON">::</token>
+        <token name="T_STRING">DOCTYPE_REFERENCE_KEY</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_COLON">:</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_STRING">self</token>
+        <token name="T_DOUBLE_COLON">::</token>
+        <token name="T_STRING">MODEL_TITLE_KEY</token>
+        <token name="T_SEMICOLON">;</token>
+      </line>
+      <line no="109"/>
+      <line no="110">
+        <token name="T_WHITESPACE">        </token>
+        <token name="T_IF">if</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_ISSET">isset</token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_VARIABLE">$xmlArray</token>
+        <token name="T_OPEN_SQUARE">[</token>
+        <token name="T_STRING">self</token>
+        <token name="T_DOUBLE_COLON">::</token>
+        <token name="T_STRING">ITEM_KEY</token>
+        <token name="T_CLOSE_SQUARE">]</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_OPEN_CURLY">{</token>
+      </line>
+      <line no="111">
+        <token name="T_WHITESPACE">            </token>
+        <token name="T_FOREACH">foreach</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_VARIABLE">$xmlArray</token>
+        <token name="T_OPEN_SQUARE">[</token>
+        <token name="T_STRING">self</token>
+        <token name="T_DOUBLE_COLON">::</token>
+        <token name="T_STRING">ITEM_KEY</token>
+        <token name="T_CLOSE_SQUARE">]</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_AS">as</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_VARIABLE">$item</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_OPEN_CURLY">{</token>
+      </line>
+      <line no="112">
+        <token name="T_WHITESPACE">                </token>
+        <token name="T_IF">if</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_STRING">trim</token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_STRING">strtolower</token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_VARIABLE">$item</token>
+        <token name="T_OPEN_SQUARE">[</token>
+        <token name="T_VARIABLE">$keyName</token>
+        <token name="T_CLOSE_SQUARE">]</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_IS_IDENTICAL">===</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_STRING">trim</token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_STRING">strtolower</token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_VARIABLE">$modelName</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_OPEN_CURLY">{</token>
+      </line>
+      <line no="113">
+        <token name="T_WHITESPACE">                    </token>
+        <token name="T_VARIABLE">$modelId</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_EQUAL">=</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_VARIABLE">$item</token>
+        <token name="T_OPEN_SQUARE">[</token>
+        <token name="T_STRING">self</token>
+        <token name="T_DOUBLE_COLON">::</token>
+        <token name="T_STRING">MODEL_ID_KEY</token>
+        <token name="T_CLOSE_SQUARE">]</token>
+        <token name="T_SEMICOLON">;</token>
+      </line>
+      <line no="114">
+        <token name="T_WHITESPACE">                </token>
+        <token name="T_CLOSE_CURLY">}</token>
+      </line>
+      <line no="115">
+        <token name="T_WHITESPACE">            </token>
+        <token name="T_CLOSE_CURLY">}</token>
+      </line>
+      <line no="116">
+        <token name="T_WHITESPACE">        </token>
+        <token name="T_CLOSE_CURLY">}</token>
+      </line>
+      <line no="117"/>
+      <line no="118">
+        <token name="T_WHITESPACE">        </token>
+        <token name="T_RETURN">return</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_VARIABLE">$modelId</token>
+        <token name="T_SEMICOLON">;</token>
+      </line>
+      <line no="119">
+        <token name="T_WHITESPACE">    </token>
+        <token name="T_CLOSE_CURLY">}</token>
+      </line>
+      <line no="120"/>
+      <line no="121">
+        <token name="T_WHITESPACE">    </token>
+        <token name="T_DOC_COMMENT">/**</token>
+      </line>
+      <line no="122">
+        <token name="T_DOC_COMMENT">     * Get the list of fields returned corresponds to all the fields filled in the contract.</token>
+      </line>
+      <line no="123">
+        <token name="T_DOC_COMMENT">     * The name of the XML nodes corresponds to the name of the fields for inserting data from the associated model.</token>
+      </line>
+      <line no="124">
+        <token name="T_DOC_COMMENT">     *</token>
+      </line>
+      <line no="125">
+        <token name="T_DOC_COMMENT">     * @param string $contractId    id of the contract for which to retrieve the pre-filled content</token>
+      </line>
+      <line no="126">
+        <token name="T_DOC_COMMENT">     * @param bool   $returnAsArray true return as PHP array, false return SimpleXMLElement object</token>
+      </line>
+      <line no="127">
+        <token name="T_DOC_COMMENT">     *</token>
+      </line>
+      <line no="128">
+        <token name="T_DOC_COMMENT">     * @return array</token>
+      </line>
+      <line no="129">
+        <token name="T_DOC_COMMENT">     *</token>
+      </line>
+      <line no="130">
+        <token name="T_DOC_COMMENT">     * @throws AuthenticateException</token>
+      </line>
+      <line no="131">
+        <token name="T_DOC_COMMENT">     * @throws ClientExceptionInterface</token>
+      </line>
+      <line no="132">
+        <token name="T_DOC_COMMENT">     * @throws HttpException</token>
+      </line>
+      <line no="133">
+        <token name="T_DOC_COMMENT">     * @throws RedirectionExceptionInterface</token>
+      </line>
+      <line no="134">
+        <token name="T_DOC_COMMENT">     * @throws ServerExceptionInterface</token>
+      </line>
+      <line no="135">
+        <token name="T_DOC_COMMENT">     * @throws TransportExceptionInterface</token>
+      </line>
+      <line no="136">
+        <token name="T_DOC_COMMENT">     * @throws UnexpectedException</token>
+      </line>
+      <line no="137">
+        <token name="T_DOC_COMMENT">     */</token>
+      </line>
+      <line no="138">
+        <token name="T_WHITESPACE">    </token>
+        <token name="T_PUBLIC">public</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_FUNCTION">function</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_STRING">getContractFilledContent</token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_STRING">string</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_VARIABLE">$contractId</token>
+        <token name="T_COMMA">,</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_STRING">bool</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_VARIABLE">$returnAsArray</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_EQUAL">=</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_STRING">false</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+      </line>
+      <line no="139">
+        <token name="T_WHITESPACE">    </token>
+        <token name="T_OPEN_CURLY">{</token>
+      </line>
+      <line no="140">
+        <token name="T_WHITESPACE">        </token>
+        <token name="T_VARIABLE">$response</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_EQUAL">=</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_VARIABLE">$this</token>
+        <token name="T_OBJECT_OPERATOR">-&gt;</token>
+        <token name="T_STRING">client</token>
+        <token name="T_OBJECT_OPERATOR">-&gt;</token>
+        <token name="T_STRING">request</token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_CONSTANT_ENCAPSED_STRING">'GET'</token>
+        <token name="T_COMMA">,</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_STRING">self</token>
+        <token name="T_DOUBLE_COLON">::</token>
+        <token name="T_STRING">CONTRACT_URI</token>
+        <token name="T_COMMA">,</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_OPEN_SQUARE">[</token>
+      </line>
+      <line no="141">
+        <token name="T_WHITESPACE">            </token>
+        <token name="T_CONSTANT_ENCAPSED_STRING">'query'</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_DOUBLE_ARROW">=&gt;</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_STRING">array_merge</token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_VARIABLE">$this</token>
+        <token name="T_OBJECT_OPERATOR">-&gt;</token>
+        <token name="T_STRING">getGenericParams</token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_COMMA">,</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_OPEN_SQUARE">[</token>
+      </line>
+      <line no="142">
+        <token name="T_WHITESPACE">                </token>
+        <token name="T_CONSTANT_ENCAPSED_STRING">'_id'</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_DOUBLE_ARROW">=&gt;</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_VARIABLE">$contractId</token>
+        <token name="T_COMMA">,</token>
+      </line>
+      <line no="143">
+        <token name="T_WHITESPACE">                </token>
+        <token name="T_CONSTANT_ENCAPSED_STRING">'raw'</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_DOUBLE_ARROW">=&gt;</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_LNUMBER">1</token>
+        <token name="T_COMMA">,</token>
+      </line>
+      <line no="144">
+        <token name="T_WHITESPACE">            </token>
+        <token name="T_CLOSE_SQUARE">]</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_COMMA">,</token>
+      </line>
+      <line no="145">
+        <token name="T_WHITESPACE">        </token>
+        <token name="T_CLOSE_SQUARE">]</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_SEMICOLON">;</token>
+      </line>
+      <line no="146">
+        <token name="T_WHITESPACE">        </token>
+        <token name="T_IF">if</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_STRING">Response</token>
+        <token name="T_DOUBLE_COLON">::</token>
+        <token name="T_STRING">HTTP_OK</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_IS_NOT_IDENTICAL">!==</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_VARIABLE">$response</token>
+        <token name="T_OBJECT_OPERATOR">-&gt;</token>
+        <token name="T_STRING">getStatusCode</token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_OPEN_CURLY">{</token>
+      </line>
+      <line no="147">
+        <token name="T_WHITESPACE">            </token>
+        <token name="T_VARIABLE">$this</token>
+        <token name="T_OBJECT_OPERATOR">-&gt;</token>
+        <token name="T_STRING">processError</token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_VARIABLE">$response</token>
+        <token name="T_OBJECT_OPERATOR">-&gt;</token>
+        <token name="T_STRING">getStatusCode</token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_COMMA">,</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_VARIABLE">$response</token>
+        <token name="T_OBJECT_OPERATOR">-&gt;</token>
+        <token name="T_STRING">getContent</token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_STRING">false</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_SEMICOLON">;</token>
+      </line>
+      <line no="148">
+        <token name="T_WHITESPACE">        </token>
+        <token name="T_CLOSE_CURLY">}</token>
+      </line>
+      <line no="149"/>
+      <line no="150">
+        <token name="T_WHITESPACE">        </token>
+        <token name="T_RETURN">return</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_VARIABLE">$this</token>
+        <token name="T_OBJECT_OPERATOR">-&gt;</token>
+        <token name="T_STRING">processXmlResponse</token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_VARIABLE">$response</token>
+        <token name="T_OBJECT_OPERATOR">-&gt;</token>
+        <token name="T_STRING">getContent</token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_COMMA">,</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_VARIABLE">$returnAsArray</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_SEMICOLON">;</token>
+      </line>
+      <line no="151">
+        <token name="T_WHITESPACE">    </token>
+        <token name="T_CLOSE_CURLY">}</token>
+      </line>
+      <line no="152"/>
+      <line no="153">
+        <token name="T_WHITESPACE">    </token>
+        <token name="T_DOC_COMMENT">/**</token>
+      </line>
+      <line no="154">
+        <token name="T_DOC_COMMENT">     * Returns the list of all model fields</token>
+      </line>
+      <line no="155">
+        <token name="T_DOC_COMMENT">     *</token>
+      </line>
+      <line no="156">
+        <token name="T_DOC_COMMENT">     * @param string $modelId       id of the model for which to retrieve all fields</token>
+      </line>
+      <line no="157">
+        <token name="T_DOC_COMMENT">     * @param bool   $returnAsArray true return as PHP array, false return SimpleXMLElement object</token>
+      </line>
+      <line no="158">
+        <token name="T_DOC_COMMENT">     *</token>
+      </line>
+      <line no="159">
+        <token name="T_DOC_COMMENT">     * @return array</token>
+      </line>
+      <line no="160">
+        <token name="T_DOC_COMMENT">     *</token>
+      </line>
+      <line no="161">
+        <token name="T_DOC_COMMENT">     * @throws AuthenticateException</token>
+      </line>
+      <line no="162">
+        <token name="T_DOC_COMMENT">     * @throws ClientExceptionInterface</token>
+      </line>
+      <line no="163">
+        <token name="T_DOC_COMMENT">     * @throws HttpException</token>
+      </line>
+      <line no="164">
+        <token name="T_DOC_COMMENT">     * @throws RedirectionExceptionInterface</token>
+      </line>
+      <line no="165">
+        <token name="T_DOC_COMMENT">     * @throws ServerExceptionInterface</token>
+      </line>
+      <line no="166">
+        <token name="T_DOC_COMMENT">     * @throws TransportExceptionInterface</token>
+      </line>
+      <line no="167">
+        <token name="T_DOC_COMMENT">     * @throws UnexpectedException</token>
+      </line>
+      <line no="168">
+        <token name="T_DOC_COMMENT">     */</token>
+      </line>
+      <line no="169">
+        <token name="T_WHITESPACE">    </token>
+        <token name="T_PUBLIC">public</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_FUNCTION">function</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_STRING">getAllModelFields</token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_STRING">string</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_VARIABLE">$modelId</token>
+        <token name="T_COMMA">,</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_STRING">bool</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_VARIABLE">$returnAsArray</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_EQUAL">=</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_STRING">false</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+      </line>
+      <line no="170">
+        <token name="T_WHITESPACE">    </token>
+        <token name="T_OPEN_CURLY">{</token>
+      </line>
+      <line no="171">
+        <token name="T_WHITESPACE">        </token>
+        <token name="T_VARIABLE">$response</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_EQUAL">=</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_VARIABLE">$this</token>
+        <token name="T_OBJECT_OPERATOR">-&gt;</token>
+        <token name="T_STRING">client</token>
+        <token name="T_OBJECT_OPERATOR">-&gt;</token>
+        <token name="T_STRING">request</token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_CONSTANT_ENCAPSED_STRING">'GET'</token>
+        <token name="T_COMMA">,</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_STRING">self</token>
+        <token name="T_DOUBLE_COLON">::</token>
+        <token name="T_STRING">MODELE_URI</token>
+        <token name="T_COMMA">,</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_OPEN_SQUARE">[</token>
+      </line>
+      <line no="172">
+        <token name="T_WHITESPACE">            </token>
+        <token name="T_CONSTANT_ENCAPSED_STRING">'query'</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_DOUBLE_ARROW">=&gt;</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_VARIABLE">$this</token>
+        <token name="T_OBJECT_OPERATOR">-&gt;</token>
+        <token name="T_STRING">getGenericParams</token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_COMMA">,</token>
+      </line>
+      <line no="173">
+        <token name="T_WHITESPACE">            </token>
+        <token name="T_CONSTANT_ENCAPSED_STRING">'_id'</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_DOUBLE_ARROW">=&gt;</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_VARIABLE">$modelId</token>
+        <token name="T_COMMA">,</token>
+      </line>
+      <line no="174">
+        <token name="T_WHITESPACE">        </token>
+        <token name="T_CLOSE_SQUARE">]</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_SEMICOLON">;</token>
+      </line>
+      <line no="175"/>
+      <line no="176">
+        <token name="T_WHITESPACE">        </token>
+        <token name="T_IF">if</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_STRING">Response</token>
+        <token name="T_DOUBLE_COLON">::</token>
+        <token name="T_STRING">HTTP_OK</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_IS_NOT_IDENTICAL">!==</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_VARIABLE">$response</token>
+        <token name="T_OBJECT_OPERATOR">-&gt;</token>
+        <token name="T_STRING">getStatusCode</token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_OPEN_CURLY">{</token>
+      </line>
+      <line no="177">
+        <token name="T_WHITESPACE">            </token>
+        <token name="T_VARIABLE">$this</token>
+        <token name="T_OBJECT_OPERATOR">-&gt;</token>
+        <token name="T_STRING">processError</token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_VARIABLE">$response</token>
+        <token name="T_OBJECT_OPERATOR">-&gt;</token>
+        <token name="T_STRING">getStatusCode</token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_COMMA">,</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_VARIABLE">$response</token>
+        <token name="T_OBJECT_OPERATOR">-&gt;</token>
+        <token name="T_STRING">getContent</token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_STRING">false</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_SEMICOLON">;</token>
+      </line>
+      <line no="178">
+        <token name="T_WHITESPACE">        </token>
+        <token name="T_CLOSE_CURLY">}</token>
+      </line>
+      <line no="179"/>
+      <line no="180">
+        <token name="T_WHITESPACE">        </token>
+        <token name="T_RETURN">return</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_VARIABLE">$this</token>
+        <token name="T_OBJECT_OPERATOR">-&gt;</token>
+        <token name="T_STRING">processXmlResponse</token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_VARIABLE">$response</token>
+        <token name="T_OBJECT_OPERATOR">-&gt;</token>
+        <token name="T_STRING">getContent</token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_STRING">false</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_COMMA">,</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_VARIABLE">$returnAsArray</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_SEMICOLON">;</token>
+      </line>
+      <line no="181">
+        <token name="T_WHITESPACE">    </token>
+        <token name="T_CLOSE_CURLY">}</token>
+      </line>
+      <line no="182"/>
+      <line no="183">
+        <token name="T_WHITESPACE">    </token>
+        <token name="T_DOC_COMMENT">/**</token>
+      </line>
+      <line no="184">
+        <token name="T_DOC_COMMENT">     * Create a new document / contract by providing only the merge fields</token>
+      </line>
+      <line no="185">
+        <token name="T_DOC_COMMENT">     * or by providing the complete document structure.</token>
+      </line>
+      <line no="186">
+        <token name="T_DOC_COMMENT">     *</token>
+      </line>
+      <line no="187">
+        <token name="T_DOC_COMMENT">     * @param string      $modelId   id of the model for which to retrieve all fields</token>
+      </line>
+      <line no="188">
+        <token name="T_DOC_COMMENT">     * @param bool        $isDocType true = Doctype, false = Model</token>
+      </line>
+      <line no="189">
+        <token name="T_DOC_COMMENT">     * @param string|null $xml       xml as string</token>
+      </line>
+      <line no="190">
+        <token name="T_DOC_COMMENT">     * @param bool        $outputPdf true = return pdf base64 encoded string, false return html</token>
+      </line>
+      <line no="191">
+        <token name="T_DOC_COMMENT">     *</token>
+      </line>
+      <line no="192">
+        <token name="T_DOC_COMMENT">     * @throws AuthenticateException</token>
+      </line>
+      <line no="193">
+        <token name="T_DOC_COMMENT">     * @throws ClientExceptionInterface</token>
+      </line>
+      <line no="194">
+        <token name="T_DOC_COMMENT">     * @throws HttpException</token>
+      </line>
+      <line no="195">
+        <token name="T_DOC_COMMENT">     * @throws RedirectionExceptionInterface</token>
+      </line>
+      <line no="196">
+        <token name="T_DOC_COMMENT">     * @throws ServerExceptionInterface</token>
+      </line>
+      <line no="197">
+        <token name="T_DOC_COMMENT">     * @throws TransportExceptionInterface</token>
+      </line>
+      <line no="198">
+        <token name="T_DOC_COMMENT">     * @throws UnexpectedException</token>
+      </line>
+      <line no="199">
+        <token name="T_DOC_COMMENT">     */</token>
+      </line>
+      <line no="200">
+        <token name="T_WHITESPACE">    </token>
+        <token name="T_PRIVATE">private</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_FUNCTION">function</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_STRING">createContractByModelId</token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_STRING">string</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_VARIABLE">$modelId</token>
+        <token name="T_COMMA">,</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_STRING">bool</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_VARIABLE">$isDocType</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_EQUAL">=</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_STRING">false</token>
+        <token name="T_COMMA">,</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_STRING">string</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_VARIABLE">$xml</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_EQUAL">=</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_STRING">null</token>
+        <token name="T_COMMA">,</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_STRING">bool</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_VARIABLE">$outputPdf</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_EQUAL">=</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_STRING">false</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_COLON">:</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_STRING">string</token>
+      </line>
+      <line no="201">
+        <token name="T_WHITESPACE">    </token>
+        <token name="T_OPEN_CURLY">{</token>
+      </line>
+      <line no="202">
+        <token name="T_WHITESPACE">        </token>
+        <token name="T_VARIABLE">$uri</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_EQUAL">=</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_VARIABLE">$isDocType</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_QUESTION_MARK">?</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_STRING">self</token>
+        <token name="T_DOUBLE_COLON">::</token>
+        <token name="T_STRING">DOCTYPE_URI</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_COLON">:</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_STRING">self</token>
+        <token name="T_DOUBLE_COLON">::</token>
+        <token name="T_STRING">CONTRACT_URI</token>
+        <token name="T_SEMICOLON">;</token>
+      </line>
+      <line no="203"/>
+      <line no="204">
+        <token name="T_WHITESPACE">        </token>
+        <token name="T_VARIABLE">$keyName</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_EQUAL">=</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_VARIABLE">$isDocType</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_QUESTION_MARK">?</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_STRING">self</token>
+        <token name="T_DOUBLE_COLON">::</token>
+        <token name="T_STRING">DOCTYPE_POST_ID_KEY</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_COLON">:</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_STRING">self</token>
+        <token name="T_DOUBLE_COLON">::</token>
+        <token name="T_STRING">MODEL_POST_ID_KEY</token>
+        <token name="T_SEMICOLON">;</token>
+      </line>
+      <line no="205">
+        <token name="T_WHITESPACE">        </token>
+        <token name="T_VARIABLE">$outputValue</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_EQUAL">=</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_VARIABLE">$outputPdf</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_QUESTION_MARK">?</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_CONSTANT_ENCAPSED_STRING">'pdf'</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_COLON">:</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_STRING">null</token>
+        <token name="T_SEMICOLON">;</token>
+      </line>
+      <line no="206"/>
+      <line no="207">
+        <token name="T_WHITESPACE">        </token>
+        <token name="T_VARIABLE">$response</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_EQUAL">=</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_VARIABLE">$this</token>
+        <token name="T_OBJECT_OPERATOR">-&gt;</token>
+        <token name="T_STRING">client</token>
+        <token name="T_OBJECT_OPERATOR">-&gt;</token>
+        <token name="T_STRING">request</token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_CONSTANT_ENCAPSED_STRING">'POST'</token>
+        <token name="T_COMMA">,</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_VARIABLE">$uri</token>
+        <token name="T_COMMA">,</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_OPEN_SQUARE">[</token>
+      </line>
+      <line no="208">
+        <token name="T_WHITESPACE">            </token>
+        <token name="T_CONSTANT_ENCAPSED_STRING">'query'</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_DOUBLE_ARROW">=&gt;</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_STRING">array_merge</token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_VARIABLE">$this</token>
+        <token name="T_OBJECT_OPERATOR">-&gt;</token>
+        <token name="T_STRING">getGenericParams</token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_COMMA">,</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_OPEN_SQUARE">[</token>
+      </line>
+      <line no="209">
+        <token name="T_WHITESPACE">                </token>
+        <token name="T_VARIABLE">$keyName</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_DOUBLE_ARROW">=&gt;</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_VARIABLE">$modelId</token>
+        <token name="T_COMMA">,</token>
+      </line>
+      <line no="210">
+        <token name="T_WHITESPACE">                </token>
+        <token name="T_STRING">self</token>
+        <token name="T_DOUBLE_COLON">::</token>
+        <token name="T_STRING">OUTPUT_PARAM_KEY</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_DOUBLE_ARROW">=&gt;</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_VARIABLE">$outputValue</token>
+        <token name="T_COMMA">,</token>
+      </line>
+      <line no="211">
+        <token name="T_WHITESPACE">            </token>
+        <token name="T_CLOSE_SQUARE">]</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_COMMA">,</token>
+      </line>
+      <line no="212">
+        <token name="T_WHITESPACE">            </token>
+        <token name="T_CONSTANT_ENCAPSED_STRING">'body'</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_DOUBLE_ARROW">=&gt;</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_OPEN_SQUARE">[</token>
+      </line>
+      <line no="213">
+        <token name="T_WHITESPACE">                </token>
+        <token name="T_CONSTANT_ENCAPSED_STRING">'xml'</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_DOUBLE_ARROW">=&gt;</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_VARIABLE">$xml</token>
+        <token name="T_COMMA">,</token>
+      </line>
+      <line no="214">
+        <token name="T_WHITESPACE">            </token>
+        <token name="T_CLOSE_SQUARE">]</token>
+        <token name="T_COMMA">,</token>
+      </line>
+      <line no="215">
+        <token name="T_WHITESPACE">        </token>
+        <token name="T_CLOSE_SQUARE">]</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_SEMICOLON">;</token>
+      </line>
+      <line no="216"/>
+      <line no="217">
+        <token name="T_WHITESPACE">        </token>
+        <token name="T_IF">if</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_STRING">Response</token>
+        <token name="T_DOUBLE_COLON">::</token>
+        <token name="T_STRING">HTTP_OK</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_IS_NOT_IDENTICAL">!==</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_VARIABLE">$response</token>
+        <token name="T_OBJECT_OPERATOR">-&gt;</token>
+        <token name="T_STRING">getStatusCode</token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_OPEN_CURLY">{</token>
+      </line>
+      <line no="218">
+        <token name="T_WHITESPACE">            </token>
+        <token name="T_VARIABLE">$this</token>
+        <token name="T_OBJECT_OPERATOR">-&gt;</token>
+        <token name="T_STRING">processError</token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_VARIABLE">$response</token>
+        <token name="T_OBJECT_OPERATOR">-&gt;</token>
+        <token name="T_STRING">getStatusCode</token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_COMMA">,</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_VARIABLE">$response</token>
+        <token name="T_OBJECT_OPERATOR">-&gt;</token>
+        <token name="T_STRING">getContent</token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_STRING">false</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_SEMICOLON">;</token>
+      </line>
+      <line no="219">
+        <token name="T_WHITESPACE">        </token>
+        <token name="T_CLOSE_CURLY">}</token>
+      </line>
+      <line no="220"/>
+      <line no="221">
+        <token name="T_WHITESPACE">        </token>
+        <token name="T_RETURN">return</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_VARIABLE">$response</token>
+        <token name="T_OBJECT_OPERATOR">-&gt;</token>
+        <token name="T_STRING">getContent</token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_SEMICOLON">;</token>
+      </line>
+      <line no="222">
+        <token name="T_WHITESPACE">    </token>
+        <token name="T_CLOSE_CURLY">}</token>
+      </line>
+      <line no="223"/>
+      <line no="224">
+        <token name="T_WHITESPACE">    </token>
+        <token name="T_DOC_COMMENT">/**</token>
+      </line>
+      <line no="225">
+        <token name="T_DOC_COMMENT">     * Updating a contract is done on the same principle as creating a contract</token>
+      </line>
+      <line no="226">
+        <token name="T_DOC_COMMENT">     * with the associative XML of the fields to be included in the contract</token>
+      </line>
+      <line no="227">
+        <token name="T_DOC_COMMENT">     *</token>
+      </line>
+      <line no="228">
+        <token name="T_DOC_COMMENT">     * @param string      $contractId id of the contract to update</token>
+      </line>
+      <line no="229">
+        <token name="T_DOC_COMMENT">     * @param string|null $xml        xml as string</token>
+      </line>
+      <line no="230">
+        <token name="T_DOC_COMMENT">     * @param bool        $outputPdf  true = return pdf base64 encoded string, false return html</token>
+      </line>
+      <line no="231">
+        <token name="T_DOC_COMMENT">     *</token>
+      </line>
+      <line no="232">
+        <token name="T_DOC_COMMENT">     * @throws AuthenticateException</token>
+      </line>
+      <line no="233">
+        <token name="T_DOC_COMMENT">     * @throws ClientExceptionInterface</token>
+      </line>
+      <line no="234">
+        <token name="T_DOC_COMMENT">     * @throws HttpException</token>
+      </line>
+      <line no="235">
+        <token name="T_DOC_COMMENT">     * @throws RedirectionExceptionInterface</token>
+      </line>
+      <line no="236">
+        <token name="T_DOC_COMMENT">     * @throws ServerExceptionInterface</token>
+      </line>
+      <line no="237">
+        <token name="T_DOC_COMMENT">     * @throws TransportExceptionInterface</token>
+      </line>
+      <line no="238">
+        <token name="T_DOC_COMMENT">     * @throws UnexpectedException</token>
+      </line>
+      <line no="239">
+        <token name="T_DOC_COMMENT">     */</token>
+      </line>
+      <line no="240">
+        <token name="T_WHITESPACE">    </token>
+        <token name="T_PUBLIC">public</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_FUNCTION">function</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_STRING">updateContract</token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_STRING">string</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_VARIABLE">$contractId</token>
+        <token name="T_COMMA">,</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_STRING">string</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_VARIABLE">$xml</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_EQUAL">=</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_STRING">null</token>
+        <token name="T_COMMA">,</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_STRING">bool</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_VARIABLE">$outputPdf</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_EQUAL">=</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_STRING">false</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_COLON">:</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_STRING">string</token>
+      </line>
+      <line no="241">
+        <token name="T_WHITESPACE">    </token>
+        <token name="T_OPEN_CURLY">{</token>
+      </line>
+      <line no="242">
+        <token name="T_WHITESPACE">        </token>
+        <token name="T_VARIABLE">$outputValue</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_EQUAL">=</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_VARIABLE">$outputPdf</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_QUESTION_MARK">?</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_CONSTANT_ENCAPSED_STRING">'pdf'</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_COLON">:</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_STRING">null</token>
+        <token name="T_SEMICOLON">;</token>
+      </line>
+      <line no="243"/>
+      <line no="244">
+        <token name="T_WHITESPACE">        </token>
+        <token name="T_VARIABLE">$response</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_EQUAL">=</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_VARIABLE">$this</token>
+        <token name="T_OBJECT_OPERATOR">-&gt;</token>
+        <token name="T_STRING">client</token>
+        <token name="T_OBJECT_OPERATOR">-&gt;</token>
+        <token name="T_STRING">request</token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_CONSTANT_ENCAPSED_STRING">'PUT'</token>
+        <token name="T_COMMA">,</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_STRING">self</token>
+        <token name="T_DOUBLE_COLON">::</token>
+        <token name="T_STRING">CONTRACT_URI</token>
+        <token name="T_COMMA">,</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_OPEN_SQUARE">[</token>
+      </line>
+      <line no="245">
+        <token name="T_WHITESPACE">            </token>
+        <token name="T_CONSTANT_ENCAPSED_STRING">'query'</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_DOUBLE_ARROW">=&gt;</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_STRING">array_merge</token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_VARIABLE">$this</token>
+        <token name="T_OBJECT_OPERATOR">-&gt;</token>
+        <token name="T_STRING">getGenericParams</token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_COMMA">,</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_OPEN_SQUARE">[</token>
+      </line>
+      <line no="246">
+        <token name="T_WHITESPACE">                </token>
+        <token name="T_CONSTANT_ENCAPSED_STRING">'_id'</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_DOUBLE_ARROW">=&gt;</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_VARIABLE">$contractId</token>
+        <token name="T_COMMA">,</token>
+      </line>
+      <line no="247">
+        <token name="T_WHITESPACE">                </token>
+        <token name="T_STRING">self</token>
+        <token name="T_DOUBLE_COLON">::</token>
+        <token name="T_STRING">OUTPUT_PARAM_KEY</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_DOUBLE_ARROW">=&gt;</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_VARIABLE">$outputValue</token>
+        <token name="T_COMMA">,</token>
+      </line>
+      <line no="248">
+        <token name="T_WHITESPACE">            </token>
+        <token name="T_CLOSE_SQUARE">]</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_COMMA">,</token>
+      </line>
+      <line no="249">
+        <token name="T_WHITESPACE">            </token>
+        <token name="T_CONSTANT_ENCAPSED_STRING">'body'</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_DOUBLE_ARROW">=&gt;</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_OPEN_SQUARE">[</token>
+      </line>
+      <line no="250">
+        <token name="T_WHITESPACE">                </token>
+        <token name="T_CONSTANT_ENCAPSED_STRING">'xml'</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_DOUBLE_ARROW">=&gt;</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_VARIABLE">$xml</token>
+        <token name="T_COMMA">,</token>
+      </line>
+      <line no="251">
+        <token name="T_WHITESPACE">            </token>
+        <token name="T_CLOSE_SQUARE">]</token>
+        <token name="T_COMMA">,</token>
+      </line>
+      <line no="252">
+        <token name="T_WHITESPACE">        </token>
+        <token name="T_CLOSE_SQUARE">]</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_SEMICOLON">;</token>
+      </line>
+      <line no="253"/>
+      <line no="254">
+        <token name="T_WHITESPACE">        </token>
+        <token name="T_IF">if</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_STRING">Response</token>
+        <token name="T_DOUBLE_COLON">::</token>
+        <token name="T_STRING">HTTP_OK</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_IS_NOT_IDENTICAL">!==</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_VARIABLE">$response</token>
+        <token name="T_OBJECT_OPERATOR">-&gt;</token>
+        <token name="T_STRING">getStatusCode</token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_OPEN_CURLY">{</token>
+      </line>
+      <line no="255">
+        <token name="T_WHITESPACE">            </token>
+        <token name="T_VARIABLE">$this</token>
+        <token name="T_OBJECT_OPERATOR">-&gt;</token>
+        <token name="T_STRING">processError</token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_VARIABLE">$response</token>
+        <token name="T_OBJECT_OPERATOR">-&gt;</token>
+        <token name="T_STRING">getStatusCode</token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_COMMA">,</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_VARIABLE">$response</token>
+        <token name="T_OBJECT_OPERATOR">-&gt;</token>
+        <token name="T_STRING">getContent</token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_STRING">false</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_SEMICOLON">;</token>
+      </line>
+      <line no="256">
+        <token name="T_WHITESPACE">        </token>
+        <token name="T_CLOSE_CURLY">}</token>
+      </line>
+      <line no="257"/>
+      <line no="258">
+        <token name="T_WHITESPACE">        </token>
+        <token name="T_RETURN">return</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_VARIABLE">$response</token>
+        <token name="T_OBJECT_OPERATOR">-&gt;</token>
+        <token name="T_STRING">getContent</token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_SEMICOLON">;</token>
+      </line>
+      <line no="259">
+        <token name="T_WHITESPACE">    </token>
+        <token name="T_CLOSE_CURLY">}</token>
+      </line>
+      <line no="260"/>
+      <line no="261">
+        <token name="T_WHITESPACE">    </token>
+        <token name="T_DOC_COMMENT">/**</token>
+      </line>
+      <line no="262">
+        <token name="T_DOC_COMMENT">     * Deactivation of a contract. This is found in the trash of the interface.</token>
+      </line>
+      <line no="263">
+        <token name="T_DOC_COMMENT">     * It can be reactivated by modifying the state field of the contract.</token>
+      </line>
+      <line no="264">
+        <token name="T_DOC_COMMENT">     *</token>
+      </line>
+      <line no="265">
+        <token name="T_DOC_COMMENT">     * @param string $contractId id of the contract to disable</token>
+      </line>
+      <line no="266">
+        <token name="T_DOC_COMMENT">     *</token>
+      </line>
+      <line no="267">
+        <token name="T_DOC_COMMENT">     * @throws AuthenticateException</token>
+      </line>
+      <line no="268">
+        <token name="T_DOC_COMMENT">     * @throws ClientExceptionInterface</token>
+      </line>
+      <line no="269">
+        <token name="T_DOC_COMMENT">     * @throws HttpException</token>
+      </line>
+      <line no="270">
+        <token name="T_DOC_COMMENT">     * @throws RedirectionExceptionInterface</token>
+      </line>
+      <line no="271">
+        <token name="T_DOC_COMMENT">     * @throws ServerExceptionInterface</token>
+      </line>
+      <line no="272">
+        <token name="T_DOC_COMMENT">     * @throws TransportExceptionInterface</token>
+      </line>
+      <line no="273">
+        <token name="T_DOC_COMMENT">     * @throws UnexpectedException</token>
+      </line>
+      <line no="274">
+        <token name="T_DOC_COMMENT">     */</token>
+      </line>
+      <line no="275">
+        <token name="T_WHITESPACE">    </token>
+        <token name="T_PUBLIC">public</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_FUNCTION">function</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_STRING">disableContract</token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_STRING">string</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_VARIABLE">$contractId</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_COLON">:</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_STRING">string</token>
+      </line>
+      <line no="276">
+        <token name="T_WHITESPACE">    </token>
+        <token name="T_OPEN_CURLY">{</token>
+      </line>
+      <line no="277">
+        <token name="T_WHITESPACE">        </token>
+        <token name="T_VARIABLE">$response</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_EQUAL">=</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_VARIABLE">$this</token>
+        <token name="T_OBJECT_OPERATOR">-&gt;</token>
+        <token name="T_STRING">client</token>
+        <token name="T_OBJECT_OPERATOR">-&gt;</token>
+        <token name="T_STRING">request</token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_CONSTANT_ENCAPSED_STRING">'DELETE'</token>
+        <token name="T_COMMA">,</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_STRING">self</token>
+        <token name="T_DOUBLE_COLON">::</token>
+        <token name="T_STRING">CONTRACT_URI</token>
+        <token name="T_COMMA">,</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_OPEN_SQUARE">[</token>
+      </line>
+      <line no="278">
+        <token name="T_WHITESPACE">            </token>
+        <token name="T_CONSTANT_ENCAPSED_STRING">'query'</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_DOUBLE_ARROW">=&gt;</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_STRING">array_merge</token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_VARIABLE">$this</token>
+        <token name="T_OBJECT_OPERATOR">-&gt;</token>
+        <token name="T_STRING">getGenericParams</token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_COMMA">,</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_OPEN_SQUARE">[</token>
+      </line>
+      <line no="279">
+        <token name="T_WHITESPACE">                </token>
+        <token name="T_CONSTANT_ENCAPSED_STRING">'_id'</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_DOUBLE_ARROW">=&gt;</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_VARIABLE">$contractId</token>
+        <token name="T_COMMA">,</token>
+      </line>
+      <line no="280">
+        <token name="T_WHITESPACE">            </token>
+        <token name="T_CLOSE_SQUARE">]</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_COMMA">,</token>
+      </line>
+      <line no="281">
+        <token name="T_WHITESPACE">        </token>
+        <token name="T_CLOSE_SQUARE">]</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_SEMICOLON">;</token>
+      </line>
+      <line no="282"/>
+      <line no="283">
+        <token name="T_WHITESPACE">        </token>
+        <token name="T_IF">if</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_STRING">Response</token>
+        <token name="T_DOUBLE_COLON">::</token>
+        <token name="T_STRING">HTTP_OK</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_IS_NOT_IDENTICAL">!==</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_VARIABLE">$response</token>
+        <token name="T_OBJECT_OPERATOR">-&gt;</token>
+        <token name="T_STRING">getStatusCode</token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_OPEN_CURLY">{</token>
+      </line>
+      <line no="284">
+        <token name="T_WHITESPACE">            </token>
+        <token name="T_VARIABLE">$this</token>
+        <token name="T_OBJECT_OPERATOR">-&gt;</token>
+        <token name="T_STRING">processError</token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_VARIABLE">$response</token>
+        <token name="T_OBJECT_OPERATOR">-&gt;</token>
+        <token name="T_STRING">getStatusCode</token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_COMMA">,</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_VARIABLE">$response</token>
+        <token name="T_OBJECT_OPERATOR">-&gt;</token>
+        <token name="T_STRING">getContent</token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_STRING">false</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_SEMICOLON">;</token>
+      </line>
+      <line no="285">
+        <token name="T_WHITESPACE">        </token>
+        <token name="T_CLOSE_CURLY">}</token>
+      </line>
+      <line no="286"/>
+      <line no="287">
+        <token name="T_WHITESPACE">        </token>
+        <token name="T_VARIABLE">$xmlArray</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_EQUAL">=</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_VARIABLE">$this</token>
+        <token name="T_OBJECT_OPERATOR">-&gt;</token>
+        <token name="T_STRING">processXmlResponse</token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_VARIABLE">$response</token>
+        <token name="T_OBJECT_OPERATOR">-&gt;</token>
+        <token name="T_STRING">getContent</token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_STRING">false</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_COMMA">,</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_STRING">true</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_SEMICOLON">;</token>
+      </line>
+      <line no="288"/>
+      <line no="289">
+        <token name="T_WHITESPACE">        </token>
+        <token name="T_RETURN">return</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_VARIABLE">$xmlArray</token>
+        <token name="T_OPEN_SQUARE">[</token>
+        <token name="T_STRING">self</token>
+        <token name="T_DOUBLE_COLON">::</token>
+        <token name="T_STRING">NOTICE_KEY</token>
+        <token name="T_CLOSE_SQUARE">]</token>
+        <token name="T_SEMICOLON">;</token>
+      </line>
+      <line no="290">
+        <token name="T_WHITESPACE">    </token>
+        <token name="T_CLOSE_CURLY">}</token>
+      </line>
+      <line no="291"/>
+      <line no="292">
+        <token name="T_WHITESPACE">    </token>
+        <token name="T_DOC_COMMENT">/**</token>
+      </line>
+      <line no="293">
+        <token name="T_DOC_COMMENT">     *  Get redundant parameters.</token>
+      </line>
+      <line no="294">
+        <token name="T_DOC_COMMENT">     *</token>
+      </line>
+      <line no="295">
+        <token name="T_DOC_COMMENT">     * @throws AuthKeyMissingException</token>
+      </line>
+      <line no="296">
+        <token name="T_DOC_COMMENT">     */</token>
+      </line>
+      <line no="297">
+        <token name="T_WHITESPACE">    </token>
+        <token name="T_PRIVATE">private</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_FUNCTION">function</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_STRING">getGenericParams</token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_COLON">:</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_ARRAY">array</token>
+      </line>
+      <line no="298">
+        <token name="T_WHITESPACE">    </token>
+        <token name="T_OPEN_CURLY">{</token>
+      </line>
+      <line no="299">
+        <token name="T_WHITESPACE">        </token>
+        <token name="T_RETURN">return</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_OPEN_SQUARE">[</token>
+      </line>
+      <line no="300">
+        <token name="T_WHITESPACE">            </token>
+        <token name="T_STRING">self</token>
+        <token name="T_DOUBLE_COLON">::</token>
+        <token name="T_STRING">AUTHKEY_PARAM_KEY</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_DOUBLE_ARROW">=&gt;</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_VARIABLE">$this</token>
+        <token name="T_OBJECT_OPERATOR">-&gt;</token>
+        <token name="T_STRING">getAuthKey</token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_COMMA">,</token>
+      </line>
+      <line no="301">
+        <token name="T_WHITESPACE">        </token>
+        <token name="T_CLOSE_SQUARE">]</token>
+        <token name="T_SEMICOLON">;</token>
+      </line>
+      <line no="302">
+        <token name="T_WHITESPACE">    </token>
+        <token name="T_CLOSE_CURLY">}</token>
+      </line>
+      <line no="303"/>
+      <line no="304">
+        <token name="T_WHITESPACE">    </token>
+        <token name="T_DOC_COMMENT">/**</token>
+      </line>
+      <line no="305">
+        <token name="T_DOC_COMMENT">     * @throws AuthenticateException</token>
+      </line>
+      <line no="306">
+        <token name="T_DOC_COMMENT">     * @throws HttpException</token>
+      </line>
+      <line no="307">
+        <token name="T_DOC_COMMENT">     * @throws UnexpectedException</token>
+      </line>
+      <line no="308">
+        <token name="T_DOC_COMMENT">     */</token>
+      </line>
+      <line no="309">
+        <token name="T_WHITESPACE">    </token>
+        <token name="T_PRIVATE">private</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_FUNCTION">function</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_STRING">processError</token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_STRING">int</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_VARIABLE">$statusCode</token>
+        <token name="T_COMMA">,</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_STRING">string</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_VARIABLE">$content</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_COLON">:</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_STRING">void</token>
+      </line>
+      <line no="310">
+        <token name="T_WHITESPACE">    </token>
+        <token name="T_OPEN_CURLY">{</token>
+      </line>
+      <line no="311">
+        <token name="T_WHITESPACE">        </token>
+        <token name="T_SWITCH">switch</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_VARIABLE">$statusCode</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_OPEN_CURLY">{</token>
+      </line>
+      <line no="312">
+        <token name="T_WHITESPACE">            </token>
+        <token name="T_CASE">case</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_STRING">Response</token>
+        <token name="T_DOUBLE_COLON">::</token>
+        <token name="T_STRING">HTTP_UNAUTHORIZED</token>
+        <token name="T_COLON">:</token>
+      </line>
+      <line no="313">
+        <token name="T_WHITESPACE">            </token>
+        <token name="T_CASE">case</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_STRING">Response</token>
+        <token name="T_DOUBLE_COLON">::</token>
+        <token name="T_STRING">HTTP_METHOD_NOT_ALLOWED</token>
+        <token name="T_COLON">:</token>
+      </line>
+      <line no="314">
+        <token name="T_WHITESPACE">            </token>
+        <token name="T_CASE">case</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_STRING">Response</token>
+        <token name="T_DOUBLE_COLON">::</token>
+        <token name="T_STRING">HTTP_EXPECTATION_FAILED</token>
+        <token name="T_COLON">:</token>
+      </line>
+      <line no="315">
+        <token name="T_WHITESPACE">                </token>
+        <token name="T_VARIABLE">$this</token>
+        <token name="T_OBJECT_OPERATOR">-&gt;</token>
+        <token name="T_STRING">processXmlErrorResponse</token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_VARIABLE">$statusCode</token>
+        <token name="T_COMMA">,</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_VARIABLE">$content</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_SEMICOLON">;</token>
+      </line>
+      <line no="316">
+        <token name="T_WHITESPACE">                </token>
+        <token name="T_COMMENT">// no break</token>
+      </line>
+      <line no="317">
+        <token name="T_WHITESPACE">            </token>
+        <token name="T_DEFAULT">default</token>
+        <token name="T_COLON">:</token>
+      </line>
+      <line no="318">
+        <token name="T_WHITESPACE">                </token>
+        <token name="T_THROW">throw</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_NEW">new</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_STRING">HttpException</token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_SEMICOLON">;</token>
+      </line>
+      <line no="319">
+        <token name="T_WHITESPACE">        </token>
+        <token name="T_CLOSE_CURLY">}</token>
+      </line>
+      <line no="320">
+        <token name="T_WHITESPACE">    </token>
+        <token name="T_CLOSE_CURLY">}</token>
+      </line>
+      <line no="321"/>
+      <line no="322">
+        <token name="T_WHITESPACE">    </token>
+        <token name="T_DOC_COMMENT">/**</token>
+      </line>
+      <line no="323">
+        <token name="T_DOC_COMMENT">     * @return mixed</token>
+      </line>
+      <line no="324">
+        <token name="T_DOC_COMMENT">     *</token>
+      </line>
+      <line no="325">
+        <token name="T_DOC_COMMENT">     * @throws AuthenticateException</token>
+      </line>
+      <line no="326">
+        <token name="T_DOC_COMMENT">     * @throws HttpException</token>
+      </line>
+      <line no="327">
+        <token name="T_DOC_COMMENT">     * @throws UnexpectedException</token>
+      </line>
+      <line no="328">
+        <token name="T_DOC_COMMENT">     */</token>
+      </line>
+      <line no="329">
+        <token name="T_WHITESPACE">    </token>
+        <token name="T_PRIVATE">private</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_FUNCTION">function</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_STRING">processXmlErrorResponse</token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_STRING">int</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_VARIABLE">$statusCode</token>
+        <token name="T_COMMA">,</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_STRING">string</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_VARIABLE">$content</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+      </line>
+      <line no="330">
+        <token name="T_WHITESPACE">    </token>
+        <token name="T_OPEN_CURLY">{</token>
+      </line>
+      <line no="331">
+        <token name="T_WHITESPACE">        </token>
+        <token name="T_VARIABLE">$xmlObject</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_EQUAL">=</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_STRING">XmlProcessor</token>
+        <token name="T_DOUBLE_COLON">::</token>
+        <token name="T_STRING">xmlToPhp</token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_VARIABLE">$content</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_SEMICOLON">;</token>
+      </line>
+      <line no="332">
+        <token name="T_WHITESPACE">        </token>
+        <token name="T_SWITCH">switch</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_VARIABLE">$statusCode</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_OPEN_CURLY">{</token>
+      </line>
+      <line no="333">
+        <token name="T_WHITESPACE">            </token>
+        <token name="T_CASE">case</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_STRING">Response</token>
+        <token name="T_DOUBLE_COLON">::</token>
+        <token name="T_STRING">HTTP_UNAUTHORIZED</token>
+        <token name="T_COLON">:</token>
+      </line>
+      <line no="334">
+        <token name="T_WHITESPACE">                </token>
+        <token name="T_THROW">throw</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_NEW">new</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_STRING">AuthenticateException</token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_VARIABLE">$xmlObject</token>
+        <token name="T_OPEN_SQUARE">[</token>
+        <token name="T_STRING">self</token>
+        <token name="T_DOUBLE_COLON">::</token>
+        <token name="T_STRING">ERROR_KEY</token>
+        <token name="T_CLOSE_SQUARE">]</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_SEMICOLON">;</token>
+      </line>
+      <line no="335">
+        <token name="T_WHITESPACE">            </token>
+        <token name="T_CASE">case</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_STRING">Response</token>
+        <token name="T_DOUBLE_COLON">::</token>
+        <token name="T_STRING">HTTP_METHOD_NOT_ALLOWED</token>
+        <token name="T_COLON">:</token>
+      </line>
+      <line no="336">
+        <token name="T_WHITESPACE">            </token>
+        <token name="T_CASE">case</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_STRING">Response</token>
+        <token name="T_DOUBLE_COLON">::</token>
+        <token name="T_STRING">HTTP_EXPECTATION_FAILED</token>
+        <token name="T_COLON">:</token>
+      </line>
+      <line no="337">
+        <token name="T_WHITESPACE">                </token>
+        <token name="T_THROW">throw</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_NEW">new</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_STRING">UnexpectedException</token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_VARIABLE">$xmlObject</token>
+        <token name="T_OPEN_SQUARE">[</token>
+        <token name="T_STRING">self</token>
+        <token name="T_DOUBLE_COLON">::</token>
+        <token name="T_STRING">ERROR_KEY</token>
+        <token name="T_CLOSE_SQUARE">]</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_SEMICOLON">;</token>
+      </line>
+      <line no="338">
+        <token name="T_WHITESPACE">            </token>
+        <token name="T_DEFAULT">default</token>
+        <token name="T_COLON">:</token>
+      </line>
+      <line no="339">
+        <token name="T_WHITESPACE">                </token>
+        <token name="T_THROW">throw</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_NEW">new</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_STRING">HttpException</token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_SEMICOLON">;</token>
+      </line>
+      <line no="340">
+        <token name="T_WHITESPACE">        </token>
+        <token name="T_CLOSE_CURLY">}</token>
+      </line>
+      <line no="341">
+        <token name="T_WHITESPACE">    </token>
+        <token name="T_CLOSE_CURLY">}</token>
+      </line>
+      <line no="342"/>
+      <line no="343">
+        <token name="T_WHITESPACE">    </token>
+        <token name="T_DOC_COMMENT">/**</token>
+      </line>
+      <line no="344">
+        <token name="T_DOC_COMMENT">     * @return array|mixed|string</token>
+      </line>
+      <line no="345">
+        <token name="T_DOC_COMMENT">     */</token>
+      </line>
+      <line no="346">
+        <token name="T_WHITESPACE">    </token>
+        <token name="T_PRIVATE">private</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_FUNCTION">function</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_STRING">processXmlResponse</token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_STRING">string</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_VARIABLE">$content</token>
+        <token name="T_COMMA">,</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_STRING">bool</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_VARIABLE">$returnAsArray</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_EQUAL">=</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_STRING">false</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+      </line>
+      <line no="347">
+        <token name="T_WHITESPACE">    </token>
+        <token name="T_OPEN_CURLY">{</token>
+      </line>
+      <line no="348">
+        <token name="T_WHITESPACE">        </token>
+        <token name="T_IF">if</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_VARIABLE">$returnAsArray</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_OPEN_CURLY">{</token>
+      </line>
+      <line no="349">
+        <token name="T_WHITESPACE">            </token>
+        <token name="T_RETURN">return</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_STRING">XmlProcessor</token>
+        <token name="T_DOUBLE_COLON">::</token>
+        <token name="T_STRING">xmlToPhp</token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_VARIABLE">$content</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_SEMICOLON">;</token>
+      </line>
+      <line no="350">
+        <token name="T_WHITESPACE">        </token>
+        <token name="T_CLOSE_CURLY">}</token>
+      </line>
+      <line no="351"/>
+      <line no="352">
+        <token name="T_WHITESPACE">        </token>
+        <token name="T_RETURN">return</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_VARIABLE">$content</token>
+        <token name="T_SEMICOLON">;</token>
+      </line>
+      <line no="353">
+        <token name="T_WHITESPACE">    </token>
+        <token name="T_CLOSE_CURLY">}</token>
+      </line>
+      <line no="354">
+        <token name="T_CLOSE_CURLY">}</token>
+      </line>
+      <line no="355"/>
+    </source>
+  </file>
+</phpunit>

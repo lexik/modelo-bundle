@@ -1,0 +1,44 @@
+includes:
+  - vendor/ekino/phpstan-banned-code/extension.neon
+parameters:
+  level: 9
+  paths:
+    - src
+    - tests
+  bootstrapFiles:
+    - vendor/bin/.phpunit/phpunit/vendor/autoload.php
+  parallel:
+    maximumNumberOfProcesses: 10
+
+  checkMissingIterableValueType: false
+  checkGenericClassInNonGenericObjectType: false
+
+  banned_code:
+    nodes:
+      # enable detection of echo
+      -
+        type: Stmt_Echo
+        functions: null
+
+      # enable detection of die/exit
+      -
+        type: Expr_Exit
+        functions: null
+
+      # enable detection of a set of functions
+      -
+        type: Expr_FuncCall
+        functions:
+          - dump
+          - dd
+          - debug_backtrace
+          - exec
+          - passthru
+          - phpinfo
+          - print_r
+          - proc_open
+          - shell_exec
+          - system
+          - var_dump
+
+  ignoreErrors: []

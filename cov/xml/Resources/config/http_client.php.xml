@@ -1,0 +1,186 @@
+<?xml version="1.0"?>
+<phpunit xmlns="https://schema.phpunit.de/coverage/1.0">
+  <file name="http_client.php" path="/Resources/config">
+    <totals>
+      <lines total="15" comments="0" code="15" executable="6" executed="6" percent="100.00"/>
+      <methods count="0" tested="0" percent="0"/>
+      <functions count="0" tested="0" percent="0"/>
+      <classes count="0" tested="0" percent="0"/>
+      <traits count="0" tested="0" percent="0"/>
+    </totals>
+    <coverage>
+      <line nr="7">
+        <covered by="Choosit\ModeloBundle\Tests\Integration\KernelTest::testLoadedEmptyConfig"/>
+        <covered by="Choosit\ModeloBundle\Tests\Integration\KernelTest::testLoadedBaseConfig"/>
+        <covered by="Choosit\ModeloBundle\Tests\Integration\KernelTest::testLoadedMinimalConfig"/>
+        <covered by="Choosit\ModeloBundle\Tests\DependencyInjection\ModeloExtensionTest::testLoadMinimalConfiguration"/>
+        <covered by="Choosit\ModeloBundle\Tests\DependencyInjection\ModeloExtensionTest::testLoadBaseConfiguration"/>
+        <covered by="Choosit\ModeloBundle\Tests\DependencyInjection\ModeloExtensionTest::testLoadEmptyConfiguration"/>
+      </line>
+      <line nr="8">
+        <covered by="Choosit\ModeloBundle\Tests\Integration\KernelTest::testLoadedEmptyConfig"/>
+        <covered by="Choosit\ModeloBundle\Tests\Integration\KernelTest::testLoadedBaseConfig"/>
+        <covered by="Choosit\ModeloBundle\Tests\Integration\KernelTest::testLoadedMinimalConfig"/>
+        <covered by="Choosit\ModeloBundle\Tests\DependencyInjection\ModeloExtensionTest::testLoadMinimalConfiguration"/>
+        <covered by="Choosit\ModeloBundle\Tests\DependencyInjection\ModeloExtensionTest::testLoadBaseConfiguration"/>
+        <covered by="Choosit\ModeloBundle\Tests\DependencyInjection\ModeloExtensionTest::testLoadEmptyConfiguration"/>
+      </line>
+      <line nr="9">
+        <covered by="Choosit\ModeloBundle\Tests\Integration\KernelTest::testLoadedEmptyConfig"/>
+        <covered by="Choosit\ModeloBundle\Tests\Integration\KernelTest::testLoadedBaseConfig"/>
+        <covered by="Choosit\ModeloBundle\Tests\Integration\KernelTest::testLoadedMinimalConfig"/>
+        <covered by="Choosit\ModeloBundle\Tests\DependencyInjection\ModeloExtensionTest::testLoadMinimalConfiguration"/>
+        <covered by="Choosit\ModeloBundle\Tests\DependencyInjection\ModeloExtensionTest::testLoadBaseConfiguration"/>
+        <covered by="Choosit\ModeloBundle\Tests\DependencyInjection\ModeloExtensionTest::testLoadEmptyConfiguration"/>
+      </line>
+      <line nr="10">
+        <covered by="Choosit\ModeloBundle\Tests\Integration\KernelTest::testLoadedEmptyConfig"/>
+        <covered by="Choosit\ModeloBundle\Tests\Integration\KernelTest::testLoadedBaseConfig"/>
+        <covered by="Choosit\ModeloBundle\Tests\Integration\KernelTest::testLoadedMinimalConfig"/>
+        <covered by="Choosit\ModeloBundle\Tests\DependencyInjection\ModeloExtensionTest::testLoadMinimalConfiguration"/>
+        <covered by="Choosit\ModeloBundle\Tests\DependencyInjection\ModeloExtensionTest::testLoadBaseConfiguration"/>
+        <covered by="Choosit\ModeloBundle\Tests\DependencyInjection\ModeloExtensionTest::testLoadEmptyConfiguration"/>
+      </line>
+      <line nr="11">
+        <covered by="Choosit\ModeloBundle\Tests\Integration\KernelTest::testLoadedEmptyConfig"/>
+        <covered by="Choosit\ModeloBundle\Tests\Integration\KernelTest::testLoadedBaseConfig"/>
+        <covered by="Choosit\ModeloBundle\Tests\Integration\KernelTest::testLoadedMinimalConfig"/>
+        <covered by="Choosit\ModeloBundle\Tests\DependencyInjection\ModeloExtensionTest::testLoadMinimalConfiguration"/>
+        <covered by="Choosit\ModeloBundle\Tests\DependencyInjection\ModeloExtensionTest::testLoadBaseConfiguration"/>
+        <covered by="Choosit\ModeloBundle\Tests\DependencyInjection\ModeloExtensionTest::testLoadEmptyConfiguration"/>
+      </line>
+      <line nr="12">
+        <covered by="Choosit\ModeloBundle\Tests\Integration\KernelTest::testLoadedEmptyConfig"/>
+        <covered by="Choosit\ModeloBundle\Tests\Integration\KernelTest::testLoadedBaseConfig"/>
+        <covered by="Choosit\ModeloBundle\Tests\Integration\KernelTest::testLoadedMinimalConfig"/>
+        <covered by="Choosit\ModeloBundle\Tests\DependencyInjection\ModeloExtensionTest::testLoadMinimalConfiguration"/>
+        <covered by="Choosit\ModeloBundle\Tests\DependencyInjection\ModeloExtensionTest::testLoadBaseConfiguration"/>
+        <covered by="Choosit\ModeloBundle\Tests\DependencyInjection\ModeloExtensionTest::testLoadEmptyConfiguration"/>
+      </line>
+    </coverage>
+    <source>
+      <line no="1">
+        <token name="T_OPEN_TAG">&lt;?php</token>
+      </line>
+      <line no="2"/>
+      <line no="3">
+        <token name="T_USE">use</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_STRING">Symfony</token>
+        <token name="T_NS_SEPARATOR">\</token>
+        <token name="T_STRING">Component</token>
+        <token name="T_NS_SEPARATOR">\</token>
+        <token name="T_STRING">DependencyInjection</token>
+        <token name="T_NS_SEPARATOR">\</token>
+        <token name="T_STRING">Loader</token>
+        <token name="T_NS_SEPARATOR">\</token>
+        <token name="T_STRING">Configurator</token>
+        <token name="T_NS_SEPARATOR">\</token>
+        <token name="T_STRING">ContainerConfigurator</token>
+        <token name="T_SEMICOLON">;</token>
+      </line>
+      <line no="4">
+        <token name="T_USE">use</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_STRING">Symfony</token>
+        <token name="T_NS_SEPARATOR">\</token>
+        <token name="T_STRING">Component</token>
+        <token name="T_NS_SEPARATOR">\</token>
+        <token name="T_STRING">HttpClient</token>
+        <token name="T_NS_SEPARATOR">\</token>
+        <token name="T_STRING">HttpClient</token>
+        <token name="T_SEMICOLON">;</token>
+      </line>
+      <line no="5">
+        <token name="T_USE">use</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_STRING">Symfony</token>
+        <token name="T_NS_SEPARATOR">\</token>
+        <token name="T_STRING">Contracts</token>
+        <token name="T_NS_SEPARATOR">\</token>
+        <token name="T_STRING">HttpClient</token>
+        <token name="T_NS_SEPARATOR">\</token>
+        <token name="T_STRING">HttpClientInterface</token>
+        <token name="T_SEMICOLON">;</token>
+      </line>
+      <line no="6"/>
+      <line no="7">
+        <token name="T_RETURN">return</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_STATIC">static</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_FUNCTION">function</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_STRING">ContainerConfigurator</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_VARIABLE">$container</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_OPEN_CURLY">{</token>
+      </line>
+      <line no="8">
+        <token name="T_WHITESPACE">    </token>
+        <token name="T_VARIABLE">$container</token>
+        <token name="T_OBJECT_OPERATOR">-&gt;</token>
+        <token name="T_STRING">services</token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+      </line>
+      <line no="9">
+        <token name="T_WHITESPACE">        </token>
+        <token name="T_OBJECT_OPERATOR">-&gt;</token>
+        <token name="T_STRING">set</token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_CONSTANT_ENCAPSED_STRING">'choosit_modelo.http_client'</token>
+        <token name="T_COMMA">,</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_STRING">HttpClientInterface</token>
+        <token name="T_DOUBLE_COLON">::</token>
+        <token name="T_CLASS">class</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+      </line>
+      <line no="10">
+        <token name="T_WHITESPACE">        </token>
+        <token name="T_OBJECT_OPERATOR">-&gt;</token>
+        <token name="T_STRING">factory</token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_OPEN_SQUARE">[</token>
+        <token name="T_STRING">HttpClient</token>
+        <token name="T_DOUBLE_COLON">::</token>
+        <token name="T_CLASS">class</token>
+        <token name="T_COMMA">,</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_CONSTANT_ENCAPSED_STRING">'create'</token>
+        <token name="T_CLOSE_SQUARE">]</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+      </line>
+      <line no="11">
+        <token name="T_WHITESPACE">        </token>
+        <token name="T_OBJECT_OPERATOR">-&gt;</token>
+        <token name="T_STRING">args</token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_OPEN_SQUARE">[</token>
+      </line>
+      <line no="12">
+        <token name="T_WHITESPACE">            </token>
+        <token name="T_OPEN_SQUARE">[</token>
+        <token name="T_CLOSE_SQUARE">]</token>
+        <token name="T_COMMA">,</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_COMMENT">// default options</token>
+      </line>
+      <line no="13">
+        <token name="T_WHITESPACE">        </token>
+        <token name="T_CLOSE_SQUARE">]</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_SEMICOLON">;</token>
+      </line>
+      <line no="14">
+        <token name="T_CLOSE_CURLY">}</token>
+        <token name="T_SEMICOLON">;</token>
+      </line>
+      <line no="15"/>
+    </source>
+  </file>
+</phpunit>

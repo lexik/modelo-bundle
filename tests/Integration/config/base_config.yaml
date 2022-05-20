@@ -1,0 +1,9 @@
+framework:
+  test: true
+  secret: secret
+
+modelo:
+  base_uri: 'https://doc.staging.modelo.fr'
+  auth:
+    agency_code: 'agency code test'
+    private_key: 'private key test'

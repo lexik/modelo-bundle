@@ -1,0 +1,203 @@
+<?xml version="1.0"?>
+<phpunit xmlns="https://schema.phpunit.de/coverage/1.0">
+  <build time="Thu Apr 7 11:42:48 CEST 2022" phpunit="9.5.20" coverage="9.2.15">
+    <runtime name="PHP" version="7.4.3" url="https://secure.php.net/"/>
+    <driver name="xdebug" version="2.9.2"/>
+  </build>
+  <project source="/home/vivien/projects/modelo-bundle/src">
+    <tests>
+      <test name="Choosit\ModeloBundle\Tests\Integration\KernelTest::testLoadedEmptyConfig" size="unknown" result="0" status="PASSED"/>
+      <test name="Choosit\ModeloBundle\Tests\Integration\KernelTest::testLoadedBaseConfig" size="unknown" result="0" status="PASSED"/>
+      <test name="Choosit\ModeloBundle\Tests\Integration\KernelTest::testLoadedMinimalConfig" size="unknown" result="0" status="PASSED"/>
+      <test name="Choosit\ModeloBundle\Tests\DependencyInjection\ModeloExtensionTest::testLoadMinimalConfiguration" size="unknown" result="0" status="PASSED"/>
+      <test name="Choosit\ModeloBundle\Tests\DependencyInjection\ModeloExtensionTest::testLoadBaseConfiguration" size="unknown" result="0" status="PASSED"/>
+      <test name="Choosit\ModeloBundle\Tests\DependencyInjection\ModeloExtensionTest::testLoadEmptyConfiguration" size="unknown" result="0" status="PASSED"/>
+      <test name="Choosit\ModeloBundle\Tests\Unit\XmlProcessorTest::testPhpToXmlShouldReturnWellFormedXml with data set &quot;simple-php-array&quot;" size="unknown" result="0" status="PASSED"/>
+      <test name="Choosit\ModeloBundle\Tests\Unit\XmlProcessorTest::testXmlToPhpShouldReturnWellFormedPhpArray with data set &quot;simple-xml&quot;" size="unknown" result="0" status="PASSED"/>
+      <test name="Choosit\ModeloBundle\Tests\Unit\XmlProcessorTest::testXmlToPhpShouldReturnWellFormedPhpArray with data set &quot;xml-with-attributes&quot;" size="unknown" result="0" status="PASSED"/>
+      <test name="Choosit\ModeloBundle\Tests\Unit\ModeloHttpClientTest::testServiceWithAuthkeyShouldReturnAuthkey" size="unknown" result="0" status="PASSED"/>
+      <test name="Choosit\ModeloBundle\Tests\Unit\ModeloHttpClientTest::testCreateContratFromExistentModelShouldReturnString with data set &quot;model&quot;" size="unknown" result="0" status="PASSED"/>
+      <test name="Choosit\ModeloBundle\Tests\Unit\ModeloHttpClientTest::testCreateContratFromExistentModelShouldReturnString with data set &quot;doctype&quot;" size="unknown" result="0" status="PASSED"/>
+      <test name="Choosit\ModeloBundle\Tests\Unit\ModeloHttpClientTest::testDisableContractShouldReturnNoticeMessage with data set &quot;disable-contract-success&quot;" size="unknown" result="0" status="PASSED"/>
+      <test name="Choosit\ModeloBundle\Tests\Unit\ModeloHttpClientTest::testGetContractFilledContentShouldReturnContentAsArray with data set &quot;content-filled&quot;" size="unknown" result="0" status="PASSED"/>
+      <test name="Choosit\ModeloBundle\Tests\Unit\ModeloHttpClientTest::testCreateContratFromNonExistentModelShouldThrowModelNotFound with data set &quot;model&quot;" size="unknown" result="0" status="PASSED"/>
+      <test name="Choosit\ModeloBundle\Tests\Unit\ModeloHttpClientTest::testCreateContratFromNonExistentModelShouldThrowModelNotFound with data set &quot;doctype&quot;" size="unknown" result="0" status="PASSED"/>
+      <test name="Choosit\ModeloBundle\Tests\Unit\ModeloHttpClientTest::testAnyRequestWithTechnicalIssueShouldThrowException with data set &quot;authentication&quot;" size="unknown" result="0" status="PASSED"/>
+      <test name="Choosit\ModeloBundle\Tests\Unit\ModeloHttpClientTest::testAnyRequestWithTechnicalIssueShouldThrowException with data set &quot;technical&quot;" size="unknown" result="0" status="PASSED"/>
+      <test name="Choosit\ModeloBundle\Tests\Unit\ModeloHttpClientTest::testAnyRequestWithTechnicalIssueShouldThrowException with data set &quot;unauthorized&quot;" size="unknown" result="0" status="PASSED"/>
+      <test name="Choosit\ModeloBundle\Tests\Unit\ModeloHttpClientTest::testServiceWithoutAuthkeyMustThrowAuthkeyMisingException" size="unknown" result="0" status="PASSED"/>
+      <test name="Choosit\ModeloBundle\Tests\Unit\ModeloHttpClientTest::testGetAllModelFieldsShouldReturnFieldsAsArray with data set &quot;all-model-fields&quot;" size="unknown" result="0" status="PASSED"/>
+    </tests>
+    <directory name="/">
+      <totals>
+        <lines total="618" comments="151" code="467" executable="120" executed="107" percent="89.17"/>
+        <methods count="24" tested="17" percent="70.83"/>
+        <functions count="0" tested="0" percent="0"/>
+        <classes count="7" tested="6" percent="85.71"/>
+        <traits count="0" tested="0" percent="0"/>
+      </totals>
+      <directory name="DependencyInjection">
+        <totals>
+          <lines total="90" comments="3" code="87" executable="32" executed="32" percent="100.00"/>
+          <methods count="5" tested="5" percent="100.00"/>
+          <functions count="0" tested="0" percent="0"/>
+          <classes count="2" tested="2" percent="100.00"/>
+          <traits count="0" tested="0" percent="0"/>
+        </totals>
+        <file name="Configuration.php" href="DependencyInjection/Configuration.php.xml">
+          <totals>
+            <lines total="31" comments="0" code="31" executable="14" executed="14" percent="100.00"/>
+            <methods count="1" tested="1" percent="100.00"/>
+            <functions count="0" tested="0" percent="0"/>
+            <classes count="1" tested="1" percent="100.00"/>
+            <traits count="0" tested="0" percent="0"/>
+          </totals>
+        </file>
+        <file name="ModeloExtension.php" href="DependencyInjection/ModeloExtension.php.xml">
+          <totals>
+            <lines total="59" comments="3" code="56" executable="18" executed="18" percent="100.00"/>
+            <methods count="4" tested="4" percent="100.00"/>
+            <functions count="0" tested="0" percent="0"/>
+            <classes count="1" tested="1" percent="100.00"/>
+            <traits count="0" tested="0" percent="0"/>
+          </totals>
+        </file>
+      </directory>
+      <directory name="Exception">
+        <totals>
+          <lines total="61" comments="0" code="61" executable="4" executed="4" percent="100.00"/>
+          <methods count="2" tested="2" percent="100.00"/>
+          <functions count="0" tested="0" percent="0"/>
+          <classes count="2" tested="2" percent="100.00"/>
+          <traits count="0" tested="0" percent="0"/>
+        </totals>
+        <file name="AuthKeyMissingException.php" href="Exception/AuthKeyMissingException.php.xml">
+          <totals>
+            <lines total="15" comments="0" code="15" executable="2" executed="2" percent="100.00"/>
+            <methods count="1" tested="1" percent="100.00"/>
+            <functions count="0" tested="0" percent="0"/>
+            <classes count="1" tested="1" percent="100.00"/>
+            <traits count="0" tested="0" percent="0"/>
+          </totals>
+        </file>
+        <file name="AuthenticateException.php" href="Exception/AuthenticateException.php.xml">
+          <totals>
+            <lines total="10" comments="0" code="10" executable="0" executed="0" percent="0"/>
+            <methods count="0" tested="0" percent="0"/>
+            <functions count="0" tested="0" percent="0"/>
+            <classes count="0" tested="0" percent="0"/>
+            <traits count="0" tested="0" percent="0"/>
+          </totals>
+        </file>
+        <file name="HttpException.php" href="Exception/HttpException.php.xml">
+          <totals>
+            <lines total="16" comments="0" code="16" executable="2" executed="2" percent="100.00"/>
+            <methods count="1" tested="1" percent="100.00"/>
+            <functions count="0" tested="0" percent="0"/>
+            <classes count="1" tested="1" percent="100.00"/>
+            <traits count="0" tested="0" percent="0"/>
+          </totals>
+        </file>
+        <file name="ModelNotFound.php" href="Exception/ModelNotFound.php.xml">
+          <totals>
+            <lines total="10" comments="0" code="10" executable="0" executed="0" percent="0"/>
+            <methods count="0" tested="0" percent="0"/>
+            <functions count="0" tested="0" percent="0"/>
+            <classes count="0" tested="0" percent="0"/>
+            <traits count="0" tested="0" percent="0"/>
+          </totals>
+        </file>
+        <file name="UnexpectedException.php" href="Exception/UnexpectedException.php.xml">
+          <totals>
+            <lines total="10" comments="0" code="10" executable="0" executed="0" percent="0"/>
+            <methods count="0" tested="0" percent="0"/>
+            <functions count="0" tested="0" percent="0"/>
+            <classes count="0" tested="0" percent="0"/>
+            <traits count="0" tested="0" percent="0"/>
+          </totals>
+        </file>
+      </directory>
+      <directory name="Resources">
+        <totals>
+          <lines total="15" comments="0" code="15" executable="6" executed="6" percent="100.00"/>
+          <methods count="0" tested="0" percent="0"/>
+          <functions count="0" tested="0" percent="0"/>
+          <classes count="0" tested="0" percent="0"/>
+          <traits count="0" tested="0" percent="0"/>
+        </totals>
+        <directory name="config">
+          <totals>
+            <lines total="15" comments="0" code="15" executable="6" executed="6" percent="100.00"/>
+            <methods count="0" tested="0" percent="0"/>
+            <functions count="0" tested="0" percent="0"/>
+            <classes count="0" tested="0" percent="0"/>
+            <traits count="0" tested="0" percent="0"/>
+          </totals>
+          <file name="http_client.php" href="Resources/config/http_client.php.xml">
+            <totals>
+              <lines total="15" comments="0" code="15" executable="6" executed="6" percent="100.00"/>
+              <methods count="0" tested="0" percent="0"/>
+              <functions count="0" tested="0" percent="0"/>
+              <classes count="0" tested="0" percent="0"/>
+              <traits count="0" tested="0" percent="0"/>
+            </totals>
+          </file>
+        </directory>
+      </directory>
+      <directory name="Service">
+        <totals>
+          <lines total="401" comments="142" code="259" executable="73" executed="60" percent="82.19"/>
+          <methods count="14" tested="7" percent="50.00"/>
+          <functions count="0" tested="0" percent="0"/>
+          <classes count="1" tested="0" percent="0.00"/>
+          <traits count="0" tested="0" percent="0"/>
+        </totals>
+        <file name="ModeloClient.php" href="Service/ModeloClient.php.xml">
+          <totals>
+            <lines total="355" comments="136" code="219" executable="73" executed="60" percent="82.19"/>
+            <methods count="14" tested="7" percent="50.00"/>
+            <functions count="0" tested="0" percent="0"/>
+            <classes count="1" tested="0" percent="0.00"/>
+            <traits count="0" tested="0" percent="0"/>
+          </totals>
+        </file>
+        <file name="ModeloClientInterface.php" href="Service/ModeloClientInterface.php.xml">
+          <totals>
+            <lines total="46" comments="6" code="40" executable="0" executed="0" percent="0"/>
+            <methods count="0" tested="0" percent="0"/>
+            <functions count="0" tested="0" percent="0"/>
+            <classes count="0" tested="0" percent="0"/>
+            <traits count="0" tested="0" percent="0"/>
+          </totals>
+        </file>
+      </directory>
+      <directory name="Utils">
+        <totals>
+          <lines total="36" comments="6" code="30" executable="4" executed="4" percent="100.00"/>
+          <methods count="2" tested="2" percent="100.00"/>
+          <functions count="0" tested="0" percent="0"/>
+          <classes count="1" tested="1" percent="100.00"/>
+          <traits count="0" tested="0" percent="0"/>
+        </totals>
+        <file name="XmlProcessor.php" href="Utils/XmlProcessor.php.xml">
+          <totals>
+            <lines total="36" comments="6" code="30" executable="4" executed="4" percent="100.00"/>
+            <methods count="2" tested="2" percent="100.00"/>
+            <functions count="0" tested="0" percent="0"/>
+            <classes count="1" tested="1" percent="100.00"/>
+            <traits count="0" tested="0" percent="0"/>
+          </totals>
+        </file>
+      </directory>
+      <file name="ModeloBundle.php" href="ModeloBundle.php.xml">
+        <totals>
+          <lines total="15" comments="0" code="15" executable="1" executed="1" percent="100.00"/>
+          <methods count="1" tested="1" percent="100.00"/>
+          <functions count="0" tested="0" percent="0"/>
+          <classes count="1" tested="1" percent="100.00"/>
+          <traits count="0" tested="0" percent="0"/>
+        </totals>
+      </file>
+    </directory>
+  </project>
+</phpunit>

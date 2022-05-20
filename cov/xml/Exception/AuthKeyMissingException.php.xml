@@ -1,0 +1,115 @@
+<?xml version="1.0"?>
+<phpunit xmlns="https://schema.phpunit.de/coverage/1.0">
+  <file name="AuthKeyMissingException.php" path="/Exception">
+    <totals>
+      <lines total="15" comments="0" code="15" executable="2" executed="2" percent="100.00"/>
+      <methods count="1" tested="1" percent="100.00"/>
+      <functions count="0" tested="0" percent="0"/>
+      <classes count="1" tested="1" percent="100.00"/>
+      <traits count="0" tested="0" percent="0"/>
+    </totals>
+    <class name="Choosit\ModeloBundle\Exception\AuthKeyMissingException" start="7" executable="2" executed="2" crap="1">
+      <namespace name="Choosit\ModeloBundle\Exception"/>
+      <method name="__construct" signature="__construct()" start="9" end="13" crap="1" executable="2" executed="2" coverage="100"/>
+    </class>
+    <coverage>
+      <line nr="11">
+        <covered by="Choosit\ModeloBundle\Tests\Integration\KernelTest::testLoadedMinimalConfig"/>
+        <covered by="Choosit\ModeloBundle\Tests\DependencyInjection\ModeloExtensionTest::testLoadMinimalConfiguration"/>
+        <covered by="Choosit\ModeloBundle\Tests\Unit\ModeloHttpClientTest::testServiceWithoutAuthkeyMustThrowAuthkeyMisingException"/>
+      </line>
+      <line nr="12">
+        <covered by="Choosit\ModeloBundle\Tests\Integration\KernelTest::testLoadedMinimalConfig"/>
+        <covered by="Choosit\ModeloBundle\Tests\DependencyInjection\ModeloExtensionTest::testLoadMinimalConfiguration"/>
+        <covered by="Choosit\ModeloBundle\Tests\Unit\ModeloHttpClientTest::testServiceWithoutAuthkeyMustThrowAuthkeyMisingException"/>
+      </line>
+    </coverage>
+    <source>
+      <line no="1">
+        <token name="T_OPEN_TAG">&lt;?php</token>
+      </line>
+      <line no="2"/>
+      <line no="3">
+        <token name="T_NAMESPACE">namespace</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_STRING">Choosit</token>
+        <token name="T_NS_SEPARATOR">\</token>
+        <token name="T_STRING">ModeloBundle</token>
+        <token name="T_NS_SEPARATOR">\</token>
+        <token name="T_STRING">Exception</token>
+        <token name="T_SEMICOLON">;</token>
+      </line>
+      <line no="4"/>
+      <line no="5">
+        <token name="T_USE">use</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_STRING">Symfony</token>
+        <token name="T_NS_SEPARATOR">\</token>
+        <token name="T_STRING">Component</token>
+        <token name="T_NS_SEPARATOR">\</token>
+        <token name="T_STRING">Config</token>
+        <token name="T_NS_SEPARATOR">\</token>
+        <token name="T_STRING">Definition</token>
+        <token name="T_NS_SEPARATOR">\</token>
+        <token name="T_STRING">Exception</token>
+        <token name="T_NS_SEPARATOR">\</token>
+        <token name="T_STRING">InvalidConfigurationException</token>
+        <token name="T_SEMICOLON">;</token>
+      </line>
+      <line no="6"/>
+      <line no="7">
+        <token name="T_CLASS">class</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_STRING">AuthKeyMissingException</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_EXTENDS">extends</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_STRING">InvalidConfigurationException</token>
+      </line>
+      <line no="8">
+        <token name="T_OPEN_CURLY">{</token>
+      </line>
+      <line no="9">
+        <token name="T_WHITESPACE">    </token>
+        <token name="T_PUBLIC">public</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_FUNCTION">function</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_STRING">__construct</token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+      </line>
+      <line no="10">
+        <token name="T_WHITESPACE">    </token>
+        <token name="T_OPEN_CURLY">{</token>
+      </line>
+      <line no="11">
+        <token name="T_WHITESPACE">        </token>
+        <token name="T_VARIABLE">$message</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_EQUAL">=</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_CONSTANT_ENCAPSED_STRING">'authKey couldn\'t generated, you may have forgot to fill in the configuration file or setAuthKey with agencyCode and/or privateKey in your config file.'</token>
+        <token name="T_SEMICOLON">;</token>
+      </line>
+      <line no="12">
+        <token name="T_WHITESPACE">        </token>
+        <token name="T_STRING">parent</token>
+        <token name="T_DOUBLE_COLON">::</token>
+        <token name="T_STRING">__construct</token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_VARIABLE">$message</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_SEMICOLON">;</token>
+      </line>
+      <line no="13">
+        <token name="T_WHITESPACE">    </token>
+        <token name="T_CLOSE_CURLY">}</token>
+      </line>
+      <line no="14">
+        <token name="T_CLOSE_CURLY">}</token>
+      </line>
+      <line no="15"/>
+    </source>
+  </file>
+</phpunit>

@@ -1,0 +1,9 @@
+<xml>
+  <qui_est_le_vendeur>Designation of the seller</qui_est_le_vendeur>
+  <prenom_nom_vendeur>Seller's fullname</prenom_nom_vendeur>
+  <indiquer_un_numero_de_telephone_et_email_vendeur>Indicate a seller's phone number and email</indiquer_un_numero_de_telephone_et_email_vendeur>
+  <tel_vendeur>Seller's phone number</tel_vendeur>
+  <mail_vendeur>Seller email</mail_vendeur>
+  <quelle_est_la_situation_matrimoniale_vendeur>Seller's marital status</quelle_est_la_situation_matrimoniale_vendeur>
+  <mairie_mariage_vendeur>Seller's Wedding town hall</mairie_mariage_vendeur>
+</xml>
