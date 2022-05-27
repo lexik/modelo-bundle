@@ -79,7 +79,7 @@ class ModeloClient implements ModeloClientInterface
             throw new ModelNotFound($type.' was not found with specific '.$modelName.' name.');
         }
 
-        return $this->createContractByModelId($modelId, $outputPdf, $xml);
+        return $this->createContractByModelId($modelId, null, $outputPdf, $xml);
     }
 
     /**
@@ -264,14 +264,17 @@ class ModeloClient implements ModeloClientInterface
 
 
         $response = $this->client->request('POST', $uri, [
-            'query' => array_merge($this->getGenericParams(), [
+            'headers' => [
+                'Content-Type: application/xml',
+                'Accept: application/xml',
+            ],
+            'query' => [
+                self::AUTHKEY_PARAM_KEY => $this->getAuthKey(),
                 $keyName => $modelId,
                 self::OUTPUT_PARAM_KEY => $outputValue,
                 self::CONTRACT_ID_KEY => $contractId,
-            ]),
-            'body' => [
-                'xml' => $xml,
             ],
+            'body' => $xml,
         ]);
 
         if (Response::HTTP_OK !== $response->getStatusCode()) {
@@ -302,13 +305,16 @@ class ModeloClient implements ModeloClientInterface
         $outputValue = $outputPdf ? 'pdf' : null;
 
         $response = $this->client->request('PUT', self::CONTRACT_URI, [
-            'query' => array_merge($this->getGenericParams(), [
-                '_id' => $contractId,
-                self::OUTPUT_PARAM_KEY => $outputValue,
-            ]),
-            'body' => [
-                'xml' => $xml,
+            'headers' => [
+                'Content-Type: application/xml',
+                'Accept: application/xml',
             ],
+            'query' => [
+                self::AUTHKEY_PARAM_KEY => $this->getAuthKey(),
+                self::OUTPUT_PARAM_KEY => $outputValue,
+                self::CONTRACT_ID_KEY => $contractId,
+            ],
+            'body' => $xml,
         ]);
 
         if (Response::HTTP_OK !== $response->getStatusCode()) {
