@@ -94,22 +94,27 @@ class ModeloExtensionTest extends TestCase
     private function createContainer(array $configs = []): ContainerBuilder
     {
         $container = new ContainerBuilder(new ParameterBag([
+            'kernel.bundles_metadata' => [],
             'kernel.cache_dir' => __DIR__,
+            'kernel.debug' => false,
+            'kernel.environment' => 'test',
+            'kernel.name' => 'kernel',
             'kernel.root_dir' => __DIR__,
             'kernel.project_dir' => __DIR__,
-            'kernel.build_dir' => __DIR__,
-            'kernel.runtime_environment' => 'test',
-            'kernel.charset' => 'UTF-8',
-            'kernel.environment' => 'test',
-            'kernel.debug' => false,
-            'kernel.bundles_metadata' => [],
             'kernel.container_class' => 'AutowiringTestContainer',
+            'kernel.charset' => 'utf8',
+            'kernel.runtime_environment' => 'test',
+            'env(base64:default::SYMFONY_DECRYPTION_SECRET)' => 'dummy',
+            'kernel.build_dir' => __DIR__,
             'debug.file_link_format' => null,
+            'env(bool:default::SYMFONY_TRUST_X_SENDFILE_TYPE_HEADER)' => true,
+            'env(default::SYMFONY_TRUSTED_HOSTS)' => [],
+            'env(default::SYMFONY_TRUSTED_PROXIES)' => [],
+            'env(default::SYMFONY_TRUSTED_HEADERS)' => [],
             'kernel.bundles' => [
                 'FrameworkBundle' => FrameworkBundle::class,
                 'ModeloBundle' => ModeloBundle::class,
             ],
-            'env(base64:default::SYMFONY_DECRYPTION_SECRET)' => 'dummy',
         ]));
 
         $container->set('kernel', function()
